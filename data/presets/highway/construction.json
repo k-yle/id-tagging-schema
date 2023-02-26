@@ -21,6 +21,7 @@
     },
     "removeTags": {
         "highway": "construction",
+        "access": "no",
         "construction": "*"
     },
     "terms": [
