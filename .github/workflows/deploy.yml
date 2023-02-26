@@ -6,13 +6,13 @@ permissions:
 on:
   push:
     branches:
-      - main
+      - kyle-main
 
 jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
-    if: "github.repository == 'openstreetmap/id-tagging-schema'"
+    if: "github.repository == 'k-yle/id-tagging-schema'"
     steps:
       - name: Checkout
         uses: actions/checkout@v3 # If you're using actions/checkout@v3 you must set persist-credentials to false in most cases for the deployment to work correctly.
@@ -30,8 +30,12 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Dist
+        run: npm run dist
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.6.1
         with:
-          BRANCH: interim # The branch the action should deploy to.
-          FOLDER: interim # The folder the action should deploy.
+          BRANCH: kyle-deploy # The branch the action should deploy to.
+          FOLDER: . # The folder the action should deploy.
+          CLEAN: false # Automatically remove deleted files from the deploy branch
