@@ -1,0 +1,8 @@
+{
+    "key": "seamark:beacon_lateral:category",
+    "type": "combo",
+    "label": "Category",
+    "stringsCrossReference": "{seamark/buoy_lateral/category}",
+    "autoSuggestions": false,
+    "customValues": false
+}

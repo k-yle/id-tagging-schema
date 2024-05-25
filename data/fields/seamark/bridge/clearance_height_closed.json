@@ -1,0 +1,15 @@
+{
+    "key": "seamark:bridge:clearance_height_closed",
+    "type": "number",
+    "label": "Clearance Height when closed (metres)",
+    "prerequisiteTag": {
+        "key": "seamark:bridge:category",
+        "value": [
+            "opening",
+            "lifting",
+            "swing",
+            "bascule",
+            "drawbridge"
+        ]
+    }
+}

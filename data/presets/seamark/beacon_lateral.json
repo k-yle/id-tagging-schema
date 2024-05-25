@@ -1,0 +1,49 @@
+{
+    "icon": "maki-communications-tower",
+    "fields": [
+        "seamark/name",
+        "operator",
+        "seamark/beacon_lateral/colour",
+        "seamark/beacon_lateral/colour_pattern",
+        "seamark/beacon_lateral/category",
+        "seamark/beacon_lateral/shape",
+        "seamark/beacon_lateral/system",
+        "seamark/topmark/shape",
+        "seamark/topmark/colour",
+        "seamark/topmark/colour_pattern",
+        "seamark/light/reference",
+        "check_date"
+    ],
+    "moreFields": [
+        "seamark/radar_reflector",
+        "seamark/radio_station/mmsi"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "lateral beacon",
+        "beacon lateral",
+        "cevni",
+        "channel marker",
+        "iala",
+        "lateral mark"
+    ],
+    "tags": {
+        "seamark:type": "beacon_lateral"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:beacon_lateral:colour": "*",
+        "seamark:beacon_lateral:colour_pattern": "*",
+        "seamark:beacon_lateral:category": "*",
+        "seamark:beacon_lateral:shape": "*",
+        "seamark:beacon_lateral:system": "*",
+        "seamark:topmark:shape": "*",
+        "seamark:topmark:colour": "*",
+        "seamark:topmark:colour_pattern": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Beacon_Lateral.png",
+    "name": "Channel Beacon"
+}

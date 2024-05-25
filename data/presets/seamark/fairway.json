@@ -1,0 +1,19 @@
+{
+    "icon": "maki-harbor",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "seamark/fairway/restriction"
+    ],
+    "tags": {
+        "seamark:type": "fairway"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Openseamap_rendering_fairway.png",
+    "name": "Marine Fairway",
+    "terms": [
+        "shipping channel",
+        "channel",
+        "dredged"
+    ]
+}

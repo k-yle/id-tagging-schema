@@ -1,0 +1,44 @@
+{
+    "icon": "temaki-buoy",
+    "fields": [
+        "seamark/name",
+        "seamark/buoy_special_purpose/category",
+        "seamark/buoy_special_purpose/colour",
+        "seamark/buoy_special_purpose/colour_pattern",
+        "seamark/buoy_special_purpose/shape",
+        "seamark/buoy_special_purpose/maxspeed",
+        "seamark/topmark/shape",
+        "seamark/topmark/colour",
+        "seamark/topmark/colour_pattern",
+        "seamark/light/reference",
+        "check_date"
+    ],
+    "moreFields": [
+        "seamark/radar_reflector",
+        "seamark/radio_station/mmsi"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "buoy",
+        "special buoy",
+        "danger buoy"
+    ],
+    "tags": {
+        "seamark:type": "buoy_special_purpose"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:buoy_special_purpose:category": "*",
+        "seamark:buoy_special_purpose:colour": "*",
+        "seamark:buoy_special_purpose:colour_pattern": "*",
+        "seamark:buoy_special_purpose:shape": "*",
+        "seamark:topmark:shape": "*",
+        "seamark:topmark:colour": "*",
+        "seamark:topmark:colour_pattern": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Buoy_Special_Purpose.png",
+    "name": "Special Purpose Buoy"
+}

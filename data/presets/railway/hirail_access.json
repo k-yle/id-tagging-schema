@@ -1,0 +1,20 @@
+{
+    "icon": "maki-car",
+    "geometry": [
+        "vertex"
+    ],
+    "tags": {
+        "railway": "hirail_access"
+    },
+    "terms": [
+        "hirail access",
+        "hi-rail access",
+        "hirail boarding",
+        "road-rail",
+        "road rail",
+        "boarding",
+        "network access",
+        "maintenance access"
+    ],
+    "name": "Hi-Rail Vehicle Access Point"
+}

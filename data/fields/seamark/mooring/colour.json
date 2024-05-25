@@ -1,0 +1,6 @@
+{
+    "key": "seamark:mooring:colour",
+    "type": "combo",
+    "label": "Color",
+    "stringsCrossReference": "{seamark/beacon_special_purpose/colour}"
+}

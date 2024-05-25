@@ -1,0 +1,5 @@
+{
+    "key": "seamark:calling-in_point:channel",
+    "type": "number",
+    "label": "VHF Channel"
+}

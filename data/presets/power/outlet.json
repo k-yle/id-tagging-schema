@@ -1,0 +1,23 @@
+{
+    "icon": "fas-plug",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "fields": [
+        "socket"
+    ],
+    "tags": {
+        "power": "outlet"
+    },
+    "name": "Power Outlet",
+    "terms": [
+        "power plug",
+        "power socket",
+        "plug",
+        "power",
+        "outlet",
+        "socket",
+        "electric"
+    ]
+}

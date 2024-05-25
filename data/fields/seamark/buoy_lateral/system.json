@@ -1,0 +1,8 @@
+{
+    "key": "seamark:buoy_lateral:system",
+    "type": "combo",
+    "label": "System",
+    "stringsCrossReference": "{seamark/beacon_lateral/system}",
+    "autoSuggestions": false,
+    "customValues": false
+}

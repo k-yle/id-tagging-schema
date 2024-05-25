@@ -1,0 +1,6 @@
+{
+    "key": "seamark:daymark:colour",
+    "type": "semiCombo",
+    "label": "Color",
+    "stringsCrossReference": "{seamark/beacon_special_purpose/colour}"
+}

@@ -1,0 +1,22 @@
+{
+    "key": "socket:",
+    "type": "multiCombo",
+    "label": "Socket Types",
+    "autoSuggestions": true,
+    "strings": {
+        "options": {
+            "cee_blue": "Cee Form - Blue",
+            "cee_red_16a": "Cee Form - Red 16A",
+            "cee_red_32a": "Cee Form - Red 32A",
+            "cee_red_63a": "Cee Form - Red 63A",
+            "cee_red_125a": "Cee Form - Red 125A",
+            "as3123_3pin": "AU/NZ 3-pin single phase",
+            "as3123_4pin": "AU/NZ 4-pin three phase",
+            "as3123_5pin": "AU/NZ 5-pin three phase",
+            "as3112": "AU/NZ Domestic",
+            "powerlock": "Powerlock",
+            "camlock": "Camlock",
+            "pantograph": "Pantograph"
+        }
+    }
+}

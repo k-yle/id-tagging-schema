@@ -1,0 +1,26 @@
+{
+    "icon": "temaki-antenna",
+    "fields": [
+        "name",
+        "seamark/waterway_gauge/category"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "seamark:type": "waterway_gauge"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:waterway_gauge:category": "*"
+    },
+    "terms": [
+        "tide gauge",
+        "level",
+        "gauge",
+        "guage"
+    ],
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Waterway-gauge.png",
+    "name": "Waterway Gauge"
+}

@@ -1,0 +1,26 @@
+{
+    "icon": "maki-harbor",
+    "fields": [
+        "seamark/anchorage/category"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "dolphin",
+        "pile",
+        "bollard",
+        "buoy",
+        "post"
+    ],
+    "tags": {
+        "seamark:type": "anchorage"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:anchorage:category": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Anchorage.png",
+    "name": "Anchorage Area"
+}

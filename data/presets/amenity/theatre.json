@@ -1,0 +1,36 @@
+{
+    "icon": "maki-theatre",
+    "fields": [
+        "name",
+        "operator",
+        "operator/type",
+        "capacity",
+        "start_date",
+        "hearing_loop",
+        "is_in",
+        "website",
+        "wheelchair",
+        "address",
+        "building_area"
+    ],
+    "moreFields": [
+        "{@templates/internet_access}",
+        "{@templates/poi}",
+        "air_conditioning",
+        "min_age"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "theatre",
+        "performance",
+        "play",
+        "musical"
+    ],
+    "tags": {
+        "amenity": "theatre"
+    },
+    "name": "Theater"
+}

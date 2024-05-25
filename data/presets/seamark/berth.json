@@ -1,0 +1,25 @@
+{
+    "icon": "maki-harbor",
+    "fields": [
+        "seamark/name",
+        "maxweight",
+        "maxlength",
+        "maxdraft",
+        "maxstay",
+        "vessel",
+        "vessel/mmsi"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "seamark:type": "berth"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:name": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:BerthSM.png",
+    "name": "Berth"
+}

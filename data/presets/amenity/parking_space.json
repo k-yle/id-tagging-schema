@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-parking_space",
+    "fields": [
+        "parking_space",
+        "capacity",
+        "ref",
+        "capacity/hgv"
+    ],
+    "geometry": [
+        "area",
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "amenity": "parking_space"
+    },
+    "terms": [
+        "parking spot",
+        "parking stall"
+    ],
+    "matchScore": 0.95,
+    "name": "Parking Space"
+}

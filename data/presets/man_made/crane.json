@@ -1,0 +1,21 @@
+{
+    "icon": "roentgen-crane",
+    "fields": [
+        "operator",
+        "manufacturer",
+        "height",
+        "crane/type",
+        "seamark/type_crane",
+        "maxweight"
+    ],
+    "geometry": [
+        "point",
+        "line",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "man_made": "crane"
+    },
+    "name": "Crane"
+}

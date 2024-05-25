@@ -1,0 +1,25 @@
+{
+    "key": "seamark:beacon_lateral:shape",
+    "type": "combo",
+    "label": "Shape",
+    "strings": {
+        "options": {
+            "pole": "Pole",
+            "withy": "Withy",
+            "tower": "Beacon tower",
+            "lattice": "Lattice",
+            "pile": "Pile",
+            "cairn": "Cairn",
+            "buoyant": "Buoyant beacon"
+        }
+    },
+    "icons": {
+        "pole": "https://osm.wiki/Special:FilePath/File:Beacon_Stake.png",
+        "withy": "https://osm.wiki/Special:FilePath/File:Beacon_Withy.png",
+        "tower": "https://osm.wiki/Special:FilePath/File:Beacon_Tower.png",
+        "lattice": "https://osm.wiki/Special:FilePath/File:Beacon_Pile.png",
+        "pile": "https://osm.wiki/Special:FilePath/File:Beacon_Pile.png",
+        "cairn": "https://osm.wiki/Special:FilePath/File:Beacon_Cairn.png",
+        "buoyant": "https://osm.wiki/Special:FilePath/File:Beacon_Pile.png"
+    }
+}

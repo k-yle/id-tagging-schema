@@ -1,0 +1,7 @@
+{
+    "key": "seamark:buoy_safe_water:shape",
+    "type": "combo",
+    "label": "Buoy Shape",
+    "stringsCrossReference": "{seamark/buoy_special_purpose/shape}",
+    "iconsCrossReference": "{seamark/buoy_special_purpose/shape}"
+}

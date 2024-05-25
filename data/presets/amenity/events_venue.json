@@ -1,0 +1,53 @@
+{
+    "icon": "fas-users",
+    "fields": [
+        "name",
+        "level",
+        "operator",
+        "operator/type",
+        "capacity",
+        "start_date",
+        "hearing_loop",
+        "is_in",
+        "website",
+        "wheelchair",
+        "address",
+        "building_area",
+        "{@templates/internet_access}"
+    ],
+    "moreFields": [
+        "{@templates/internet_access}",
+        "{@templates/poi}",
+        "air_conditioning",
+        "fhrs/id-GB",
+        "smoking",
+        "email",
+        "fax",
+        "min_age",
+        "smoking"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "amenity": "events_venue"
+    },
+    "terms": [
+        "banquet hall",
+        "baptism",
+        "Bar Mitzvah",
+        "Bat Mitzvah",
+        "birthdays",
+        "celebrations",
+        "conferences",
+        "confirmation",
+        "meetings",
+        "parties",
+        "party",
+        "quinceañera",
+        "reunions",
+        "weddings"
+    ],
+    "name": "Events Venue"
+}

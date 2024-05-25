@@ -1,0 +1,10 @@
+{
+    "key": "seamark:light:reference",
+    "type": "identifier",
+    "urlFormat": "https://list.lighting/{value}",
+    "pattern": "^[A-Z] ?[0-9.]{1,}$",
+    "label": "Light ID",
+    "prerequisiteTag": {
+        "key": "seamark:light:colour"
+    }
+}

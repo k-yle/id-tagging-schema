@@ -1,0 +1,26 @@
+{
+    "icon": "maki-slipway",
+    "fields": [
+        "{leisure/slipway}",
+        "lanes"
+    ],
+    "moreFields": [
+        "{leisure/slipway}"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "terms": [
+        "slipway",
+        "boat launch",
+        "boat ramp",
+        "boat landing"
+    ],
+    "tags": {
+        "leisure": "slipway",
+        "highway": "path",
+        "service": "slipway"
+    },
+    "matchScore": 1.1,
+    "name": "Boat Ramp (non-motor vehicles only)"
+}

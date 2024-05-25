@@ -1,0 +1,18 @@
+{
+    "key": "seamark:notice:function",
+    "type": "combo",
+    "label": "Function",
+    "prerequisiteTag": {
+        "key": "seamark:notice:system",
+        "value": "cevni"
+    },
+    "strings": {
+        "options": {
+            "prohibition": "Prohibition",
+            "regulation": "Regulation",
+            "restriction": "Restriction",
+            "recommendation": "Recommendation",
+            "information": "Information"
+        }
+    }
+}
