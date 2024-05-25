@@ -17,6 +17,10 @@
     "tags": {
         "man_made": "reservoir_covered"
     },
+    "addTags": {
+        "building": "yes",
+        "man_made": "reservoir_covered"
+    },
     "terms": [
         "underground reservoir",
         "water tank"

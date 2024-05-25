@@ -4,6 +4,7 @@
         "name",
         "structure_canal",
         "tunnel/name",
+        "culvert",
         "width",
         "usage_waterway",
         "intermittent",

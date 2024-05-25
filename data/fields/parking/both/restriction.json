@@ -1,0 +1,13 @@
+{
+    "key": "parking:both:restriction",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "no_parking": "No Parking",
+            "parking": "Parking"
+        }
+    },
+    "autoSuggestions": true,
+    "customValues": false
+}

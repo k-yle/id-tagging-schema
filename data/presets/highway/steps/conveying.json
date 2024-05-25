@@ -1,6 +1,7 @@
 {
     "icon": "maki-entrance",
     "fields": [
+        "duration",
         "incline_steps",
         "conveying",
         "access_simple",

@@ -1,0 +1,11 @@
+{
+    "key": "temperature",
+    "type": "combo",
+    "label": "Temperature",
+    "strings": {
+        "options": {
+            "hot": "Hot",
+            "cold": "Cold"
+        }
+    }
+}

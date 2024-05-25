@@ -3,6 +3,7 @@
     "fields": [
         "name",
         "construction",
+        "service2",
         "opening_date",
         "check_date",
         "access",

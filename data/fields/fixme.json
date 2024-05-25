@@ -4,6 +4,7 @@
     "label": "Fix Me",
     "universal": true,
     "terms": [
+        "fixme",
         "help request"
     ]
 }

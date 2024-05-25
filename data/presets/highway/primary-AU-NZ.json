@@ -1,0 +1,27 @@
+{
+    "name": "De-facto Motorway",
+    "icon": "iD-highway-motorway",
+    "fields": [
+        "{highway/motorway}"
+    ],
+    "moreFields": [
+        "{highway/motorway}"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway": "primary",
+        "expressway": "yes"
+    },
+    "terms": [
+        "defacto"
+    ],
+    "locationSet": {
+        "include": [
+            "au",
+            "nz"
+        ]
+    },
+    "matchScore": 1.01
+}

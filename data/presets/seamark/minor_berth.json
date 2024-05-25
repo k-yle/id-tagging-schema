@@ -1,0 +1,24 @@
+{
+    "icon": "temaki-boat",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "vessel",
+        "ship",
+        "berth",
+        "boat",
+        "anchor",
+        "anchorage"
+    ],
+    "fields": [
+        "vessel",
+        "vessel/mmsi",
+        "operator"
+    ],
+    "tags": {
+        "vessel": "*"
+    },
+    "name": "Minor Berth"
+}

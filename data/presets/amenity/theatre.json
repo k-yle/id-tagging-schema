@@ -3,9 +3,15 @@
     "fields": [
         "name",
         "operator",
+        "operator/type",
+        "capacity",
+        "start_date",
+        "hearing_loop",
+        "is_in",
+        "website",
+        "wheelchair",
         "address",
-        "building_area_yes",
-        "website"
+        "building_area"
     ],
     "moreFields": [
         "{@templates/internet_access}",

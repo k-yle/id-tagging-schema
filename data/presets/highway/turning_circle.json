@@ -4,7 +4,9 @@
         "vertex"
     ],
     "fields": [
-        "turning_circle"
+        "turning_circle",
+        "diameter",
+        "parking/both/restriction"
     ],
     "tags": {
         "highway": "turning_circle"
