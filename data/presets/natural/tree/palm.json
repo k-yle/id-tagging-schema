@@ -1,0 +1,23 @@
+{
+    "icon": "maki-park",
+    "fields": [
+        "{natural/tree}"
+    ],
+    "moreFields": [
+        "{natural/tree}"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "natural": "tree",
+        "type": "palm"
+    },
+    "terms": [
+        "bole",
+        "trunk",
+        "tree"
+    ],
+    "name": "Palm Tree"
+}

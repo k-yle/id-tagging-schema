@@ -8,6 +8,7 @@
         "surface",
         "operator",
         "structure",
+        "lanes",
         "covered"
     ],
     "moreFields": [

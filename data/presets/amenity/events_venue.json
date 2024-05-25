@@ -2,10 +2,17 @@
     "icon": "fas-users",
     "fields": [
         "name",
+        "level",
         "operator",
-        "building_area_yes",
-        "address",
+        "operator/type",
+        "capacity",
+        "start_date",
+        "hearing_loop",
+        "is_in",
         "website",
+        "wheelchair",
+        "address",
+        "building_area",
         "{@templates/internet_access}"
     ],
     "moreFields": [
@@ -13,6 +20,9 @@
         "{@templates/poi}",
         "air_conditioning",
         "fhrs/id-GB",
+        "smoking",
+        "email",
+        "fax",
         "min_age",
         "smoking"
     ],

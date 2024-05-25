@@ -1,0 +1,14 @@
+{
+    "key": "name:etymology:wikidata",
+    "keys": [
+        "name:etymology:wikidata",
+        "name:etymology:wikipedia"
+    ],
+    "type": "wikidata",
+    "label": "Named After (Wikidata)",
+    "universal": true,
+    "terms": [
+        "label",
+        "title"
+    ]
+}

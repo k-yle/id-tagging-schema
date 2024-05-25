@@ -1,0 +1,16 @@
+{
+    "key": "railway:signal:position",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "left": "Left",
+            "right": "Right",
+            "in_track": "In the track",
+            "bridge": "Overhead (signal gantry)",
+            "overhead": "Overhead (catenary)"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

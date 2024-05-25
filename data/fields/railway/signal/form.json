@@ -1,0 +1,14 @@
+{
+    "key": "railway:signal:form",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "light": "Light",
+            "sign": "Sign",
+            "semaphore": "Semaphore"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

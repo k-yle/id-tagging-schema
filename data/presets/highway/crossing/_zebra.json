@@ -21,6 +21,5 @@
         "key": "crossing",
         "value": "zebra"
     },
-    "name": "{highway/crossing/uncontrolled}",
-    "searchable": false
+    "name": "Zebra Crossing"
 }

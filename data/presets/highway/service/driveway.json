@@ -11,5 +11,6 @@
         "key": "service",
         "value": "driveway"
     },
-    "name": "Driveway"
+    "searchable": false,
+    "name": "Public Driveway"
 }

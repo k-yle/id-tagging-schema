@@ -1,0 +1,26 @@
+{
+    "icon": "maki-town-hall",
+    "fields": [
+        "name",
+        "operator",
+        "address",
+        "website"
+    ],
+    "moreFields": [
+        "email",
+        "phone",
+        "wheelchair"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "amenity": "marae"
+    },
+    "addTags": {
+        "amenity": "marae",
+        "boundary": "aboriginal_lands"
+    },
+    "name": "Marae"
+}

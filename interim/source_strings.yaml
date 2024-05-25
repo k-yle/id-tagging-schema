@@ -2781,6 +2781,9 @@ en:
           vascular_surgery: Vascular Surgery
       healthcare_therapist:
         # healthcare=*
+      hearing_loop:
+        # hearing_loop=*
+        label: Hearing Aid Loop
       heating:
         # heating=*
         label: Heating
@@ -3018,6 +3021,9 @@ en:
         # interval=*
         label: Interval
         terms: '[translate with synonyms or related terms for ''Interval'', separated by commas]'
+      is_in:
+        # is_in=*
+        label: Located Within
       junction/ref_oneway:
         # junction:ref=*
         label: Junction Number

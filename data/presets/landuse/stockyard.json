@@ -1,0 +1,30 @@
+{
+    "icon": "maki-farm",
+    "fields": [
+        "name",
+        "operator"
+    ],
+    "moreFields": [
+        "address",
+        "email",
+        "fax",
+        "phone"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "landuse": "farmyard",
+        "farmyard": "stockyard"
+    },
+    "terms": [
+        "barnyard",
+        "cattleyard",
+        "feeding",
+        "feedlot",
+        "feedyard",
+        "livestock"
+    ],
+    "matchScore": 1.01,
+    "name": "Stockyard"
+}

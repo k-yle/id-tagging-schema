@@ -1,0 +1,32 @@
+{
+    "name": "De-facto Motorway Link",
+    "icon": "iD-highway-motorway-link",
+    "fields": [
+        "{highway/motorway_link}"
+    ],
+    "moreFields": [
+        "{highway/motorway_link}"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway": "primary_link",
+        "expressway": "yes"
+    },
+    "terms": [
+        "defacto",
+        "on ramp",
+        "off ramp",
+        "ramp",
+        "road",
+        "street"
+    ],
+    "matchScore": 1.01,
+    "locationSet": {
+        "include": [
+            "au",
+            "nz"
+        ]
+    }
+}

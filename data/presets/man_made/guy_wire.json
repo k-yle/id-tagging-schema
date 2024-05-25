@@ -1,0 +1,18 @@
+{
+    "icon": "iD-power-line",
+    "geometry": [
+        "line"
+    ],
+    "terms": [
+        "guy line",
+        "tie line",
+        "tie down",
+        "anchor",
+        "wire",
+        "stay wire"
+    ],
+    "tags": {
+        "man_made": "guy_wire"
+    },
+    "name": "Guy Wire"
+}
