@@ -11,6 +11,10 @@
         "area",
         "point"
     ],
+    "addTags": {
+        "building": "yes",
+        "man_made": "water_tower"
+    },
     "tags": {
         "man_made": "water_tower"
     },

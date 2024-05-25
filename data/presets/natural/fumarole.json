@@ -1,0 +1,24 @@
+{
+    "icon": "maki-water",
+    "fields": [
+        "name"
+    ],
+    "geometry": [
+        "point"
+    ],
+    "tags": {
+        "natural": "fumarole"
+    },
+    "terms": [
+        "erupting spring",
+        "fumarole",
+        "geiser",
+        "gieser",
+        "guyser",
+        "hot water",
+        "hydrogeology",
+        "hydrothermal explosion",
+        "steam"
+    ],
+    "name": "Fumarole"
+}

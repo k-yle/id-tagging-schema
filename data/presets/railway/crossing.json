@@ -1,7 +1,6 @@
 {
     "icon": "temaki-crossing_rail_striped",
     "fields": [
-        "crossing",
         "crossing/barrier",
         "crossing/bell",
         "crossing/light"

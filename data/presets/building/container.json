@@ -1,0 +1,14 @@
+{
+    "icon": "maki-building",
+    "fields": [
+        "container",
+        "building/levels"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "building": "container"
+    },
+    "name": "Container"
+}

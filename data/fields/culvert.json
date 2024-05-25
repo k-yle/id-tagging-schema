@@ -1,0 +1,18 @@
+{
+    "key": "culvert",
+    "type": "combo",
+    "label": "Culvert Type",
+    "strings": {
+        "options": {
+            "half_pipe": "Semicirclular Pipe",
+            "pipe": "Circular Pipe",
+            "box": "Box",
+            "open_top": "Open Top",
+            "inverted_siphon": "Inverted Siphon"
+        }
+    },
+    "prerequisiteTag": {
+        "key": "tunnel",
+        "value": "culvert"
+    }
+}

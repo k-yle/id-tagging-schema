@@ -3,7 +3,8 @@
     "fields": [
         "parking_space",
         "capacity",
-        "access_simple"
+        "ref",
+        "capacity/hgv"
     ],
     "geometry": [
         "area",

@@ -2,5 +2,5 @@
     "key": "duration",
     "type": "text",
     "label": "Duration",
-    "placeholder": "00:00"
+    "placeholder": "hh:mm"
 }

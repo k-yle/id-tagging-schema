@@ -1,0 +1,10 @@
+{
+    "key": "name:etymology",
+    "type": "text",
+    "label": "Named After",
+    "universal": true,
+    "terms": [
+        "label",
+        "title"
+    ]
+}
