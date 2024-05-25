@@ -1,0 +1,23 @@
+{
+    "key": "cycle_barrier",
+    "type": "combo",
+    "label": "Type",
+    "customValues": false,
+    "autoSuggestions": false,
+    "strings": {
+        "options": {
+            "single": "Single",
+            "double": "Double",
+            "triple": "Triple",
+            "diagonal": "Diagonal",
+            "tilted": "Tilted"
+        }
+    },
+    "icons": {
+        "single": "https://osm.wiki/Special:FilePath/File:Cycle_barrier_single_simple.png",
+        "double": "https://osm.wiki/Special:FilePath/File:Cycle_barrier_double_simple.png",
+        "triple": "https://osm.wiki/Special:FilePath/File:Cycle_barrier_triple_simple.png",
+        "diagonal": "https://osm.wiki/Special:FilePath/File:Cycle_barrier_angular_simple.png",
+        "tilted": "https://osm.wiki/Special:FilePath/File:Cycle_barrier_squeeze_simple.png"
+    }
+}
