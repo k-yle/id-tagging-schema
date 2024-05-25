@@ -3,6 +3,7 @@
     "fields": [
         "name",
         "tunnel_combo",
+        "culvert",
         "layer",
         "width",
         "length",

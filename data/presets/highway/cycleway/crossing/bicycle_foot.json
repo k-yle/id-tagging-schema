@@ -39,6 +39,7 @@
         "value": "crossing"
     },
     "terms": [
+        "cycle & foot crossing",
         "bicycle and foot crosswalk",
         "bike and pedestrian crossing",
         "cycleway",
@@ -46,5 +47,5 @@
         "cyclist"
     ],
     "matchScore": 0.9,
-    "name": "Cycle & Foot Crossing"
+    "name": "Shared Path Crossing"
 }

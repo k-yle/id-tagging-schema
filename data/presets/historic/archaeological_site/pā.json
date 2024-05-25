@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-ruins",
+    "fields": [
+        "{historic/archaeological_site}"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "historic": "archaeological_site",
+        "archaeological_site": "fortification",
+        "fortification_type": "pa"
+    },
+    "name": "Historic Pā"
+}

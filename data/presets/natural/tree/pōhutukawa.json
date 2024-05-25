@@ -1,0 +1,25 @@
+{
+    "icon": "maki-park",
+    "fields": [
+        "{natural/tree}"
+    ],
+    "moreFields": [
+        "{natural/tree}"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "natural": "tree",
+        "species": "Pōhutukawa",
+        "species:wikidata": "Q311747"
+    },
+    "terms": [
+        "bole",
+        "trunk",
+        "tree",
+        "pohutukawa"
+    ],
+    "name": "Pōhutukawa Tree"
+}

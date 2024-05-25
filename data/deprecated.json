@@ -1,5 +1,32 @@
 [
   {
+    "old": {"amenity": "marae"},
+    "replace": {"amenity": "marae", "boundary": "aboriginal_lands"}
+  },
+  {
+    "old": {"historic": "pa"},
+    "replace": {"historic": "archaeological_site", "archaeological_site": "fortification","fortification_type":"pa"}
+  },
+  {
+    "old": {"emergency": "lifeboat_station"},
+    "replace": {"emergency": "lifeboat_station", "seamark:type": "rescue_station"}
+  },
+  {
+      "old": { "landuse": "aquaculture" },
+      "replace": { "landuse": "aquaculture", "seamark:type": "marine_farm" }
+  },
+  {
+    "old": { "highway": "turning_circle", "parking:both:restriction": "*" },
+    "replace": { "highway": "turning_circle", "parking:both:restriction": "$1", "parking:both:restriction:reason": "turnaround" }
+  },
+  {
+    "old": { "man_made": "pumping_station" },
+    "replace": { "man_made": "pumping_station", "landuse": "industrial" }
+  },
+
+
+
+  {
     "old": {"aerialway": "canopy"},
     "replace": {"aerialway": "zip_line"}
   },

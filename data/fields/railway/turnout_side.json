@@ -1,0 +1,8 @@
+{
+    "key": "railway:turnout_side",
+    "type": "combo",
+    "label": "Turnout Side",
+    "stringsCrossReference": "{side}",
+    "autoSuggestions": false,
+    "customValues": true
+}

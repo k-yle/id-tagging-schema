@@ -20,5 +20,9 @@
     "tags": {
         "man_made": "pipeline"
     },
+    "addTags": {
+        "man_made": "pipeline",
+        "location": "overground"
+    },
     "name": "Pipeline"
 }

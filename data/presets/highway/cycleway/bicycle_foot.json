@@ -40,6 +40,7 @@
         "segregated": "*"
     },
     "terms": [
+        "cycle & foot path",
         "bicycle and foot path",
         "bike and pedestrian path",
         "green way",
@@ -52,5 +53,5 @@
         "rail trail"
     ],
     "matchScore": 0.9,
-    "name": "Cycle & Foot Path"
+    "name": "Shared Path"
 }

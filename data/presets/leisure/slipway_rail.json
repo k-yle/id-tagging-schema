@@ -1,0 +1,27 @@
+{
+    "icon": "maki-slipway",
+    "fields": [
+        "{leisure/slipway}",
+        "lanes",
+        "gauge"
+    ],
+    "moreFields": [
+        "{leisure/slipway}"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "terms": [
+        "slipway",
+        "boat launch",
+        "boat ramp",
+        "boat landing"
+    ],
+    "tags": {
+        "leisure": "slipway",
+        "railway": "rail",
+        "service": "yard"
+    },
+    "matchScore": 1.1,
+    "name": "Boat Ramp (Rail Only)"
+}

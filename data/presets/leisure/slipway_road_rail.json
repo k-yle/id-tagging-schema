@@ -1,0 +1,27 @@
+{
+    "icon": "maki-slipway",
+    "fields": [
+        "{leisure/slipway}",
+        "lanes",
+        "gauge"
+    ],
+    "moreFields": [
+        "{leisure/slipway}"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "terms": [
+        "boat launch",
+        "boat ramp",
+        "boat landing"
+    ],
+    "tags": {
+        "leisure": "slipway",
+        "highway": "service",
+        "service": "yard",
+        "railway": "rail"
+    },
+    "matchScore": 1.2,
+    "name": "Slipway (Drivable with Embedded Rails)"
+}

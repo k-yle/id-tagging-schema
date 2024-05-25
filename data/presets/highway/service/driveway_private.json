@@ -1,0 +1,16 @@
+{
+    "icon": "iD-highway-service",
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "access": "private",
+        "highway": "service",
+        "service": "driveway"
+    },
+    "reference": {
+        "key": "service",
+        "value": "driveway"
+    },
+    "name": "Private Driveway"
+}

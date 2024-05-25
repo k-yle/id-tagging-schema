@@ -1,7 +1,6 @@
 {
     "icon": "temaki-pedestrian",
     "fields": [
-        "crossing",
         "crossing/barrier",
         "crossing/bell",
         "crossing/light"

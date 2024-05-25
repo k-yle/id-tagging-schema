@@ -2,6 +2,7 @@
     "icon": "temaki-junction",
     "fields": [
         "railway/switch",
+        "railway/turnout_side",
         "ref"
     ],
     "geometry": [

@@ -4,7 +4,8 @@
         "operator",
         "manufacturer",
         "height",
-        "crane/type"
+        "crane/type",
+        "maxweight"
     ],
     "geometry": [
         "point",

@@ -1,0 +1,25 @@
+{
+    "fields": [
+        "support",
+        "visibility",
+        "direction"
+    ],
+    "moreFields": [
+        "{advertising}"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "advertising": "logo"
+    },
+    "terms": [
+        "roundel",
+        "brand",
+        "icon",
+        "symbol",
+        "marker"
+    ],
+    "name": "Logo"
+}
