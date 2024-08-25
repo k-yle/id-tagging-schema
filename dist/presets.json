@@ -30549,6 +30549,23 @@
             "advertising": "poster_box"
         }
     },
+    "advertising/logo": {
+        "fields": [
+            "support",
+            "visibility",
+            "direction"
+        ],
+        "moreFields": [
+            "{advertising}"
+        ],
+        "geometry": [
+            "point",
+            "vertex"
+        ],
+        "tags": {
+            "advertising": "logo"
+        }
+    },
     "advertising/column": {
         "icon": "roentgen-advertising_column",
         "fields": [

@@ -11825,6 +11825,10 @@
                     "name": "Poster Box",
                     "terms": "ad,advertising,spam"
                 },
+                "advertising/logo": {
+                    "name": "Logo",
+                    "terms": "roundel,brand,icon,symbol,marker"
+                },
                 "advertising/column": {
                     "name": "Advertising Column",
                     "terms": "ad,advertising,spam"

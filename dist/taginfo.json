@@ -15428,6 +15428,14 @@
         },
         {
             "key": "advertising",
+            "value": "logo",
+            "description": "🄿 Logo",
+            "object_types": [
+                "node"
+            ]
+        },
+        {
+            "key": "advertising",
             "value": "column",
             "description": "🄿 Advertising Column",
             "object_types": [

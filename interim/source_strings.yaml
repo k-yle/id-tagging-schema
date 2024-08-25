@@ -7730,6 +7730,11 @@ en:
         name: Advertising Column
         # 'terms: ad,advertising,spam'
         terms: <translate with synonyms or related terms for 'Advertising Column', separated by commas>
+      advertising/logo:
+        # advertising=logo | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Logo
+        # 'terms: roundel,brand,icon,symbol,marker'
+        terms: <translate with synonyms or related terms for 'Logo', separated by commas>
       advertising/poster_box:
         # advertising=poster_box | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Poster Box
