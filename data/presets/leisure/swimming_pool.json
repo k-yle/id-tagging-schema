@@ -3,6 +3,7 @@
     "fields": [
         "name",
         "access_simple",
+        "temperature",
         "lit",
         "location_pool",
         "length",

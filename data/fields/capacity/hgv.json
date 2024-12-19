@@ -6,7 +6,7 @@
     "placeholder": "50, 100, 200...",
     "prerequisiteTag": {
         "key": "parking_space",
-        "value": [
+        "values": [
             "trailer",
             "hgv",
             "delivery"

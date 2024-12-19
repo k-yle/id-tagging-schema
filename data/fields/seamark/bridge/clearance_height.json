@@ -4,7 +4,7 @@
     "label": "Clearance Height (metres)",
     "prerequisiteTag": {
         "key": "seamark:bridge:category",
-        "value": [
+        "values": [
             "fixed",
             "transporter"
         ]

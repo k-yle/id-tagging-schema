@@ -6,7 +6,12 @@
     ],
     "fields": [
         "access_simple",
-        "operator"
+        "operator",
+        "maxweight",
+        "maxlength",
+        "maxdraft",
+        "maxstay",
+        "check_date"
     ],
     "tags": {
         "seamark:type": "small_craft_facility",

@@ -5,7 +5,8 @@
         "seamark/bridge/clearance_width",
         "seamark/bridge/clearance_height",
         "seamark/bridge/clearance_height_closed",
-        "seamark/bridge/clearance_height_open"
+        "seamark/bridge/clearance_height_open",
+        "check_date"
     ],
     "geometry": [
         "point",

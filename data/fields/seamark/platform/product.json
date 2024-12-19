@@ -30,7 +30,7 @@
     },
     "prerequisiteTag": {
         "key": "seamark:platform:category",
-        "value": [
+        "values": [
             "oil",
             "production",
             "alp",

@@ -1,3 +1,5 @@
+# Contributing to the tagging schema
+
 ## Submitting Issues
 
 Don't hesitate to submit feedback about issues or how the tagging schema could be improved, but please [search existing issues](https://github.com/search?l=&q=repo%3Aopenstreetmap%2Fid-tagging-schema&type=Issues) before [opening a new one](https://github.com/openstreetmap/id-tagging-schema/issues/new/choose).
@@ -7,12 +9,7 @@ iD's [code of conduct](https://github.com/openstreetmap/iD/blob/release/CODE_OF_
 
 ## General Guidelines
 
-As a general guideline, the tagging schema will only consider tags that are documented on the OSM wiki and have completed a [proposal process](https://wiki.openstreetmap.org/wiki/Proposal_process) or can in some other way be considered as _accepted_ by the OpenStreetMap community.
-
-As the tagging schema is meant to be a general representation of the OSM data for a wide audience of users, some tags might be considered out of scope: for example when a tag requires expert knowledge to be used, or when a tag is extremely rare.
-
-Tags which are not universally applicable globally, can and should be limited to their respective region in the corresponding preset or field of this repository.
-
+Read the [GUIDELINES](./GUIDELINES.md) to help you understand what fields and tags should be added to the tagging schema.
 
 ## Translating
 
@@ -48,6 +45,15 @@ To make a change, update the corresponding file within the `data` folder: The `p
 ### Icons
 
 Icons from different sources (_icon sets_) can be used in the tagging schema. Head over to the [dedicated page](https://github.com/ideditor/schema-builder/blob/main/ICONS.md#icons) about how to use them.
+
+### Info-`i`
+
+![Screenshot of a preset in iD with the information details open.](https://github.com/openstreetmap/id-tagging-schema/assets/111561/13549318-cd7c-4dd1-9948-7a2d84662f04)
+
+iD and other tools provide users with a way to learn more about the main tag of a preset. It is important to provide good information in this information panel. Here are a few notes on how to do this:
+- Does your tag have a Wikidata entry? Click the small pencil icon next to the text to open the Wikidata item on the OSM wiki. Improve this wording if needed. If the Wikidata item is missing, [learn more about how to add it in "Current methods for creating new items"](https://wiki.openstreetmap.org/wiki/Data_items#Item_creation_process).
+- Does your tag have a Wiki page with a good image?
+- Your preset might need [a `reference` property](https://github.com/ideditor/schema-builder?tab=readme-ov-file#reference) to force the system to use a specific tag for the information section.
 
 ### Code Style
 

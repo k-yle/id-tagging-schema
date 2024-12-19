@@ -160,6 +160,7 @@
             "coffee",
             "condoms",
             "drinks",
+            "e-cigarettes",
             "eggs",
             "electronics",
             "elongated_coin",
@@ -432,6 +433,14 @@
         "key": "tents",
         "type": "check"
     },
+    "temperature": {
+        "key": "temperature",
+        "type": "combo",
+        "options": [
+            "hot",
+            "cold"
+        ]
+    },
     "telecom": {
         "key": "telecom",
         "type": "combo",
@@ -528,20 +537,26 @@
         "options": [
             "artificial_turf",
             "asphalt",
+            "clay",
             "compacted",
             "concrete",
+            "concrete:lanes",
+            "concrete:plates",
             "dirt",
             "fine_gravel",
             "grass",
+            "grass_paver",
             "gravel",
             "ground",
             "metal",
             "mud",
             "paved",
             "paving_stones",
+            "pebblestone",
             "salt",
             "sand",
             "sett",
+            "tartan",
             "unhewn_cobblestone",
             "unpaved",
             "wood",
@@ -743,6 +758,7 @@
             "shooting",
             "skateboard",
             "skiing",
+            "ski_jumping",
             "soccer",
             "softball",
             "speedway",
@@ -765,7 +781,7 @@
         "snake_case": false,
         "prerequisiteTag": {
             "key": "cycle_barrier",
-            "value": [
+            "values": [
                 "double",
                 "triple"
             ]
@@ -897,6 +913,14 @@
     "shower": {
         "key": "shower",
         "type": "check"
+    },
+    "short_name": {
+        "key": "short_name",
+        "type": "localized",
+        "universal": true,
+        "prerequisiteTag": {
+            "key": "name"
+        }
     },
     "shop": {
         "key": "shop",
@@ -1035,6 +1059,7 @@
         "autoSuggestions": false,
         "customValues": false,
         "options": [
+            "strolling",
             "hiking",
             "mountain_hiking",
             "demanding_mountain_hiking",
@@ -1174,6 +1199,14 @@
     "relation": {
         "key": "type",
         "type": "combo"
+    },
+    "reg_name": {
+        "key": "reg_name",
+        "type": "localized",
+        "universal": true,
+        "prerequisiteTag": {
+            "key": "name"
+        }
     },
     "ref_taxiway": {
         "key": "ref",
@@ -1496,14 +1529,14 @@
         "customValues": false,
         "options": [
             "surface",
+            "street_side",
+            "lane",
             "underground",
             "multi-storey",
-            "lane",
+            "rooftop",
             "carports",
             "garage_boxes",
-            "rooftop",
             "sheds",
-            "street_side",
             "layby",
             "on_kerb",
             "half_on_kerb",
@@ -1538,7 +1571,7 @@
         "snake_case": false,
         "prerequisiteTag": {
             "key": "cycle_barrier",
-            "value": [
+            "values": [
                 "double",
                 "triple"
             ]
@@ -1579,7 +1612,7 @@
         "snake_case": false,
         "prerequisiteTag": {
             "key": "cycle_barrier",
-            "value": [
+            "values": [
                 "double",
                 "triple"
             ]
@@ -1611,6 +1644,14 @@
             "reversible",
             "alternating"
         ]
+    },
+    "official_name": {
+        "key": "official_name",
+        "type": "localized",
+        "universal": true,
+        "prerequisiteTag": {
+            "key": "name"
+        }
     },
     "office": {
         "key": "office",
@@ -1734,6 +1775,14 @@
         "key": "natural",
         "type": "typeCombo"
     },
+    "nat_name": {
+        "key": "nat_name",
+        "type": "localized",
+        "universal": true,
+        "prerequisiteTag": {
+            "key": "name"
+        }
+    },
     "name": {
         "key": "name",
         "type": "localized",
@@ -1818,6 +1867,7 @@
             "blue_plaque",
             "bust",
             "cross",
+            "ghost_bike",
             "obelisk",
             "plaque",
             "sculpture",
@@ -1922,7 +1972,7 @@
             "marble",
             "metal",
             "plastic",
-            "reinforced_conrete",
+            "reinforced_concrete",
             "rock",
             "sand",
             "sandstone",
@@ -1953,7 +2003,15 @@
     },
     "map_type": {
         "key": "map_type",
-        "type": "typeCombo"
+        "type": "typeCombo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "topo",
+            "street",
+            "scheme",
+            "toposcope"
+        ]
     },
     "map_size": {
         "key": "map_size",
@@ -2004,6 +2062,14 @@
     "local_ref": {
         "key": "local_ref",
         "type": "text"
+    },
+    "loc_name": {
+        "key": "loc_name",
+        "type": "localized",
+        "universal": true,
+        "prerequisiteTag": {
+            "key": "name"
+        }
     },
     "lit": {
         "key": "lit",
@@ -3489,6 +3555,11 @@
             "residence"
         ]
     },
+    "construction_start_expected": {
+        "key": "construction_start_expected",
+        "type": "date",
+        "universal": true
+    },
     "construction": {
         "key": "construction",
         "type": "combo"
@@ -3496,6 +3567,19 @@
     "connectivity": {
         "key": "connectivity",
         "type": "text"
+    },
+    "community_centre": {
+        "key": "community_centre",
+        "type": "combo",
+        "options": [
+            "club_home",
+            "community_hall",
+            "cultural_centre",
+            "family_centre",
+            "parish_hall",
+            "village_hall",
+            "youth_centre"
+        ]
     },
     "communication_multi": {
         "key": "communication:",
@@ -3618,6 +3702,17 @@
         "key": "capacity",
         "type": "number",
         "minValue": 0
+    },
+    "camp_site": {
+        "key": "camp_site",
+        "type": "combo",
+        "options": [
+            "basic",
+            "standard",
+            "serviced",
+            "deluxe"
+        ],
+        "autoSuggestions": false
     },
     "cai_scale-IT": {
         "key": "cai_scale",
@@ -4044,6 +4139,15 @@
         "key": "artist_name",
         "type": "text"
     },
+    "armrest": {
+        "key": "armrest",
+        "type": "check",
+        "options": [
+            "undefined",
+            "yes",
+            "no"
+        ]
+    },
     "architect": {
         "key": "architect",
         "type": "text"
@@ -4082,6 +4186,14 @@
     "amenity": {
         "key": "amenity",
         "type": "typeCombo"
+    },
+    "alt_name": {
+        "key": "alt_name",
+        "type": "localized",
+        "universal": true,
+        "prerequisiteTag": {
+            "key": "name"
+        }
     },
     "air_conditioning": {
         "key": "air_conditioning",
@@ -4763,6 +4875,65 @@
         "type": "semiCombo",
         "stringsCrossReference": "{seamark/restricted_area/restriction}"
     },
+    "seamark/sea_area/category": {
+        "key": "seamark:sea_area:category",
+        "type": "combo",
+        "options": [
+            "abyssal_hills",
+            "abyssal_plain",
+            "apron",
+            "archipelagic_apron",
+            "bank",
+            "basin",
+            "bay",
+            "borderland",
+            "canal",
+            "canyon",
+            "continental_margin",
+            "continental_rise",
+            "deep",
+            "escarpment",
+            "fan",
+            "flat",
+            "fracture_zone",
+            "gap",
+            "gat",
+            "guyot",
+            "hill",
+            "hole",
+            "knoll",
+            "lake",
+            "ledge",
+            "levee",
+            "median_valley",
+            "moat",
+            "mountains",
+            "narrows",
+            "peak",
+            "pinnacle",
+            "plateau",
+            "province",
+            "reach",
+            "reef",
+            "ridge",
+            "rise",
+            "river",
+            "saddle",
+            "sea_channel",
+            "seamount",
+            "seamount_chain",
+            "shelf",
+            "shelf-edge",
+            "shoal",
+            "sill",
+            "slope",
+            "spur",
+            "terrace",
+            "trench",
+            "trough",
+            "valley"
+        ]
+    },
     "seamark/rock/water_level": {
         "key": "seamark:rock:water_level",
         "type": "combo",
@@ -4887,7 +5058,7 @@
         "type": "semiCombo",
         "prerequisiteTag": {
             "key": "seamark:platform:category",
-            "value": [
+            "values": [
                 "oil",
                 "production",
                 "alp",
@@ -5782,7 +5953,7 @@
         "type": "number",
         "prerequisiteTag": {
             "key": "seamark:bridge:category",
-            "value": [
+            "values": [
                 "lifting"
             ]
         }
@@ -5792,7 +5963,7 @@
         "type": "number",
         "prerequisiteTag": {
             "key": "seamark:bridge:category",
-            "value": [
+            "values": [
                 "opening",
                 "lifting",
                 "swing",
@@ -5806,7 +5977,7 @@
         "type": "number",
         "prerequisiteTag": {
             "key": "seamark:bridge:category",
-            "value": [
+            "values": [
                 "fixed",
                 "transporter"
             ]
@@ -6036,7 +6207,7 @@
         "type": "colour"
     },
     "roller_coaster/track": {
-        "key": "roller_coaster",
+        "key": "roller_coaster:track",
         "type": "combo",
         "options": [
             "lift_hill",
@@ -6166,6 +6337,19 @@
     "railway/position": {
         "key": "railway:position",
         "type": "text"
+    },
+    "railway/signal/position": {
+        "key": "railway:signal:position",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "left",
+            "right",
+            "in_track",
+            "bridge",
+            "overhead"
+        ]
     },
     "railway/signal/form": {
         "key": "railway:signal:form",
@@ -6335,7 +6519,8 @@
             "ice_skate",
             "snow_park",
             "playground",
-            "connection"
+            "connection",
+            "ski_jump"
         ]
     },
     "piste/grooming_nordic": {
@@ -6634,7 +6819,7 @@
         "snake_case": false,
         "prerequisiteTag": {
             "key": "cycle_barrier",
-            "value": [
+            "values": [
                 "single",
                 "diagonal",
                 "tilted"
@@ -7143,9 +7328,9 @@
         "key": "crossing:markings",
         "type": "combo",
         "label": "{crossing/markings}",
+        "default": "yes",
         "stringsCrossReference": "{crossing/markings}",
         "iconsCrossReference": "{crossing/markings}",
-        "default": "yes",
         "locationSet": {
             "exclude": [
                 "BG",
@@ -7160,6 +7345,10 @@
         "key": "crossing:markings",
         "type": "combo",
         "label": "{crossing/markings}",
+        "autoSuggestions": false,
+        "default": "yes",
+        "stringsCrossReference": "{crossing/markings}",
+        "iconsCrossReference": "{crossing/markings}",
         "options": [
             "zebra",
             "dots",
@@ -7167,20 +7356,20 @@
             "yes",
             "no"
         ],
-        "autoSuggestions": false,
-        "iconsCrossReference": "{crossing/markings}",
-        "stringsCrossReference": "{crossing/markings}",
         "locationSet": {
             "include": [
                 "PL"
             ]
-        },
-        "default": "yes"
+        }
     },
     "crossing/markings_yes-DE-AT-CH": {
         "key": "crossing:markings",
         "type": "combo",
         "label": "{crossing/markings}",
+        "autoSuggestions": false,
+        "default": "yes",
+        "stringsCrossReference": "{crossing/markings}",
+        "iconsCrossReference": "{crossing/markings}",
         "options": [
             "zebra",
             "yes",
@@ -7189,25 +7378,22 @@
             "dashes",
             "surface"
         ],
-        "autoSuggestions": false,
-        "iconsCrossReference": "{crossing/markings}",
-        "stringsCrossReference": "{crossing/markings}",
         "locationSet": {
             "include": [
                 "DE",
                 "AT",
                 "CH"
             ]
-        },
-        "default": "yes"
+        }
     },
     "crossing/markings_yes-BG": {
         "key": "crossing:markings",
         "type": "combo",
         "label": "{crossing/markings}",
+        "autoSuggestions": false,
+        "default": "yes",
         "stringsCrossReference": "{crossing/markings}",
         "iconsCrossReference": "{crossing/markings}",
-        "default": "yes",
         "options": [
             "zebra",
             "no",
@@ -7219,8 +7405,7 @@
             "include": [
                 "BG"
             ]
-        },
-        "autoSuggestions": false
+        }
     },
     "crossing/markings": {
         "key": "crossing:markings",
@@ -7270,6 +7455,9 @@
         "key": "crossing:markings",
         "type": "combo",
         "label": "{crossing/markings}",
+        "autoSuggestions": false,
+        "stringsCrossReference": "{crossing/markings}",
+        "iconsCrossReference": "{crossing/markings}",
         "options": [
             "zebra",
             "dots",
@@ -7277,9 +7465,6 @@
             "yes",
             "no"
         ],
-        "autoSuggestions": false,
-        "iconsCrossReference": "{crossing/markings}",
-        "stringsCrossReference": "{crossing/markings}",
         "locationSet": {
             "include": [
                 "PL"
@@ -7290,6 +7475,9 @@
         "key": "crossing:markings",
         "type": "combo",
         "label": "{crossing/markings}",
+        "autoSuggestions": false,
+        "stringsCrossReference": "{crossing/markings}",
+        "iconsCrossReference": "{crossing/markings}",
         "options": [
             "zebra",
             "yes",
@@ -7298,9 +7486,6 @@
             "dashes",
             "surface"
         ],
-        "autoSuggestions": false,
-        "iconsCrossReference": "{crossing/markings}",
-        "stringsCrossReference": "{crossing/markings}",
         "locationSet": {
             "include": [
                 "DE",
@@ -7313,6 +7498,7 @@
         "key": "crossing:markings",
         "type": "combo",
         "label": "{crossing/markings}",
+        "autoSuggestions": false,
         "stringsCrossReference": "{crossing/markings}",
         "iconsCrossReference": "{crossing/markings}",
         "options": [
@@ -7326,8 +7512,7 @@
             "include": [
                 "BG"
             ]
-        },
-        "autoSuggestions": false
+        }
     },
     "crossing/light": {
         "key": "crossing:light",
@@ -7401,7 +7586,7 @@
         "minValue": 0,
         "prerequisiteTag": {
             "key": "parking_space",
-            "value": [
+            "values": [
                 "trailer",
                 "hgv",
                 "delivery"

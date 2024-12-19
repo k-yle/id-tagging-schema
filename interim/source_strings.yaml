@@ -249,6 +249,11 @@ en:
         label: Air Conditioning
         # 'terms: cooling system,refrigeration'
         terms: '[translate with synonyms or related terms for ''Air Conditioning'', separated by commas]'
+      alt_name:
+        # alt_name=*
+        label: Alternative Name
+        # 'terms: aka,alias,also known as,nonstandard name,secondary name'
+        terms: '[translate with synonyms or related terms for ''Alternative Name'', separated by commas]'
       amenity:
         # amenity=*
         label: Type
@@ -299,6 +304,16 @@ en:
       area/highway:
         # area:highway=*
         label: Type
+      armrest:
+        # armrest=*
+        label: Armrests
+        options:
+          # armrest=no
+          'no': No armrests
+          # armrest=undefined
+          undefined: Unknown
+          # armrest=yes
+          'yes': One or more armrests
       artist:
         # artist_name=*
         label: Artist
@@ -925,6 +940,30 @@ en:
           fixed: Fixed
           # camera:type=panning
           panning: Panning
+      camp_site:
+        # camp_site=*
+        label: Type
+        options:
+          basic:
+            # description for camp_site=basic
+            description: Nothing but a place to pitch a tent or park a vehicle
+            # title for camp_site=basic
+            title: Basic (only tent/vehicle spots)
+          deluxe:
+            # description for camp_site=deluxe
+            description: Fully serviced and has additional amenities like a laundry, swimming pool or similar recreation facilities
+            # title for camp_site=deluxe
+            title: Deluxe (offers laundry or swimming pool, etc.)
+          serviced:
+            # description for camp_site=serviced
+            description: Toilets, water, showers and electricity are provided
+            # title for camp_site=serviced
+            title: Serviced (offers showers and electricity)
+          standard:
+            # description for camp_site=standard
+            description: Toilets and water are provided or available nearby
+            # title for camp_site=standard
+            title: Standard (offers toilets and water)
       capacity:
         # capacity=*
         label: Capacity
@@ -1097,12 +1136,36 @@ en:
         # communication:=*
         label: Communication Types
         terms: '[translate with synonyms or related terms for ''Communication Types'', separated by commas]'
+      community_centre:
+        # community_centre=*
+        label: Type
+        options:
+          # community_centre=club_home
+          club_home: Club Home
+          # community_centre=community_hall
+          community_hall: Community Hall
+          # community_centre=cultural_centre
+          cultural_centre: Cultural Centre
+          # community_centre=family_centre
+          family_centre: Family Centre
+          # community_centre=parish_hall
+          parish_hall: Parish Hall
+          # community_centre=village_hall
+          village_hall: Village Hall
+          # community_centre=youth_centre
+          youth_centre: Youth Center
       connectivity:
         # connectivity=*
         label: Connectivity
       construction:
         # construction=*
         label: Type
+      construction_start_expected:
+        # construction_start_expected=*
+        label: Expected start date of construction
+        # construction_start_expected field placeholder
+        placeholder: YYYY-MM-DD
+        terms: '[translate with synonyms or related terms for ''Expected start date of construction'', separated by commas]'
       consulate:
         # consulate=*
         label: Type
@@ -3003,7 +3066,7 @@ en:
         terms: '[translate with synonyms or related terms for ''Internet Connection'', separated by commas]'
       internet_access/fee:
         # internet_access:fee=*
-        label: Internet Access
+        label: Internet Access Fee
         options:
           # internet_access:fee=customers
           customers: Customers Only
@@ -3012,7 +3075,7 @@ en:
           # internet_access:fee=yes
           'yes': Paid
         # 'terms: wifi fee'
-        terms: '[translate with synonyms or related terms for ''Internet Access'', separated by commas]'
+        terms: '[translate with synonyms or related terms for ''Internet Access Fee'', separated by commas]'
       internet_access/ssid:
         # internet_access:ssid=*
         label: Wifi Network Name
@@ -3218,6 +3281,11 @@ en:
         label: Lit
         # 'terms: lamp,lighting'
         terms: '[translate with synonyms or related terms for ''Lit'', separated by commas]'
+      loc_name:
+        # loc_name=*
+        label: Local Name
+        # 'terms: colloquial name,common name,informal name,nickname'
+        terms: '[translate with synonyms or related terms for ''Local Name'', separated by commas]'
       local_ref:
         # local_ref=*
         label: Platform Number
@@ -3260,6 +3328,15 @@ en:
       map_type:
         # map_type=*
         label: Type
+        options:
+          # map_type=scheme
+          scheme: Schematic Map
+          # map_type=street
+          street: Road Map
+          # map_type=topo
+          topo: Topographical Map
+          # map_type=toposcope
+          toposcope: Toposcope
       mapillary:
         # mapillary=*
         label: Mapillary Image ID
@@ -3330,8 +3407,8 @@ en:
           metal: Metal
           # material=plastic
           plastic: Plastic
-          # material=reinforced_conrete
-          reinforced_conrete: Reinforced Concrete
+          # material=reinforced_concrete
+          reinforced_concrete: Reinforced Concrete
           # material=rock
           rock: Rock
           # material=sand
@@ -3417,6 +3494,8 @@ en:
           bust: Bust
           # memorial=cross
           cross: Memorial Cross
+          # memorial=ghost_bike
+          ghost_bike: Ghost Bike
           # memorial=obelisk
           obelisk: Obelisk
           # memorial=plaque
@@ -3586,6 +3665,10 @@ en:
         label: Named After (Wikidata)
         # 'terms: label,title'
         terms: '[translate with synonyms or related terms for ''Named After (Wikidata)'', separated by commas]'
+      nat_name:
+        # nat_name=*
+        label: National Name
+        terms: '[translate with synonyms or related terms for ''National Name'', separated by commas]'
       natural:
         # natural=*
         label: Natural
@@ -3767,6 +3850,11 @@ en:
           union: Labor Union Office
           # office=water_utility
           water_utility: Water Utility Office
+      official_name:
+        # official_name=*
+        label: Official Name
+        # 'terms: formal name,full name,legal name'
+        terms: '[translate with synonyms or related terms for ''Official Name'', separated by commas]'
       oneway:
         # oneway=*
         label: One Way
@@ -3879,32 +3967,71 @@ en:
         # parking=*
         label: Type
         options:
-          # parking=carports
-          carports: Carports
-          # parking=garage_boxes
-          garage_boxes: Garage Boxes
-          # parking=half_on_kerb
-          half_on_kerb: Half On Kerb
-          # parking=lane
-          lane: Roadside Lane
-          # parking=layby
-          layby: Turnout / Lay-By
-          # parking=multi-storey
-          multi-storey: Multilevel
-          # parking=on_kerb
-          on_kerb: On Kerb
-          # parking=rooftop
-          rooftop: Rooftop
-          # parking=sheds
-          sheds: Sheds
-          # parking=shoulder
-          shoulder: Shoulder
-          # parking=street_side
-          street_side: Street-Side
-          # parking=surface
-          surface: Surface
-          # parking=underground
-          underground: Underground
+          carports:
+            # description for parking=carports
+            description: Structure used to offer limited protection to vehicles, typically without walls.
+            # title for parking=carports
+            title: Carports
+          garage_boxes:
+            # description for parking=garage_boxes
+            description: Private garage with multiple individual boxes for one car each.
+            # title for parking=garage_boxes
+            title: Garage Boxes
+          half_on_kerb:
+            # description for parking=half_on_kerb
+            description: Parking partially on the sidewalk.
+            # title for parking=half_on_kerb
+            title: Half On Kerb
+          lane:
+            # description for parking=lane
+            description: Parking on the street (which could be easily converted to a travel lane).
+            # title for parking=lane
+            title: Roadside Lane
+          layby:
+            # description for parking=layby
+            description: Parking at a rest area, alongside a road.
+            # title for parking=layby
+            title: Turnout / Lay-By
+          multi-storey:
+            # description for parking=multi-storey
+            description: Two or more levels of parking decks in a building structure.
+            # title for parking=multi-storey
+            title: Multilevel
+          on_kerb:
+            # description for parking=on_kerb
+            description: Parking on the sidewalk.
+            # title for parking=on_kerb
+            title: On Kerb
+          rooftop:
+            # description for parking=rooftop
+            description: One level of a parking deck on top of a building.
+            # title for parking=rooftop
+            title: Rooftop
+          sheds:
+            # description for parking=sheds
+            description: Private hangars for vehicles.
+            # title for parking=sheds
+            title: Sheds
+          shoulder:
+            # description for parking=shoulder
+            description: Parking on the shoulder.
+            # title for parking=shoulder
+            title: Shoulder
+          street_side:
+            # description for parking=street_side
+            description: Parking directly adjacent to the street (but not on it).
+            # title for parking=street_side
+            title: Street-Side
+          surface:
+            # description for parking=surface
+            description: One level of parking on the ground.
+            # title for parking=surface
+            title: Surface
+          underground:
+            # description for parking=underground
+            description: Underground parking.
+            # title for parking=underground
+            title: Underground
       parking/both/restriction:
         # parking:both:restriction=*
         label: Type
@@ -4198,6 +4325,8 @@ en:
           nordic: Nordic
           # piste:type=playground
           playground: Playground
+          # piste:type=ski_jump
+          ski_jump: Ski Jump
           # piste:type=skitour
           skitour: Skitour
           # piste:type=sled
@@ -4358,6 +4487,20 @@ en:
           semaphore: Semaphore
           # railway:signal:form=sign
           sign: Sign
+      railway/signal/position:
+        # railway:signal:position=*
+        label: Type
+        options:
+          # railway:signal:position=bridge
+          bridge: Overhead (signal gantry)
+          # railway:signal:position=in_track
+          in_track: In the track
+          # railway:signal:position=left
+          left: Left
+          # railway:signal:position=overhead
+          overhead: Overhead (catenary)
+          # railway:signal:position=right
+          right: Right
       railway/switch:
         # railway:switch=*
         label: Switch Type
@@ -4524,6 +4667,10 @@ en:
         label: Taxiway Name
         # ref_taxiway field placeholder
         placeholder: e.g. A5
+      reg_name:
+        # reg_name=*
+        label: Regional Name
+        terms: '[translate with synonyms or related terms for ''Regional Name'', separated by commas]'
       relation:
         # type=*
         label: Type
@@ -4623,43 +4770,43 @@ en:
       restrictions:
         label: Turn Restrictions
       roller_coaster/track:
-        # roller_coaster=*
+        # roller_coaster:track=*
         label: Type
         options:
           brake_run:
-            # description for roller_coaster=brake_run
+            # description for roller_coaster:track=brake_run
             description: A section of track meant to slow or stop trains
-            # title for roller_coaster=brake_run
+            # title for roller_coaster:track=brake_run
             title: Brake Run
           launch_straight:
-            # description for roller_coaster=launch_straight
+            # description for roller_coaster:track=launch_straight
             description: A section of track meant to accelerate the trains through external input
-            # title for roller_coaster=launch_straight
+            # title for roller_coaster:track=launch_straight
             title: Launch Track
           lift_hill:
-            # description for roller_coaster=lift_hill
+            # description for roller_coaster:track=lift_hill
             description: An inclined track meant to give the trains potential energy
-            # title for roller_coaster=lift_hill
+            # title for roller_coaster:track=lift_hill
             title: Lift Hill
           maintenance:
-            # description for roller_coaster=maintenance
+            # description for roller_coaster:track=maintenance
             description: Tracks meant to hold spare trains or conduct maintenance
-            # title for roller_coaster=maintenance
+            # title for roller_coaster:track=maintenance
             title: Maintenance
           moving:
-            # description for roller_coaster=moving
+            # description for roller_coaster:track=moving
             description: Any type of moving track, like switch tracks
-            # title for roller_coaster=moving
+            # title for roller_coaster:track=moving
             title: Moving
           station:
-            # description for roller_coaster=station
+            # description for roller_coaster:track=station
             description: A section of track where a train stops to board and unboard passengers
-            # title for roller_coaster=station
+            # title for roller_coaster:track=station
             title: Station
           waiting:
-            # description for roller_coaster=waiting
+            # description for roller_coaster:track=waiting
             description: Tracks used to hold trains if the next block section is occupied
-            # title for roller_coaster=waiting
+            # title for roller_coaster:track=waiting
             title: Waiting
       roof/colour:
         # roof:colour=*
@@ -4730,6 +4877,8 @@ en:
           hiking: 'T1: Hiking'
           # sac_scale=mountain_hiking
           mountain_hiking: 'T2: Mountain Hiking'
+          # sac_scale=strolling
+          strolling: Strolling
         # sac_scale field placeholder
         placeholder: Mountain Hiking, Alpine Hiking...
         terms: '[translate with synonyms or related terms for ''Hiking Difficulty'', separated by commas]'
@@ -6056,6 +6205,116 @@ en:
       seamark/rock/water_level:
         # seamark:rock:water_level=*
         label: Water Level
+      seamark/sea_area/category:
+        # seamark:sea_area:category=*
+        label: Type
+        options:
+          # seamark:sea_area:category=abyssal_hills
+          abyssal_hills: Abyssal hills
+          # seamark:sea_area:category=abyssal_plain
+          abyssal_plain: Abyssal plain
+          # seamark:sea_area:category=apron
+          apron: Apron
+          # seamark:sea_area:category=archipelagic_apron
+          archipelagic_apron: Archipelagic apron
+          # seamark:sea_area:category=bank
+          bank: Bank
+          # seamark:sea_area:category=basin
+          basin: Basin
+          # seamark:sea_area:category=bay
+          bay: Bay
+          # seamark:sea_area:category=borderland
+          borderland: Borderland
+          # seamark:sea_area:category=canal
+          canal: Canal
+          # seamark:sea_area:category=canyon
+          canyon: Canyon
+          # seamark:sea_area:category=continental_margin
+          continental_margin: Continental margin
+          # seamark:sea_area:category=continental_rise
+          continental_rise: Continental rise
+          # seamark:sea_area:category=deep
+          deep: Deep
+          # seamark:sea_area:category=escarpment
+          escarpment: Escarpment
+          # seamark:sea_area:category=fan
+          fan: Fan
+          # seamark:sea_area:category=flat
+          flat: Flat
+          # seamark:sea_area:category=fracture_zone
+          fracture_zone: Fracture zone
+          # seamark:sea_area:category=gap
+          gap: Gap
+          # seamark:sea_area:category=gat
+          gat: Gat
+          # seamark:sea_area:category=guyot
+          guyot: Guyot
+          # seamark:sea_area:category=hill
+          hill: Hill
+          # seamark:sea_area:category=hole
+          hole: Hole
+          # seamark:sea_area:category=knoll
+          knoll: Knoll
+          # seamark:sea_area:category=lake
+          lake: Lake
+          # seamark:sea_area:category=ledge
+          ledge: Ledge
+          # seamark:sea_area:category=levee
+          levee: Levee
+          # seamark:sea_area:category=median_valley
+          median_valley: Median valley
+          # seamark:sea_area:category=moat
+          moat: Moat
+          # seamark:sea_area:category=mountains
+          mountains: Mountains
+          # seamark:sea_area:category=narrows
+          narrows: Narrowa
+          # seamark:sea_area:category=peak
+          peak: Peak
+          # seamark:sea_area:category=pinnacle
+          pinnacle: Pinnacle
+          # seamark:sea_area:category=plateau
+          plateau: Plateau
+          # seamark:sea_area:category=province
+          province: Province
+          # seamark:sea_area:category=reach
+          reach: Reach
+          # seamark:sea_area:category=reef
+          reef: Reef
+          # seamark:sea_area:category=ridge
+          ridge: Ridge
+          # seamark:sea_area:category=rise
+          rise: Rise
+          # seamark:sea_area:category=river
+          river: River
+          # seamark:sea_area:category=saddle
+          saddle: Saddle
+          # seamark:sea_area:category=sea_channel
+          sea_channel: Sea channel
+          # seamark:sea_area:category=seamount
+          seamount: Seamount
+          # seamark:sea_area:category=seamount_chain
+          seamount_chain: Seamount chain
+          # seamark:sea_area:category=shelf
+          shelf: Shelf
+          # seamark:sea_area:category=shelf-edge
+          shelf-edge: Shelf-edge
+          # seamark:sea_area:category=shoal
+          shoal: Shoal
+          # seamark:sea_area:category=sill
+          sill: Sill
+          # seamark:sea_area:category=slope
+          slope: Slope
+          # seamark:sea_area:category=spur
+          spur: Spur
+          # seamark:sea_area:category=terrace
+          terrace: Terrace
+          # seamark:sea_area:category=trench
+          trench: Trench
+          # seamark:sea_area:category=trough
+          trough: Trough
+          # seamark:sea_area:category=valley
+          valley: Valley
       seamark/seaplane_landing_area/restriction:
         # seamark:fairway:restriction=*
         label: Restriction
@@ -6262,6 +6521,7 @@ en:
       segregated:
         # segregated=*
         label: Bicycle-Pedestrian Separation
+        terms: '[translate with synonyms or related terms for ''Bicycle-Pedestrian Separation'', separated by commas]'
       self_service:
         # self_service=*
         label: Self-Service
@@ -6328,6 +6588,11 @@ en:
       shop:
         # shop=*
         label: Type
+      short_name:
+        # short_name=*
+        label: Short Name
+        # 'terms: abbreviation,acronym,initialism'
+        terms: '[translate with synonyms or related terms for ''Short Name'', separated by commas]'
       shower:
         # shower=*
         label: Showers
@@ -6626,6 +6891,8 @@ en:
           shooting: Shooting
           # sport=skateboard
           skateboard: Skateboard
+          # sport=ski_jumping
+          ski_jumping: Ski Jumping
           # sport=skiing
           skiing: Skiing
           # sport=soccer
@@ -6835,16 +7102,24 @@ en:
           artificial_turf: Artificial Turf
           # surface=asphalt
           asphalt: Asphalt
+          # surface=clay
+          clay: Clay
           # surface=compacted
           compacted: Compacted
           # surface=concrete
           concrete: Concrete
+          #lanes': surface=concrete:lanes
+          concrete:lanes: Concrete Lanes
+          #plates': surface=concrete:plates
+          concrete:plates: Concrete Plates
           # surface=dirt
           dirt: Dirt
           # surface=fine_gravel
           fine_gravel: Fine Gravel
           # surface=grass
           grass: Grass
+          # surface=grass_paver
+          grass_paver: Grass Paver
           # surface=gravel
           gravel: Gravel
           # surface=ground
@@ -6857,12 +7132,16 @@ en:
           paved: Paved
           # surface=paving_stones
           paving_stones: Paving Stones
+          # surface=pebblestone
+          pebblestone: Pebblestone
           # surface=salt
           salt: Salt
           # surface=sand
           sand: Sand
           # surface=sett
           sett: Sett
+          # surface=tartan
+          tartan: Tartan
           # surface=unhewn_cobblestone
           unhewn_cobblestone: Cobblestone (uncut, rounded stones)
           # surface=unpaved
@@ -7047,6 +7326,14 @@ en:
           optical: Optical Telescope
           # telescope:type=radio
           radio: Radio Telescope
+      temperature:
+        # temperature=*
+        label: Temperature
+        options:
+          # temperature=cold
+          cold: Cold
+          # temperature=hot
+          hot: Hot
       tents:
         # tents=*
         label: Tents
@@ -7438,6 +7725,8 @@ en:
           condoms: Condoms
           # vending=drinks
           drinks: Drinks
+          # vending=e-cigarettes
+          e-cigarettes: E-Cigarettes
           # vending=eggs
           eggs: Eggs
           # vending=electronics
@@ -7695,10 +7984,22 @@ en:
     presets:
       '@templates/contact':
         # '@template=contact | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key). | Local preset for countries "999"'
+      '@templates/crossing/bicycle_more':
+        # '@template=crossing/bicycle_more | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key). | Local preset for countries "999"'
+      '@templates/crossing/defaults':
+        # '@template=crossing/defaults | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key). | Local preset for countries "999"'
+      '@templates/crossing/geometry_way_more':
+        # '@template=crossing/geometry_way_more | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key). | Local preset for countries "999"'
       '@templates/crossing/markings':
         # '@template=crossing/markings | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key). | Local preset for countries "999"'
       '@templates/crossing/markings_yes':
         # '@template=crossing/markings_yes | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key). | Local preset for countries "999"'
+      '@templates/crossing/surfacequality':
+        # '@template=crossing/surfacequality | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key). | Local preset for countries "999"'
+      '@templates/crossing/traffic_signal':
+        # '@template=crossing/traffic_signal | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key). | Local preset for countries "999"'
+      '@templates/crossing/traffic_signal_more':
+        # '@template=crossing/traffic_signal_more | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key). | Local preset for countries "999"'
       '@templates/internet_access':
         # '@template=internet_access | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key). | Local preset for countries "999"'
       '@templates/poi':
@@ -7965,7 +8266,7 @@ en:
       amenity/bicycle_repair_station:
         # amenity=bicycle_repair_station | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Bicycle Repair Tool Stand
-        # 'terms: bike chain,bike multitool,bike repair,bike tools,cycle pump,cycle repair,cycling'
+        # 'terms: bike chain,bike multitool,bike repair,bike tools,cycle pump,cycle repair,cycling,compressed air'
         terms: <translate with synonyms or related terms for 'Bicycle Repair Tool Stand', separated by commas>
       amenity/bicycle_wash:
         # amenity=bicycle_wash | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -7985,6 +8286,7 @@ en:
       amenity/boat_rental:
         # amenity=boat_rental | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Boat Rental
+        # 'terms: boat hire'
         terms: <translate with synonyms or related terms for 'Boat Rental', separated by commas>
       amenity/boat_storage:
         # amenity=boat_storage | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -8091,11 +8393,38 @@ en:
         name: Community Center
         # 'terms: event,hall'
         terms: <translate with synonyms or related terms for 'Community Center', separated by commas>
+      amenity/community_centre/club_home:
+        # amenity=community_centre + community_centre=club_home | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Club Home
+        terms: <translate with synonyms or related terms for 'Club Home', separated by commas>
+      amenity/community_centre/community_hall:
+        # amenity=community_centre + community_centre=community_hall | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Community Hall
+        # 'terms: community center'
+        terms: <translate with synonyms or related terms for 'Community Hall', separated by commas>
+      amenity/community_centre/cultural_centre:
+        # amenity=community_centre + community_centre=cultural_centre | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Cultural Centre
+        terms: <translate with synonyms or related terms for 'Cultural Centre', separated by commas>
+      amenity/community_centre/family_centre:
+        # amenity=community_centre + community_centre=family_centre | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Family Centre
+        terms: <translate with synonyms or related terms for 'Family Centre', separated by commas>
       amenity/community_centre/lgbtq:
         # amenity=community_centre + lgbtq=primary | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: LGBTQ+ Community Center
         # 'terms: lgbtq event,lgbtq hall,lgbt event,lgbt hall,lgb event,lgb hall'
         terms: <translate with synonyms or related terms for 'LGBTQ+ Community Center', separated by commas>
+      amenity/community_centre/parish_hall:
+        # amenity=community_centre + community_centre=parish_hall | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Parish Hall
+        # 'terms: parish center'
+        terms: <translate with synonyms or related terms for 'Parish Hall', separated by commas>
+      amenity/community_centre/village_hall:
+        # amenity=community_centre + community_centre=village_hall | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Village Hall
+        # 'terms: village community center'
+        terms: <translate with synonyms or related terms for 'Village Hall', separated by commas>
       amenity/community_centre/youth_centre:
         # amenity=community_centre + community_centre=youth_centre | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Youth Center
@@ -8345,6 +8674,11 @@ en:
         name: Chicken Fast Food
         # 'terms: breakfast,canteen,dine,dining,dinner,drive-in,eat,grill,lunch,table'
         terms: <translate with synonyms or related terms for 'Chicken Fast Food', separated by commas>
+      amenity/fast_food/chinese:
+        # amenity=fast_food + cuisine=chinese | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Chinese Fast Food
+        # 'terms: dim sum'
+        terms: <translate with synonyms or related terms for 'Chinese Fast Food', separated by commas>
       amenity/fast_food/donut:
         # amenity=fast_food + cuisine=donut | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Donut Fast Food
@@ -8556,6 +8890,7 @@ en:
       amenity/motorcycle_parking:
         # amenity=motorcycle_parking | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Motorcycle Parking
+        # 'terms: motorbike parking'
         terms: <translate with synonyms or related terms for 'Motorcycle Parking', separated by commas>
       amenity/motorcycle_rental:
         # amenity=motorcycle_rental | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -8774,7 +9109,7 @@ en:
       amenity/public_bookcase:
         # amenity=public_bookcase | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Public Bookcase
-        # 'terms: book sharing,bookcrossing,library,share a book,sharing books'
+        # 'terms: bookcrossing,book exchange shelf,book sharing,book swap,library,little free library,share a book,sharing books'
         terms: <translate with synonyms or related terms for 'Public Bookcase', separated by commas>
       amenity/ranger_station:
         # amenity=ranger_station | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -8837,7 +9172,7 @@ en:
       amenity/restaurant/chinese:
         # amenity=restaurant + cuisine=chinese | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Chinese Restaurant
-        # 'terms: bar,breakfast,cafe,café,canteen,dine,dining,dinner,drive-in,eat,grill,lunch,table'
+        # 'terms: bar,breakfast,cafe,café,canteen,dim sum,dine,dining,dinner,drive-in,eat,grill,lunch,table'
         terms: <translate with synonyms or related terms for 'Chinese Restaurant', separated by commas>
       amenity/restaurant/french:
         # amenity=restaurant + cuisine=french | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -9052,6 +9387,11 @@ en:
         name: Film Studio
         # 'terms: movie production,movie studio,video production,video recording,video studio'
         terms: <translate with synonyms or related terms for 'Film Studio', separated by commas>
+      amenity/swingerclub:
+        # amenity=swingerclub | Sex Club | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Swinger Club
+        # 'terms: adult*,lifestyle club,porn*,sex,strip*,swinger*'
+        terms: <translate with synonyms or related terms for 'Swinger Club', separated by commas>
       amenity/taxi:
         # amenity=taxi | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Taxi Stand
@@ -9075,7 +9415,7 @@ en:
       amenity/telephone:
         # amenity=telephone | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Telephone
-        # 'terms: phone'
+        # 'terms: payphone,pay phone,phone booth,phone'
         terms: <translate with synonyms or related terms for 'Telephone', separated by commas>
       amenity/theatre:
         # amenity=theatre | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -9084,9 +9424,9 @@ en:
         terms: <translate with synonyms or related terms for 'Theater', separated by commas>
       amenity/theatre/type/amphi:
         # amenity=theatre + theatre:type=amphi | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
-        name: Amphitheatre
+        name: Amphitheater
         # 'terms: open air,outdoor,greek,ampi'
-        terms: <translate with synonyms or related terms for 'Amphitheatre', separated by commas>
+        terms: <translate with synonyms or related terms for 'Amphitheater', separated by commas>
       amenity/ticket_validator:
         # amenity=ticket_validator | Ticket Puncher, Punching Machine, Ticket Marker | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Ticket Validator
@@ -9522,7 +9862,7 @@ en:
       barrier/height_restrictor:
         # barrier=height_restrictor | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Height Restrictor
-        # 'terms: height barrier,height restriction barrier,maxheight,maximum height measurer'
+        # 'terms: height barrier,height restriction barrier,maxheight,max height,maximum height measurer'
         terms: <translate with synonyms or related terms for 'Height Restrictor', separated by commas>
       barrier/jersey_barrier:
         # barrier=jersey_barrier | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -9570,6 +9910,7 @@ en:
       barrier/motorcycle_barrier:
         # barrier=motorcycle_barrier | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Motorcycle Barrier
+        # 'terms: motorbike barrier'
         terms: <translate with synonyms or related terms for 'Motorcycle Barrier', separated by commas>
       barrier/planter:
         # barrier=planter + man_made=planter | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -10305,7 +10646,7 @@ en:
       emergency/life_ring:
         # emergency=life_ring | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Life Ring
-        # 'terms: life buoy,kisby ring,kisbie ring,perry buoy'
+        # 'terms: lifering,life buoy,kisby ring,kisbie ring,perry buoy'
         terms: <translate with synonyms or related terms for 'Life Ring', separated by commas>
       emergency/lifeboat_station:
         # emergency=water_rescue | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -10331,6 +10672,7 @@ en:
       emergency/phone:
         # emergency=phone | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Emergency Phone
+        # 'terms: sos,help,call point'
         terms: <translate with synonyms or related terms for 'Emergency Phone', separated by commas>
       emergency/private:
         # emergency=private | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -10378,6 +10720,11 @@ en:
         name: Main Entrance
         # 'terms: door'
         terms: <translate with synonyms or related terms for 'Main Entrance', separated by commas>
+      entrance/shop:
+        # entrance=shop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Shop Entrance
+        # 'terms: door'
+        terms: <translate with synonyms or related terms for 'Shop Entrance', separated by commas>
       entrance/staircase:
         # entrance=staircase | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Staircase Entrance
@@ -10556,7 +10903,7 @@ en:
       healthcare/sample_collection:
         # healthcare=sample_collection | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Sample Collection Facility
-        # 'terms: blood sample collection,urine sample collection'
+        # 'terms: blood sample collection,laboratory,medical,urine sample collection'
         terms: <translate with synonyms or related terms for 'Sample Collection Facility', separated by commas>
       healthcare/speech_therapist:
         # healthcare=speech_therapist | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -10806,6 +11153,20 @@ en:
         name: Boardwalk
         # 'terms: pier,plank walkway,wooden raised foot path'
         terms: <translate with synonyms or related terms for 'Boardwalk', separated by commas>
+      highway/path/crossing:
+        # path=crossing | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Cycle & Foot Crossing
+      highway/path/crossing/marked:
+        # highway=path + path=crossing + crossing=marked | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+      highway/path/crossing/traffic_signals:
+        # highway=path + path=crossing + crossing=traffic_signals | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Cycle & Foot Crossing With Pedestrian Signals
+      highway/path/crossing/uncontrolled:
+        # highway=path + path=crossing + crossing=uncontrolled | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Marked Cycle & Foot Crossing
+      highway/path/crossing/unmarked:
+        # highway=path + path=crossing + crossing=unmarked | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Unmarked Cycle & Foot Crossing
       highway/path/informal:
         # highway=path + informal=yes | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Informal Path
@@ -11196,7 +11557,7 @@ en:
       landuse/aquaculture:
         # landuse=aquaculture | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Aquaculture
-        # 'terms: fish farm,crustacean,algae,aquafarming,shrimp farm,oyster farm,mariculture,algaculture'
+        # 'terms: fish farm,marine farm,crustacean,algae,aquafarming,shrimp farm,oyster farm,mussel farm,mariculture,algaculture'
         terms: <translate with synonyms or related terms for 'Aquaculture', separated by commas>
       landuse/basin:
         # landuse=basin | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -11311,6 +11672,16 @@ en:
         name: Meadow
         # 'terms: grazing,hay field,pasture'
         terms: <translate with synonyms or related terms for 'Meadow', separated by commas>
+      landuse/meadow_orchard/meadow:
+        # landuse=meadow + meadow=meadow_orchard | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key). | Local preset for countries "Q46"
+        name: Meadow With Fruit Trees
+        # 'terms: fruit,maedow'
+        terms: <translate with synonyms or related terms for 'Meadow With Fruit Trees', separated by commas>
+      landuse/meadow_orchard/orchard:
+        # landuse=orchard + orchard=meadow_orchard | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key). | Local preset for countries "Q46"
+        name: Orchard Planted in a Meadow
+        # 'terms: fruit,maedow'
+        terms: <translate with synonyms or related terms for 'Orchard Planted in a Meadow', separated by commas>
       landuse/military:
         # landuse=military | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Military Area
@@ -11450,6 +11821,11 @@ en:
         # leisure=bandstand | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Bandstand
         terms: <translate with synonyms or related terms for 'Bandstand', separated by commas>
+      leisure/bathing_place:
+        # leisure=bathing_place | Bathing Spot, Dip Spot, Dipping Spot, Swim Spot, Swimming Spot, Wild Swimming Spot | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Bathing Place
+        # 'terms: bathing,dipping,swimming,swimming hole,ladder,pier,water'
+        terms: <translate with synonyms or related terms for 'Bathing Place', separated by commas>
       leisure/beach_resort:
         # leisure=beach_resort | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Beach Resort
@@ -11953,6 +12329,11 @@ en:
         name: Horse Race Course
         # 'terms: equestrian race course,gallop,horse race betting,horse race,horse racing,horseracing,race course,racecourse'
         terms: <translate with synonyms or related terms for 'Horse Race Course', separated by commas>
+      leisure/sports_centre/karting:
+        # leisure=sports_centre + sport=karting | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Go Kart Facility
+        # 'terms: go cart,karting,kart racing'
+        terms: <translate with synonyms or related terms for 'Go Kart Facility', separated by commas>
       leisure/sports_centre/shooting:
         # leisure=sports_centre + sport=shooting | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Shooting Range Facility
@@ -12164,6 +12545,11 @@ en:
         # man_made=flagpole | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Flagpole
         terms: <translate with synonyms or related terms for 'Flagpole', separated by commas>
+      man_made/flare:
+        # man_made=flare | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Gas Flare
+        # 'terms: flare stack,gas,oil,fire,burn'
+        terms: <translate with synonyms or related terms for 'Gas Flare', separated by commas>
       man_made/footwear_decontamination-AU-NZ:
         # man_made=footwear_decontamination | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key). | Local preset for countries "AU", "NZ"
         name: Footwear Decontamination Station
@@ -12280,7 +12666,7 @@ en:
       man_made/monitoring_station:
         # man_made=monitoring_station | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Monitoring Station
-        # 'terms: weather,earthquake,seismology,air,gps'
+        # 'terms: weather,earthquake,seismology,air,gps,traffic counter,bicycle counter,bike counter,water level,measurement station'
         terms: <translate with synonyms or related terms for 'Monitoring Station', separated by commas>
       man_made/obelisk:
         # man_made=obelisk | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -12344,10 +12730,15 @@ en:
         name: Silo
         # 'terms: grain,corn,wheat'
         terms: <translate with synonyms or related terms for 'Silo', separated by commas>
+      man_made/ski_jump:
+        # man_made=ski_jump | Ski Jumping Hill Structure, Ski Jumping Hill In-Run Tower | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Ski Jumping Tower
+        # 'terms: jump,ski jump,in-run,inrun,ski jump structure,ski jump in-run tower,ski jumping hill tower'
+        terms: <translate with synonyms or related terms for 'Ski Jumping Tower', separated by commas>
       man_made/storage_tank:
         # man_made=storage_tank | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Storage Tank
-        # 'terms: water,oil,gas,petrol'
+        # 'terms: water,oil,gas,fuel,petrol'
         terms: <translate with synonyms or related terms for 'Storage Tank', separated by commas>
       man_made/storage_tank/water:
         # man_made=storage_tank + content=water | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -12506,7 +12897,7 @@ en:
       man_made/watermill:
         # man_made=watermill | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Watermill
-        # 'terms: water,wheel,mill'
+        # 'terms: waterwheel,water wheel,water,wheel,mill'
         terms: <translate with synonyms or related terms for 'Watermill', separated by commas>
       man_made/windmill:
         # man_made=windmill | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -12574,6 +12965,11 @@ en:
       natural:
         # natural=* | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Natural Feature
+      natural/arch:
+        # natural=arch | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Natural Arch
+        # 'terms: natural bridge,rock arch'
+        terms: <translate with synonyms or related terms for 'Natural Arch', separated by commas>
       natural/bare_rock:
         # natural=bare_rock | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Bare Rock
@@ -13153,6 +13549,11 @@ en:
         name: Therapist Office
         # 'terms: therapy'
         terms: <translate with synonyms or related terms for 'Therapist Office', separated by commas>
+      office/translator:
+        # office=translator | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Translation Office
+        # 'terms: translator,translation,translation agency'
+        terms: <translate with synonyms or related terms for 'Translation Office', separated by commas>
       office/travel_agent:
         # office=travel_agent | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Travel Agency
@@ -13208,9 +13609,12 @@ en:
         terms: <translate with synonyms or related terms for 'Cross-Country Ski Trail', separated by commas>
       piste/piste:
         # piste:type=* | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
-        name: Snowsports Trail / Piste
-        # 'terms: ski,nordic,crosscountry,downhill,alpine,snowboard,skitour,ski touring,sled,luge,sleigh,sledge,ski-joring,husky,horse,winter hiking,snowshoe,snowshoeing,ice,skating'
-        terms: <translate with synonyms or related terms for 'Snowsports Trail / Piste', separated by commas>
+        name: Snowsports Trail / Piste (Unspecified Type)
+      piste/ski_jump:
+        # piste:type=ski_jump | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Ski Jumping Piste
+        # 'terms: jump,ski jump,ski jumping hill'
+        terms: <translate with synonyms or related terms for 'Ski Jumping Piste', separated by commas>
       piste/skitour:
         # piste:type=skitour | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Ski Touring Trail
@@ -13226,6 +13630,11 @@ en:
         name: Sleigh Trail
         # 'terms: dogsledding,husky,horse,piste,sled,sledge,ski-joring,skijoring'
         terms: <translate with synonyms or related terms for 'Sleigh Trail', separated by commas>
+      piste/take_off:
+        # piste:takeoff=yes | Ski Jumping Hill Take-Off, Ski Jumping Hill Table | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Ski Jumping Take-Off
+        # 'terms: jump,ski jump,take-off,takeoff,ski jump take-off,ski jump table,ski jumping hill in-run table'
+        terms: <translate with synonyms or related terms for 'Ski Jumping Take-Off', separated by commas>
       place:
         # place=* | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Place
@@ -13642,7 +14051,7 @@ en:
       public_transport/platform/train:
         # public_transport=platform + train=yes | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Train Platform
-        # 'terms: platform,public transit,public transportation,rail,track,train,transit,transportation'
+        # 'terms: platform,public transit,public transportation,rail,railway platform,track,train,transit,transportation'
         terms: <translate with synonyms or related terms for 'Train Platform', separated by commas>
       public_transport/platform/train_point:
         # public_transport=platform + train=yes | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -13823,7 +14232,7 @@ en:
       railway/hirail_access:
         # railway=hirail_access | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Hi-Rail Vehicle Access Point
-        # 'terms: hirail access,hi-rail access,hirail boarding,road-rail,road rail,boarding,network access,maintenance access'
+        # 'terms: hirail access,hi-rail access,hirail boarding,rail access,road-rail,road rail,boarding,network access,maintenance access,take off point,take-off point,takeoff point'
         terms: <translate with synonyms or related terms for 'Hi-Rail Vehicle Access Point', separated by commas>
       railway/level_crossing:
         # railway=level_crossing | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -14171,6 +14580,11 @@ en:
       seamark/rock:
         # seamark:type=rock | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Submarine Rock
+      seamark/sea_area:
+        # seamark:type=sea_area | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Sub-sea area
+        # 'terms: submarine,subsea,sea area,underwater'
+        terms: <translate with synonyms or related terms for 'Sub-sea area', separated by commas>
       seamark/seaplane_landing_area:
         # seamark:type=seaplane_landing_area | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Seaplane Landing Area
@@ -14648,16 +15062,25 @@ en:
         name: Gift Shop
         # 'terms: tourist trap'
         terms: <translate with synonyms or related terms for 'Gift Shop', separated by commas>
+      shop/gold_buyer:
+        # shop=gold_buyer | Gold trader | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Gold buyer
+        terms: <translate with synonyms or related terms for 'Gold buyer', separated by commas>
       shop/greengrocer:
         # shop=greengrocer | Produce Store, Produce Shop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Greengrocer
         # 'terms: fruit,produce,vegetable'
         terms: <translate with synonyms or related terms for 'Greengrocer', separated by commas>
       shop/hairdresser:
-        # shop=hairdresser | Hair Salon, Barber Shop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        # shop=hairdresser | Hair Salon, Hair Stylist | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Hairdresser
-        # 'terms: beard'
+        # 'terms: haircut'
         terms: <translate with synonyms or related terms for 'Hairdresser', separated by commas>
+      shop/hairdresser/barber:
+        # shop=hairdresser + hairdresser=barber | Barber's, Barber Shop, Barbershop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Barber
+        # 'terms: beard,moustache,shave,shaving,groom,grooming,razor,hairdresser,hair cut'
+        terms: <translate with synonyms or related terms for 'Barber', separated by commas>
       shop/hairdresser_supply:
         # shop=hairdresser_supply | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Hairdresser Supply Store
@@ -14790,12 +15213,12 @@ en:
       shop/motorcycle:
         # shop=motorcycle | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Motorcycle Dealership
-        # 'terms: bike'
+        # 'terms: bike,motorbike'
         terms: <translate with synonyms or related terms for 'Motorcycle Dealership', separated by commas>
       shop/motorcycle_repair:
         # shop=motorcycle_repair | Motorcycle Repair Workshop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Motorcycle Repair Shop
-        # 'terms: auto,bike,garage,motorcycle,repair,service'
+        # 'terms: auto,bike,garage,motorcycle,motorbike,repair,service'
         terms: <translate with synonyms or related terms for 'Motorcycle Repair Shop', separated by commas>
       shop/music:
         # shop=music | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -14853,7 +15276,7 @@ en:
       shop/pastry:
         # shop=pastry | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Pastry Shop
-        # 'terms: patisserie,cake shop,cakery'
+        # 'terms: patisserie,cake shop,cakery,cookies'
         terms: <translate with synonyms or related terms for 'Pastry Shop', separated by commas>
       shop/pawnbroker:
         # shop=pawnbroker | Pawnbroker, Pawn Shop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -15285,6 +15708,7 @@ en:
       tourism/theme_park:
         # tourism=theme_park | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Theme Park
+        # 'terms: amusement park,fun park'
         terms: <translate with synonyms or related terms for 'Theme Park', separated by commas>
       tourism/trail_riding_station:
         # tourism=trail_riding_station | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -15293,6 +15717,7 @@ en:
       tourism/viewpoint:
         # tourism=viewpoint | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Viewpoint
+        # 'terms: lookout'
         terms: <translate with synonyms or related terms for 'Viewpoint', separated by commas>
       tourism/wilderness_hut:
         # tourism=wilderness_hut | Backcountry Hut, Backcountry Shelter, Bothy | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -15563,6 +15988,10 @@ en:
         # type=site | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Site
         terms: <translate with synonyms or related terms for 'Site', separated by commas>
+      type/site/traffic_signals:
+        # type=site + site=traffic_signals | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Traffic Signals Site
+        terms: <translate with synonyms or related terms for 'Traffic Signals Site', separated by commas>
       type/waterway:
         # type=waterway | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Waterway

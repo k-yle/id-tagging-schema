@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@openstreetmap/id-tagging-schema",
-  "version": "6.7.1",
+  "version": "6.8.1",
   "description": "The OpenStreetMap tagging model used by the iD editor",
   "homepage": "https://github.com/openstreetmap/id-tagging-schema#readme",
   "bugs": "https://github.com/openstreetmap/id-tagging-schema/issues",
@@ -12,7 +12,7 @@
   "license": "ISC",
   "main": "build.js",
   "scripts": {
-    "lint": "prettier --check data",
+    "lint": "prettier --check 'data/**/!(*.md)'",
     "lint:fix": "prettier --write data",
     "build": "node scripts/build.js",
     "dist": "node scripts/dist.js",
@@ -20,7 +20,7 @@
     "translations": "node scripts/translations.js"
   },
   "devDependencies": {
-    "@ideditor/schema-builder": "k-yle/schema-builder#multiple-prerequisiteTag",
+    "@ideditor/schema-builder": "github:k-yle/schema-builder#kyle-deploy",
     "prettier": "^3.2.5"
   }
 }

@@ -103,8 +103,8 @@
     "replace": {"amenity": "charging_station"}
   },
   {
-     "old": {"amenity": "charging_station", "car": "*"},
-     "replace": {"amenity": "charging_station", "motorcar": "$1"}
+    "old": {"amenity": "charging_station", "car": "*"},
+    "replace": {"amenity": "charging_station", "motorcar": "$1"}
   },
   {
     "old": {"amenity": "fire_hydrant"},
@@ -574,7 +574,7 @@
     "replace": {"direction": "W"}
   },
   {
-    "old": {"disabled_spaces":"*"},
+    "old": {"disabled_spaces": "*"},
     "replace": {"capacity:disabled": "$1"}
   },
   {
@@ -714,6 +714,10 @@
     "replace": {"sidewalk": "both"}
   },
   {
+    "old": {"sidewalk": "none"},
+    "replace": {"sidewalk": "no"}
+  },
+  {
     "old": {"footway": "crossing", "highway": "cycleway"},
     "replace": {"cycleway": "crossing", "highway": "cycleway"}
   },
@@ -830,8 +834,8 @@
     "replace": {"highway": "road", "surface": "unpaved"}
   },
   {
-     "old": {"historic": "archaeological_site", "site_type": "*"},
-     "replace": {"historic": "archaeological_site", "archaeological_site": "$1"}
+    "old": {"historic": "archaeological_site", "site_type": "*"},
+    "replace": {"historic": "archaeological_site", "archaeological_site": "$1"}
   },
   {
     "old": {"industrial": "gas"},
@@ -877,11 +881,11 @@
     "old": {"internet_access": "wifi"},
     "replace": {"internet_access": "wlan"}
   },
-{
+  {
     "old": {"internet_access": "wi-fi"},
     "replace": {"internet_access": "wlan"}
   },
-{
+  {
     "old": {"internet_access": "WLAN"},
     "replace": {"internet_access": "wlan"}
   },
@@ -990,12 +994,12 @@
     "replace": {"natural": "water", "water": "reservoir"}
   },
   {
-     "old": {"landuse": "reservoir", "reservoir_type": "tailings", "natural": "water", "water": "reservoir"},
-     "replace": {"man_made": "tailings_pond"}
+    "old": {"landuse": "reservoir", "reservoir_type": "tailings", "natural": "water", "water": "reservoir"},
+    "replace": {"man_made": "tailings_pond"}
   },
   {
-     "old": {"landuse": "reservoir", "reservoir_type": "tailings"},
-     "replace": {"man_made": "tailings_pond"}
+    "old": {"landuse": "reservoir", "reservoir_type": "tailings"},
+    "replace": {"man_made": "tailings_pond"}
   },
   {
     "old": {"landuse": "school"},
@@ -1158,6 +1162,14 @@
     "replace": {"craft": "winery"}
   },
   {
+    "old": {"map_type": "tactile_map", "information": "map"},
+    "replace": {"information": "tactile_map"}
+  },
+  {
+    "old": {"map_type": "tactile_model", "information": "map"},
+    "replace": {"information": "tactile_model"}
+  },
+  {
     "old": {"maxage": "*"},
     "replace": {"max_age": "$1"}
   },
@@ -1194,8 +1206,8 @@
     "replace": {"natural": "wetland", "wetland": "marsh"}
   },
   {
-     "old": {"natural": "water", "water": "reservoir", "reservoir_type": "tailings"},
-     "replace": {"man_made": "tailings_pond"}
+    "old": {"natural": "water", "water": "reservoir", "reservoir_type": "tailings"},
+    "replace": {"man_made": "tailings_pond"}
   },
   {
     "old": {"natural": "waterfall"},
@@ -1904,20 +1916,20 @@
     "replace": {"volcano:status": "extinct"}
   },
   {
-    "old": {"voltage-high": "*", "transformer":"generator"},
-    "replace": {"voltage:secondary":"$1", "transformer":"generator"}
+    "old": {"voltage-high": "*", "transformer": "generator"},
+    "replace": {"voltage:secondary": "$1", "transformer": "generator"}
   },
   {
-    "old": {"voltage-low": "*", "transformer":"generator"},
-    "replace": {"voltage:primary":"$1", "transformer":"generator"}
+    "old": {"voltage-low": "*", "transformer": "generator"},
+    "replace": {"voltage:primary": "$1", "transformer": "generator"}
   },
   {
     "old": {"voltage-high": "*"},
-    "replace": {"voltage:primary":"$1"}
+    "replace": {"voltage:primary": "$1"}
   },
   {
     "old": {"voltage-low": "*"},
-    "replace": {"voltage:secondary":"$1"}
+    "replace": {"voltage:secondary": "$1"}
   },
   {
     "old": {"wall_type": "noise_barrier"},

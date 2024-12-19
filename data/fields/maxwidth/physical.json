@@ -5,7 +5,7 @@
     "snake_case": false,
     "prerequisiteTag": {
         "key": "cycle_barrier",
-        "value": [
+        "values": [
             "single",
             "diagonal",
             "tilted"

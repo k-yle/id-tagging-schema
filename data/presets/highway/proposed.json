@@ -3,6 +3,7 @@
     "fields": [
         "name",
         "proposed",
+        "construction_start_expected",
         "opening_date",
         "check_date",
         "access",
