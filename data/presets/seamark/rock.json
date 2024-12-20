@@ -1,0 +1,27 @@
+{
+    "icon": "temaki-boulder2",
+    "fields": [
+        "name",
+        "seamark/rock/water_level"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "boulder",
+        "stone",
+        "rock"
+    ],
+    "tags": {
+        "seamark:type": "rock"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:rock:water_level": "*"
+    },
+    "searchable": false,
+    "matchScore": 1.01,
+    "imageURL": "https://osm.wiki/Special:FilePath/File:RockA.png",
+    "name": "Submarine Rock"
+}

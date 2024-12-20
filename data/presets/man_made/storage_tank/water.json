@@ -17,5 +17,10 @@
         "man_made": "storage_tank",
         "content": "water"
     },
+    "addTags": {
+        "building": "yes",
+        "man_made": "storage_tank",
+        "content": "water"
+    },
     "name": "Water Tank"
 }

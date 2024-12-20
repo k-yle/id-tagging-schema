@@ -1,0 +1,35 @@
+{
+    "key": "seamark:virtual_aton:category",
+    "type": "combo",
+    "label": "Category",
+    "strings": {
+        "options": {
+            "north_cardinal": "North Cardinal Mark",
+            "south_cardinal": "South Cardinal Mark",
+            "east_cardinal": "East Cardinal Mark",
+            "west_cardinal": "West Cardinal Mark",
+            "port_lateral": "Port Lateral Mark",
+            "starboard_lateral": "Starboard Lateral Mark",
+            "preferred_starboard": "Preferred Channel Starboard Lateral Mark",
+            "preferred_port": "Preferred Channel Port Lateral Mark",
+            "isolated_danger": "Isolated Danger Mark",
+            "safe_water": "Safe Water Mark",
+            "special_purpose": "Special Purpose Mark",
+            "wreck": "Emergency Wreck Mark"
+        }
+    },
+    "icons": {
+        "north_cardinal": "https://osm.wiki/Special:FilePath/File:VIAS-NC.png",
+        "south_cardinal": "https://osm.wiki/Special:FilePath/File:VIAS-SC.png",
+        "east_cardinal": "https://osm.wiki/Special:FilePath/File:VIAS-EC.png",
+        "west_cardinal": "https://osm.wiki/Special:FilePath/File:VIAS-WC.png",
+        "port_lateral": "https://osm.wiki/Special:FilePath/File:VIAS-PL.png",
+        "starboard_lateral": "https://osm.wiki/Special:FilePath/File:VIAS-SL.png",
+        "preferred_starboard": "",
+        "preferred_port": "",
+        "isolated_danger": "https://osm.wiki/Special:FilePath/File:VIAS-ID.png",
+        "safe_water": "https://osm.wiki/Special:FilePath/File:VIAS-SW.png",
+        "special_purpose": "https://osm.wiki/Special:FilePath/File:VIAS-SP.png",
+        "wreck": "https://osm.wiki/Special:FilePath/File:VIAS-WK.png"
+    }
+}

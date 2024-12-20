@@ -1,0 +1,35 @@
+{
+    "key": "seamark:landmark:function",
+    "type": "combo",
+    "label": "Function",
+    "strings": {
+        "options": {
+            "church": "Church",
+            "chapel": "Chapel",
+            "temple": "Temple",
+            "pagoda": "Pagoda",
+            "shinto_shrine": "Shinto Shrine",
+            "buddhist_temple": "Buddhist Temple",
+            "mosque": "Mosque",
+            "marabout": "Marabout",
+            "communication": "Communication",
+            "radio": "Radio",
+            "radar": "Radar",
+            "television": "Television"
+        }
+    },
+    "icons": {
+        "church": "https://osm.wiki/Special:FilePath/File:ChurchDomeSM.png",
+        "chapel": "https://osm.wiki/Special:FilePath/File:ChurchSM.png",
+        "temple": "https://osm.wiki/Special:FilePath/File:TempleSM.png",
+        "pagoda": "https://osm.wiki/Special:FilePath/File:TempleSM.png",
+        "shinto_shrine": "https://osm.wiki/Special:FilePath/File:TempleSM.png",
+        "buddhist_temple": "https://osm.wiki/Special:FilePath/File:TempleSM.png",
+        "mosque": "https://osm.wiki/Special:FilePath/File:MinaretSM.png",
+        "marabout": "https://osm.wiki/Special:FilePath/File:SpireSM.png",
+        "communication": "https://osm.wiki/Special:FilePath/File:RadioMast.png",
+        "radio": "https://osm.wiki/Special:FilePath/File:RadioMast.png",
+        "radar": "https://osm.wiki/Special:FilePath/File:RadioMast.png",
+        "television": "https://osm.wiki/Special:FilePath/File:RadioMast.png"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "key": "seamark:obstruction:restriction",
+    "type": "semiCombo",
+    "label": "Restriction",
+    "stringsCrossReference": "{seamark/restricted_area/restriction}"
+}

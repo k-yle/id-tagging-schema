@@ -1,0 +1,45 @@
+{
+    "icon": "maki-communications-tower",
+    "fields": [
+        "seamark/name",
+        "seamark/beacon_special_purpose/category",
+        "seamark/beacon_special_purpose/colour",
+        "seamark/beacon_special_purpose/colour_pattern",
+        "seamark/beacon_special_purpose/shape",
+        "seamark/beacon_special_purpose/maxspeed",
+        "seamark/topmark/shape",
+        "seamark/topmark/colour",
+        "seamark/topmark/colour_pattern",
+        "seamark/light/reference",
+        "check_date"
+    ],
+    "moreFields": [
+        "seamark/radar_reflector",
+        "seamark/radio_station/mmsi"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "beacon",
+        "special beacon",
+        "danger beacon",
+        "channel marker"
+    ],
+    "tags": {
+        "seamark:type": "beacon_special_purpose"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:beacon_special_purpose:category": "*",
+        "seamark:beacon_special_purpose:colour": "*",
+        "seamark:beacon_special_purpose:colour_pattern": "*",
+        "seamark:beacon_special_purpose:shape": "*",
+        "seamark:topmark:shape": "*",
+        "seamark:topmark:colour": "*",
+        "seamark:topmark:colour_pattern": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Beacon_Special_Purpose.png",
+    "name": "Special Purpose Mark"
+}

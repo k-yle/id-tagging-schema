@@ -1,0 +1,18 @@
+{
+    "icon": "roentgen-crane_travel_lift",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "fields": [
+        "maxweight",
+        "operator",
+        "manufacturer"
+    ],
+    "tags": {
+        "seamark:type": "small_craft_facility",
+        "seamark:small_craft_facility:category": "boat_hoist"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:BoatHoist.png",
+    "name": "Boat Hoist"
+}

@@ -1,0 +1,5 @@
+{
+    "key": "seamark:signal_station_traffic:channel",
+    "type": "number",
+    "label": "VHF Channel"
+}

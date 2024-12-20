@@ -1,5 +1,6 @@
 {
     "area": [
+        "category-seamark",
         "category-landuse",
         "category-building",
         "category-water",
@@ -12,6 +13,7 @@
         "area"
     ],
     "line": [
+        "category-seamark",
         "category-road_major",
         "category-road_minor",
         "category-rail",
@@ -23,6 +25,7 @@
         "line"
     ],
     "point": [
+        "category-seamark",
         "category-natural",
         "leisure/park",
         "amenity/hospital",
@@ -36,6 +39,7 @@
         "point"
     ],
     "vertex": [
+        "category-seamark",
         "highway/crossing/traffic_signals",
         "highway/crossing/uncontrolled",
         "highway/crossing/unmarked",

@@ -1,0 +1,26 @@
+{
+    "icon": "maki-natural",
+    "fields": [
+        "seamark/sea_area/category"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "line",
+        "area"
+    ],
+    "tags": {
+        "seamark:type": "sea_area"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:sea_area:category": "*"
+    },
+    "name": "Sub-sea area",
+    "terms": [
+        "submarine",
+        "subsea",
+        "sea area",
+        "underwater"
+    ]
+}

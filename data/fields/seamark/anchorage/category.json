@@ -1,0 +1,6 @@
+{
+    "key": "seamark:anchorage:category",
+    "type": "combo",
+    "label": "Category",
+    "stringsCrossReference": "{seamark/anchor_berth/category}"
+}

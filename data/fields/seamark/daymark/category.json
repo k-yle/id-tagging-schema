@@ -1,0 +1,6 @@
+{
+    "key": "seamark:daymark:category",
+    "type": "combo",
+    "label": "Category",
+    "stringsCrossReference": "{seamark/beacon_special_purpose/category}"
+}

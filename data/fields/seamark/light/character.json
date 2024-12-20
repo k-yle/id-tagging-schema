@@ -1,0 +1,34 @@
+{
+    "key": "seamark:light:character",
+    "type": "combo",
+    "label": "Light Character",
+    "strings": {
+        "options": {
+            "F": "F – Fixed",
+            "Fl": "Fl – Flashing",
+            "LFl": "LFl – Long-flashing",
+            "Q": "Q – Quick-flashing",
+            "VQ": "VQ – Very-quick-flashing",
+            "UQ": "UQ – Ultra-quick-flashing",
+            "Iso": "Iso – Isophased",
+            "Oc": "Oc – Occulting",
+            "IQ": "IQ – Interrupted quick-flashing",
+            "IVQ": "IVQ – Interrupted very quick flashing",
+            "IUQ": "IUQ – Interrupted ultra quick flashing",
+            "Mo": "Mo – Morse",
+            "FFl": "FFl – Fixed/flash",
+            "FlLFl": "FlLFl – Flash/long-flash",
+            "OcFl": "OcFl – Occulting/flash",
+            "FLFl": "FLFl – Fixed/long-flash",
+            "Al.Oc": "Al.Oc – Occulting alternating",
+            "Al.LFl": "Al.LFl – Long-flash alternating",
+            "Al.Fl": "Al.Fl – Flash alternating",
+            "Al.Gr": "Al.Gr – Group alternating",
+            "Q+LFl": "Q+LFl – Quick-flash plus long-flash",
+            "VQ+LFl": "VQ+LFl – Very-quick-flash plus long-flash",
+            "UQ+LFl": "UQ+LFl – Ultra-quick-flash plus long-flash",
+            "Al": "Al – Alternating",
+            "Al.FFl": "Al.FFl – Fixed and alternating flashing"
+        }
+    }
+}

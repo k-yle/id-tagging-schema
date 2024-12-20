@@ -1,0 +1,6 @@
+{
+    "key": "seamark:buoy_special_purpose:category",
+    "type": "combo",
+    "label": "Buoy Category",
+    "stringsCrossReference": "{seamark/beacon_special_purpose/category}"
+}

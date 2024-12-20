@@ -1,0 +1,12 @@
+{
+    "key": "seamark:weed:category",
+    "type": "combo",
+    "label": "Category",
+    "strings": {
+        "options": {
+            "kelp": "Kelp",
+            "sea_weed": "Seaweed",
+            "sargasso": "Sargasso"
+        }
+    }
+}

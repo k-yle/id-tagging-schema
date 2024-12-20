@@ -1,0 +1,15 @@
+{
+    "key": "seamark:distance_mark:units",
+    "type": "combo",
+    "label": "Units",
+    "strings": {
+        "options": {
+            "metres": "Metres",
+            "feet": "Feet",
+            "kilometres": "Kilometres",
+            "hectometres": "Hectometres",
+            "statute_miles": "Statute miles",
+            "nautical_miles": "Nautical miles"
+        }
+    }
+}

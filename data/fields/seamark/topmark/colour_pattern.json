@@ -1,0 +1,10 @@
+{
+    "key": "seamark:topmark:colour_pattern",
+    "type": "semiCombo",
+    "label": "Topmark Color Pattern",
+    "stringsCrossReference": "{seamark/beacon_special_purpose/colour_pattern}",
+    "prerequisiteTag": {
+        "key": "seamark:topmark:colour",
+        "value": "/;/"
+    }
+}

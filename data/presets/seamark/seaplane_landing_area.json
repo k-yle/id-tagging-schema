@@ -1,0 +1,24 @@
+{
+    "icon": "maki-airport",
+    "fields": [
+        "ref",
+        "operator",
+        "seamark/seaplane_landing_area/restriction"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "seaplane",
+        "seaplane landing",
+        "seaport",
+        "airport",
+        "water runway"
+    ],
+    "tags": {
+        "seamark:type": "seaplane_landing_area"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Openseamap_rendering_seaplane_landing_area.png",
+    "name": "Seaplane Landing Area"
+}

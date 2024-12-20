@@ -1,0 +1,11 @@
+{
+    "key": "seamark:calling-in_point:traffic_flow",
+    "type": "check",
+    "label": "One Way",
+    "strings": {
+        "options": {
+            "one-way": "Yes",
+            "two-way": "No"
+        }
+    }
+}

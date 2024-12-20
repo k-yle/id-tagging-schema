@@ -1,0 +1,27 @@
+{
+    "icon": "temaki-boat",
+    "fields": [
+        "seamark/hulk/category",
+        "seamark/hulk/name"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "seamark:type": "hulk"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:hulk:category": "*",
+        "seamark:name": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Openseamap_rendering_hulk.png",
+    "name": "Permanently Moored Ship",
+    "terms": [
+        "hulk",
+        "condemned",
+        "wreck"
+    ]
+}

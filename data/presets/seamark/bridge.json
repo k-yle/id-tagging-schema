@@ -1,0 +1,29 @@
+{
+    "icon": "maki-bridge",
+    "fields": [
+        "seamark/bridge/category",
+        "seamark/bridge/clearance_width",
+        "seamark/bridge/clearance_height",
+        "seamark/bridge/clearance_height_closed",
+        "seamark/bridge/clearance_height_open",
+        "check_date"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "seamark:type": "bridge"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:bridge:category": "*",
+        "seamark:bridge:clearance_width": "*",
+        "seamark:bridge:clearance_height": "*",
+        "seamark:bridge:clearance_height_closed": "*",
+        "seamark:bridge:clearance_height_open": "*"
+    },
+    "matchScore": 1.01,
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Seamark_fixed-bridge.png",
+    "name": "Bridge Restriction"
+}

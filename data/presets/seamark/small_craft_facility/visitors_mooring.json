@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-horn_cleat",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "fields": [
+        "access_simple",
+        "operator"
+    ],
+    "tags": {
+        "seamark:type": "small_craft_facility",
+        "seamark:small_craft_facility:category": "visitors_mooring"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:VisitorMooring.png",
+    "name": "Visitor's Mooring"
+}

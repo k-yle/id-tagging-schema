@@ -1,0 +1,22 @@
+{
+    "icon": "maki-harbor",
+    "fields": [
+        "seamark/signal_station_traffic/category",
+        "seamark/signal_station_traffic/channel"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "seamark:type": "signal_station_traffic"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:signal_station_traffic:category": "*",
+        "seamark:signal_station_traffic:channel": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Signal_Station.png",
+    "name": "Maritime Signal Station"
+}

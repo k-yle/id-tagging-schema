@@ -1,0 +1,31 @@
+{
+    "icon": "maki-communications-tower",
+    "fields": [
+        "seamark/name",
+        "seamark/daymark/category",
+        "seamark/daymark/shape",
+        "seamark/daymark/colour",
+        "seamark/daymark/colour_pattern",
+        "check_date"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "day mark",
+        "marker",
+        "sign"
+    ],
+    "tags": {
+        "seamark:type": "daymark"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:daymark:shape": "*",
+        "seamark:daymark:colour": "*",
+        "seamark:daymark:colour_pattern": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Top_CU.png",
+    "name": "Daymark"
+}

@@ -1,0 +1,22 @@
+{
+    "key": "seamark:signal_station_traffic:category",
+    "type": "combo",
+    "label": "Category",
+    "strings": {
+        "options": {
+            "port_control": "Port control",
+            "port_entry_departure": "Port entry and departure",
+            "ipt": "International Port Traffic",
+            "berthing": "Berthing",
+            "dock": "Dock",
+            "lock": "Lock",
+            "flood_barrage": "Flood barrage",
+            "bridge_passage": "Bridge passage",
+            "dredging": "Dredging",
+            "traffic_control": "Traffic control light",
+            "pilotage": "Pilotage",
+            "special": "Special Signals",
+            "oncoming_traffic": "Oncoming traffic indication"
+        }
+    }
+}

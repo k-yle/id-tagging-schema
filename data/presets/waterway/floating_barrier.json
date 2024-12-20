@@ -1,0 +1,19 @@
+{
+    "icon": "maki-roadblock",
+    "geometry": [
+        "line"
+    ],
+    "terms": [
+        "boom",
+        "barrier"
+    ],
+    "tags": {
+        "waterway": "floating_barrier"
+    },
+    "addTags": {
+        "waterway": "floating_barrier",
+        "seamark:type": "obstruction",
+        "seamark:obstruction:category": "boom"
+    },
+    "name": "Floating Barrier"
+}

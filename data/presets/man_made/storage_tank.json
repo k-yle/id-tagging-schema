@@ -28,5 +28,9 @@
     "tags": {
         "man_made": "storage_tank"
     },
+    "addTags": {
+        "building": "yes",
+        "man_made": "storage_tank"
+    },
     "name": "Storage Tank"
 }

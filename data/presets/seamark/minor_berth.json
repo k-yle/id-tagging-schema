@@ -5,6 +5,8 @@
         "vertex"
     ],
     "terms": [
+        "minor berth",
+        "parking space",
         "vessel",
         "ship",
         "berth",
@@ -13,12 +15,13 @@
         "anchorage"
     ],
     "fields": [
+        "ref",
         "vessel",
         "vessel/mmsi",
         "operator"
     ],
     "tags": {
-        "vessel": "*"
+        "seamark:type": "minor_berth"
     },
-    "name": "Minor Berth"
+    "name": "Marina Berth"
 }

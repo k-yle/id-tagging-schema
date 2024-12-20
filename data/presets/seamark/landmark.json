@@ -1,0 +1,35 @@
+{
+    "icon": "temaki-tower",
+    "fields": [
+        "seamark/name",
+        "seamark/landmark/category",
+        "seamark/landmark/function",
+        "check_date"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "seamark:type": "landmark"
+    },
+    "terms": [
+        "landmark",
+        "land mark",
+        "sea mark",
+        "beacon",
+        "marker",
+        "seamark",
+        "monument",
+        "flare",
+        "tower"
+    ],
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:landmark:function": "*",
+        "seamark:landmark:category": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:TowerSM.png",
+    "name": "Maritime Landmark"
+}

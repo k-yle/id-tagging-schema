@@ -1,14 +1,7 @@
 {
     "key": "seamark:beacon_lateral:colour",
-    "type": "combo",
-    "label": "Color",
-    "strings": {
-        "options": {
-            "red": "Red",
-            "green": "Green",
-            "grey": "Grey"
-        }
-    },
-    "autoSuggestions": false,
-    "customValues": false
+    "type": "semiCombo",
+    "label": "Marker Color",
+    "allowDuplicates": true,
+    "stringsCrossReference": "{seamark/beacon_special_purpose/colour}"
 }

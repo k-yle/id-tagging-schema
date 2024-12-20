@@ -1,0 +1,39 @@
+{
+    "icon": "maki-communications-tower",
+    "fields": [
+        "seamark/name",
+        "seamark/beacon_safe_water/shape",
+        "seamark/light/reference",
+        "check_date"
+    ],
+    "moreFields": [
+        "seamark/radar_reflector",
+        "seamark/radio_station/mmsi"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "safe water",
+        "fairway"
+    ],
+    "tags": {
+        "seamark:type": "beacon_safe_water",
+        "seamark:beacon_safe_water:colour": "red;white",
+        "seamark:beacon_safe_water:colour_pattern": "vertical",
+        "seamark:topmark:shape": "sphere",
+        "seamark:topmark:colour": "red"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:beacon_safe_water:shape": "*",
+        "seamark:beacon_safe_water:colour": "*",
+        "seamark:beacon_safe_water:colour_pattern": "*",
+        "seamark:topmark:shape": "*",
+        "seamark:topmark:colour": "*",
+        "seamark:topmark:colour_pattern": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Beacon_Safe_Water.png",
+    "name": "Safe Water Beacon"
+}

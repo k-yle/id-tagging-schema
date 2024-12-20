@@ -2,14 +2,7 @@
     "key": "seamark:buoy_lateral:system",
     "type": "combo",
     "label": "System",
-    "strings": {
-        "options": {
-            "iala-a": "IALA A",
-            "iala-b": "IALA B",
-            "cevni": "CEVNI",
-            "other": "Other"
-        }
-    },
+    "stringsCrossReference": "{seamark/beacon_lateral/system}",
     "autoSuggestions": false,
     "customValues": false
 }

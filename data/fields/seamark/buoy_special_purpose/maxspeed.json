@@ -1,0 +1,10 @@
+{
+    "key": "maxspeed",
+    "type": "text",
+    "label": "Speed Limit",
+    "placeholder": "5 kt, 20 kt...",
+    "prerequisiteTag": {
+        "key": "seamark:buoy_special_purpose:category",
+        "value": "speed_limit"
+    }
+}

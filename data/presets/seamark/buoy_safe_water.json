@@ -1,0 +1,39 @@
+{
+    "icon": "temaki-buoy",
+    "fields": [
+        "seamark/name",
+        "seamark/buoy_safe_water/shape",
+        "seamark/light/reference",
+        "check_date"
+    ],
+    "moreFields": [
+        "seamark/radar_reflector",
+        "seamark/radio_station/mmsi"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "safe water",
+        "fairway"
+    ],
+    "tags": {
+        "seamark:type": "buoy_safe_water",
+        "seamark:buoy_safe_water:colour": "red;white",
+        "seamark:buoy_safe_water:colour_pattern": "vertical",
+        "seamark:topmark:shape": "sphere",
+        "seamark:topmark:colour": "red"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:buoy_safe_water:colour": "*",
+        "seamark:buoy_safe_water:colour_pattern": "*",
+        "seamark:buoy_safe_water:shape": "*",
+        "seamark:topmark:shape": "*",
+        "seamark:topmark:colour": "*",
+        "seamark:topmark:colour_pattern": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Buoy_Safe_Water.png",
+    "name": "Safe Water Buoy"
+}

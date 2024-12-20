@@ -1,0 +1,18 @@
+{
+    "icon": "maki-harbor",
+    "fields": [
+        "seamark/dumping_ground/category"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "seamark:type": "dumping_ground"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:dumping_ground:category": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:DumpingGround.png",
+    "name": "Marine Dumping Ground"
+}

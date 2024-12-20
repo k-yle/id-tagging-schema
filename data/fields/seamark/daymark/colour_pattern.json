@@ -1,0 +1,10 @@
+{
+    "key": "seamark:daymark:colour_pattern",
+    "type": "semiCombo",
+    "label": "Color Pattern",
+    "stringsCrossReference": "{seamark/beacon_special_purpose/colour_pattern}",
+    "prerequisiteTag": {
+        "key": "seamark:daymark:colour",
+        "value": "/;/"
+    }
+}
