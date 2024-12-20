@@ -9653,6 +9653,11 @@ en:
       area:
         # area=yes | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Area
+        relation_roles:
+          # Relation role “inner” when used with area=yes
+          inner: Inner
+          # Relation role “outer” when used with area=yes
+          outer: Outer
         # 'terms: polygon'
         terms: <translate with synonyms or related terms for 'Area', separated by commas>
       area/footway:
@@ -14139,6 +14144,15 @@ en:
       public_transport/stop_area:
         # type=public_transport + public_transport=stop_area | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Transit Stop Area
+        relation_roles:
+          # Relation role “entrance” when used with type=public_transport + public_transport=stop_area
+          entrance: Entrance
+          # Relation role “platform” when used with type=public_transport + public_transport=stop_area
+          platform: Platform
+          # Relation role “stop” when used with type=public_transport + public_transport=stop_area
+          stop: Stop
+          # Relation role “subway_entrance” when used with type=public_transport + public_transport=stop_area
+          subway_entrance: Subway Entrance
         terms: <translate with synonyms or related terms for 'Transit Stop Area', separated by commas>
       public_transport/stop_position:
         # public_transport=stop_position | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -15827,6 +15841,15 @@ en:
       type/boundary:
         # type=boundary | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Boundary
+        relation_roles:
+          # Relation role “admin_center” when used with type=boundary
+          admin_center: Admin Centre
+          # Relation role “inner” when used with type=boundary
+          inner: Inner
+          # Relation role “label” when used with type=boundary
+          label: Label
+          # Relation role “outer” when used with type=boundary
+          outer: Outer
         terms: <translate with synonyms or related terms for 'Boundary', separated by commas>
       type/boundary/administrative:
         # type=boundary + boundary=administrative | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -15839,11 +15862,31 @@ en:
       type/destination_sign:
         # type=destination_sign | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Destination Sign
+        relation_roles:
+          # Relation role “from” when used with type=destination_sign
+          from: From
+          # Relation role “intersection” when used with type=destination_sign
+          intersection: Intersection
+          # Relation role “sign” when used with type=destination_sign
+          sign: Physical Sign
+          # Relation role “to” when used with type=destination_sign
+          to: To
         # 'terms: exit sign'
         terms: <translate with synonyms or related terms for 'Destination Sign', separated by commas>
       type/enforcement:
         # type=enforcement | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Enforcement
+        relation_roles:
+          # Relation role “device” when used with type=enforcement
+          device: Device
+          # Relation role “force” when used with type=enforcement
+          force: Force
+          # Relation role “from” when used with type=enforcement
+          from: From
+          # Relation role “section” when used with type=enforcement
+          section: Section
+          # Relation role “to” when used with type=enforcement
+          to: To
         terms: <translate with synonyms or related terms for 'Enforcement', separated by commas>
       type/enforcement/maxspeed:
         # type=enforcement + enforcement=maxspeed | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -15857,10 +15900,18 @@ en:
       type/public_transport/stop_area_group:
         # type=public_transport + public_transport=stop_area_group | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Transit Stop Area Group
+        relation_roles: {}
         terms: <translate with synonyms or related terms for 'Transit Stop Area Group', separated by commas>
       type/restriction:
         # type=restriction | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Restriction
+        relation_roles:
+          # Relation role “from” when used with type=restriction
+          from: From
+          # Relation role “to” when used with type=restriction
+          to: To
+          # Relation role “via” when used with type=restriction
+          via: Via
         terms: <translate with synonyms or related terms for 'Restriction', separated by commas>
       type/restriction/no_left_turn:
         # type=restriction + restriction=no_left_turn | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -15897,6 +15948,33 @@ en:
       type/route:
         # type=route | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Route
+        relation_roles:
+          # Relation role “” when used with type=route
+          '': ''
+          # Relation role “platform” when used with type=route
+          platform: Platform
+          # Relation role “platform_entry_only” when used with type=route
+          platform_entry_only: Platform (Entry Only)
+          # Relation role “platform_exit_only” when used with type=route
+          platform_exit_only: Platform (Exit Only)
+          # Relation role “platform_on_demand” when used with type=route
+          platform_on_demand: Platform (only stops on request)
+          # Relation role “platform_on_demand_entry_only” when used with type=route
+          platform_on_demand_entry_only: Platform (Entry Only) (only stops on request)
+          # Relation role “platform_on_demand_exit_only” when used with type=route
+          platform_on_demand_exit_only: Platform (Exit Only) (only stops on request)
+          # Relation role “stop” when used with type=route
+          stop: Stop
+          # Relation role “stop_entry_only” when used with type=route
+          stop_entry_only: Stop (Entry Only)
+          # Relation role “stop_exit_only” when used with type=route
+          stop_exit_only: Stop (Exit Only)
+          # Relation role “stop_on_demand” when used with type=route
+          stop_on_demand: Stop (only stops on request)
+          # Relation role “stop_on_demand_entry_only” when used with type=route
+          stop_on_demand_entry_only: Stop (Entry Only) (only stops on request)
+          # Relation role “stop_on_demand_exit_only” when used with type=route
+          stop_on_demand_exit_only: Stop (Exit Only) (only stops on request)
         terms: <translate with synonyms or related terms for 'Route', separated by commas>
       type/route/aerialway:
         # type=route + route=aerialway | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -15983,6 +16061,9 @@ en:
       type/route_master:
         # type=route_master | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Route Master
+        relation_roles:
+          # Relation role “” when used with type=route_master
+          '': ''
         terms: <translate with synonyms or related terms for 'Route Master', separated by commas>
       type/site:
         # type=site | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -15991,10 +16072,20 @@ en:
       type/site/traffic_signals:
         # type=site + site=traffic_signals | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Traffic Signals Site
+        relation_roles:
+          # Relation role “” when used with type=site + site=traffic_signals
+          '': ''
         terms: <translate with synonyms or related terms for 'Traffic Signals Site', separated by commas>
       type/waterway:
         # type=waterway | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Waterway
+        relation_roles:
+          # Relation role “” when used with type=waterway
+          '': ''
+          # Relation role “main_stream” when used with type=waterway
+          main_stream: Main Stream
+          # Relation role “spring” when used with type=waterway
+          spring: Spring
         terms: <translate with synonyms or related terms for 'Waterway', separated by commas>
       waterway:
         # waterway=* | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).

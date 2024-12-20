@@ -5651,7 +5651,11 @@
                 },
                 "area": {
                     "name": "Area",
-                    "terms": "polygon"
+                    "terms": "polygon",
+                    "relation_roles": {
+                        "inner": "Inner",
+                        "outer": "Outer"
+                    }
                 },
                 "advertising": {
                     "name": "Advertising Device",
@@ -5812,38 +5816,88 @@
                     "name": "Canal Lock"
                 },
                 "type/waterway": {
-                    "name": "Waterway"
+                    "name": "Waterway",
+                    "relation_roles": {
+                        "spring": "Spring",
+                        "main_stream": "Main Stream",
+                        "": ""
+                    }
                 },
                 "type/site": {
                     "name": "Site"
                 },
                 "type/route_master": {
-                    "name": "Route Master"
+                    "name": "Route Master",
+                    "relation_roles": {
+                        "": ""
+                    }
                 },
                 "type/route": {
-                    "name": "Route"
+                    "name": "Route",
+                    "relation_roles": {
+                        "stop": "Stop",
+                        "stop_exit_only": "Stop (Exit Only)",
+                        "stop_entry_only": "Stop (Entry Only)",
+                        "stop_on_demand": "Stop (only stops on request)",
+                        "stop_on_demand_exit_only": "Stop (Exit Only) (only stops on request)",
+                        "stop_on_demand_entry_only": "Stop (Entry Only) (only stops on request)",
+                        "platform": "Platform",
+                        "platform_exit_only": "Platform (Exit Only)",
+                        "platform_entry_only": "Platform (Entry Only)",
+                        "platform_on_demand": "Platform (only stops on request)",
+                        "platform_on_demand_exit_only": "Platform (Exit Only) (only stops on request)",
+                        "platform_on_demand_entry_only": "Platform (Entry Only) (only stops on request)",
+                        "": ""
+                    }
                 },
                 "type/restriction": {
-                    "name": "Restriction"
+                    "name": "Restriction",
+                    "relation_roles": {
+                        "from": "From",
+                        "via": "Via",
+                        "to": "To"
+                    }
                 },
                 "type/multipolygon": {
                     "name": "Multipolygon"
                 },
                 "type/enforcement": {
-                    "name": "Enforcement"
+                    "name": "Enforcement",
+                    "relation_roles": {
+                        "device": "Device",
+                        "force": "Force",
+                        "from": "From",
+                        "to": "To",
+                        "section": "Section"
+                    }
                 },
                 "type/destination_sign": {
                     "name": "Destination Sign",
-                    "terms": "exit sign"
+                    "terms": "exit sign",
+                    "relation_roles": {
+                        "from": "From",
+                        "intersection": "Intersection",
+                        "to": "To",
+                        "sign": "Physical Sign"
+                    }
                 },
                 "type/connectivity": {
                     "name": "Lane Connectivity"
                 },
                 "type/boundary": {
-                    "name": "Boundary"
+                    "name": "Boundary",
+                    "relation_roles": {
+                        "inner": "Inner",
+                        "outer": "Outer",
+                        "admin_center": "Admin Centre",
+                        "label": "Label"
+                    }
                 },
                 "type/site/traffic_signals": {
-                    "name": "Traffic Signals Site"
+                    "name": "Traffic Signals Site",
+                    "relation_roles": {
+                        "": ""
+                    }
                 },
                 "type/route/trolleybus": {
                     "name": "Trolleybus Route"
@@ -5932,7 +5986,8 @@
                     "name": "No Left Turn"
                 },
                 "type/public_transport/stop_area_group": {
-                    "name": "Transit Stop Area Group"
+                    "name": "Transit Stop Area Group",
+                    "relation_roles": {}
                 },
                 "type/enforcement/maxspeed": {
                     "name": "Speed Limit Enforcement",
@@ -7298,7 +7353,13 @@
                     "terms": "public transit,public transportation,transit,transportation"
                 },
                 "public_transport/stop_area": {
-                    "name": "Transit Stop Area"
+                    "name": "Transit Stop Area",
+                    "relation_roles": {
+                        "stop": "Stop",
+                        "platform": "Platform",
+                        "entrance": "Entrance",
+                        "subway_entrance": "Subway Entrance"
+                    }
                 },
                 "public_transport/station_trolleybus": {
                     "name": "Trolleybus Station / Terminal",
