@@ -1,0 +1,27 @@
+{
+    "icon": "temaki-buoy",
+    "fields": [
+        "seamark/name",
+        "seamark/light/reference",
+        "check_date"
+    ],
+    "moreFields": [
+        "seamark/radar_reflector",
+        "seamark/radio_station/mmsi"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "seamark:type": "buoy_installation"
+    },
+    "terms": [
+        "tanker buoy",
+        "oil tanker",
+        "gas tanker",
+        "barge"
+    ],
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Buoy_Installation.png",
+    "name": "Installation Buoy"
+}

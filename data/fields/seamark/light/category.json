@@ -1,0 +1,27 @@
+{
+    "key": "seamark:light:category",
+    "type": "combo",
+    "label": "Light Category",
+    "strings": {
+        "options": {
+            "directional": "Directional",
+            "leading": "Leading Light",
+            "front": "Front",
+            "rear": "Rear",
+            "lower": "Lower",
+            "upper": "Upper",
+            "aero": "Aero Light",
+            "air_obstruction": "Air Obstruction Light",
+            "fog_detector": "Fog Detector Light",
+            "floodlight": "Flood Light",
+            "strip_light": "Strip Light",
+            "subsidiary": "Subsidiary Light",
+            "spotlight": "Spotlight",
+            "moire": "Moiré Effect",
+            "emergency": "Emergency Light",
+            "bearing": "Bearing Light",
+            "horizontal": "Horizontally Disposed",
+            "vertical": "Vertically Disposed"
+        }
+    }
+}

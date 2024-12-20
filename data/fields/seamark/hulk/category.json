@@ -1,0 +1,15 @@
+{
+    "key": "seamark:hulk:category",
+    "type": "combo",
+    "label": "Category",
+    "strings": {
+        "options": {
+            "floating_restaurant": "Floating restaurant",
+            "historic": "Historic ship",
+            "museum": "Museum",
+            "accommodation": "Accommodation",
+            "floating_breakwater": "Floating breakwater",
+            "casino_boat": "casino_boat"
+        }
+    }
+}

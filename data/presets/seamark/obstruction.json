@@ -1,0 +1,35 @@
+{
+    "icon": "maki-roadblock",
+    "fields": [
+        "seamark/obstruction/category",
+        "seamark/obstruction/water_level",
+        "depth"
+    ],
+    "moreFields": [
+        "seamark/obstruction/restriction",
+        "seamark/obstruction/surface"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "line",
+        "area"
+    ],
+    "terms": [
+        "obstruction",
+        "obstacle",
+        "hazard",
+        "block",
+        "barrier"
+    ],
+    "tags": {
+        "seamark:type": "obstruction"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:obstruction:category": "*",
+        "seamark:obstruction:water_level": "*",
+        "seamark:obstruction:surface": "*"
+    },
+    "name": "Marine Obstruction"
+}

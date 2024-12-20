@@ -5,6 +5,7 @@
         "manufacturer",
         "height",
         "crane/type",
+        "seamark/type_crane",
         "maxweight"
     ],
     "geometry": [

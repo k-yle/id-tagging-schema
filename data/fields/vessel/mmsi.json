@@ -3,5 +3,8 @@
     "type": "identifier",
     "urlFormat": "https://www.marinetraffic.com/ais/details/ships/{value}",
     "pattern": "^[0-9]{1,}$",
-    "label": "Vessel MMSI"
+    "label": "Vessel MMSI",
+    "prerequisiteTag": {
+        "key": "vessel"
+    }
 }

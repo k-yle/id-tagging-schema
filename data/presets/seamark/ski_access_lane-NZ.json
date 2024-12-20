@@ -14,5 +14,10 @@
         "seamark:restricted_area:category": "water_skiing",
         "seamark:type": "restricted_area"
     },
-    "name": "Ski Access Lane"
+    "name": "Ski Access Lane",
+    "locationSet": {
+        "include": [
+            "nz"
+        ]
+    }
 }

@@ -1,13 +1,22 @@
 {
     "icon": "temaki-buoy",
     "fields": [
-        "ref",
+        "seamark/name",
         "operator",
         "seamark/buoy_lateral/colour",
+        "seamark/buoy_lateral/colour_pattern",
         "seamark/buoy_lateral/category",
         "seamark/buoy_lateral/shape",
         "seamark/buoy_lateral/system",
-        "seamark/type"
+        "seamark/topmark/shape",
+        "seamark/topmark/colour",
+        "seamark/topmark/colour_pattern",
+        "seamark/light/reference",
+        "check_date"
+    ],
+    "moreFields": [
+        "seamark/radar_reflector",
+        "seamark/radio_station/mmsi"
     ],
     "geometry": [
         "point",
@@ -24,5 +33,17 @@
     "tags": {
         "seamark:type": "buoy_lateral"
     },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:buoy_lateral:colour": "*",
+        "seamark:buoy_lateral:colour_pattern": "*",
+        "seamark:buoy_lateral:category": "*",
+        "seamark:buoy_lateral:shape": "*",
+        "seamark:buoy_lateral:system": "*",
+        "seamark:topmark:shape": "*",
+        "seamark:topmark:colour": "*",
+        "seamark:topmark:colour_pattern": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Buoy_Lateral.png",
     "name": "Channel Buoy"
 }

@@ -1,0 +1,19 @@
+{
+    "key": "seamark:anchor_berth:category",
+    "type": "combo",
+    "label": "Category",
+    "strings": {
+        "options": {
+            "unrestricted": "Unrestricted anchorage",
+            "deep_water": "Deep water anchorage",
+            "tanker": "Tanker anchorage",
+            "explosives": "Explosives anchorage",
+            "quarantine": "Quarantine anchorage",
+            "seaplane": "Sea-plane anchorage",
+            "small_craft": "Small craft anchorage",
+            "small_craft_mooring": "Small craft mooring",
+            "dry_cargo": "Anchorage for dry cargo vessels",
+            "raft": "Anchorage for rafts"
+        }
+    }
+}

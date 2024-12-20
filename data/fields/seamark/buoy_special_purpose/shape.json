@@ -1,0 +1,27 @@
+{
+    "key": "seamark:buoy_special_purpose:shape",
+    "type": "combo",
+    "label": "Buoy Shape",
+    "strings": {
+        "options": {
+            "conical": "Conical",
+            "can": "Can/Cylindrical",
+            "spherical": "Spherical",
+            "pillar": "Pillar",
+            "spar": "Spar",
+            "barrel": "Barrel",
+            "super-buoy": "Super-buoy",
+            "ice_buoy": "Ice buoy"
+        }
+    },
+    "icons": {
+        "conical": "https://osm.wiki/Special:FilePath/File:Buoy_Cone.png",
+        "can": "https://osm.wiki/Special:FilePath/File:Buoy_Can.png",
+        "spherical": "https://osm.wiki/Special:FilePath/File:Buoy_Sphere.png",
+        "pillar": "https://osm.wiki/Special:FilePath/File:Buoy_Pillar.png",
+        "spar": "https://osm.wiki/Special:FilePath/File:Buoy_Spar.png",
+        "barrel": "https://osm.wiki/Special:FilePath/File:Buoy_Barrel.png",
+        "super-buoy": "https://osm.wiki/Special:FilePath/File:Buoy_Super.png",
+        "ice_buoy": ""
+    }
+}

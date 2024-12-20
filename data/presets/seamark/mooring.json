@@ -1,13 +1,18 @@
 {
     "icon": "temaki-horn_cleat",
     "fields": [
-        "ref",
+        "seamark/name",
         "operator",
-        "seamark/mooring/category",
-        "seamark/type"
+        "seamark/mooring/category"
+    ],
+    "moreFields": [
+        "seamark/mooring/shape",
+        "seamark/mooring/colour"
     ],
     "geometry": [
-        "point"
+        "point",
+        "vertex",
+        "area"
     ],
     "terms": [
         "dolphin",
@@ -18,6 +23,12 @@
     ],
     "tags": {
         "seamark:type": "mooring"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:mooring:category": "*",
+        "seamark:mooring:shape": "*",
+        "seamark:mooring:colour": "*"
     },
     "name": "Mooring"
 }

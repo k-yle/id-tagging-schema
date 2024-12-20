@@ -1,0 +1,14 @@
+{
+    "key": "seamark:dumping_ground:category",
+    "type": "combo",
+    "label": "Category",
+    "strings": {
+        "options": {
+            "chemical": "Chemical",
+            "nuclear": "Nuclear",
+            "explosives": "Explosives",
+            "spoil": "Spoil",
+            "vessel": "Vessel"
+        }
+    }
+}

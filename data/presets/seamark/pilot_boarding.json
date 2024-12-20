@@ -1,0 +1,34 @@
+{
+    "icon": "maki-harbor",
+    "fields": [
+        "seamark/pilot_boarding/category",
+        "seamark/name"
+    ],
+    "moreFields": [
+        "seamark/radio_station/mmsi"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "seamark:type": "pilot_boarding"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:pilot_boarding:category": "*",
+        "seamark:name": "*"
+    },
+    "terms": [
+        "Pilot Station",
+        "Seapilot",
+        "Sea pilot",
+        "Maritime pilot",
+        "Marine pilot",
+        "Harbour Pilot",
+        "Harbor Pilot",
+        "ship pilot"
+    ],
+    "imageURL": "https://osm.wiki/Special:FilePath/File:PilotB.png",
+    "name": "Pilot Boarding Place"
+}

@@ -1,0 +1,10 @@
+{
+    "key": "seamark:topmark:colour",
+    "type": "semiCombo",
+    "label": "Topmark Color",
+    "allowDuplicates": true,
+    "stringsCrossReference": "{seamark/beacon_special_purpose/colour}",
+    "prerequisiteTag": {
+        "key": "seamark:topmark:shape"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "icon": "maki-harbor",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "fields": [
+        "access_simple",
+        "operator",
+        "maxweight",
+        "maxlength",
+        "maxdraft",
+        "maxstay",
+        "check_date"
+    ],
+    "tags": {
+        "seamark:type": "small_craft_facility",
+        "seamark:small_craft_facility:category": "visitor_berth"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:VisitorBerth.png",
+    "name": "Visitor's Berth"
+}
