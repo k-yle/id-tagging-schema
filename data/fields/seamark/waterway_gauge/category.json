@@ -1,0 +1,14 @@
+{
+    "key": "seamark:waterway_gauge:category",
+    "type": "combo",
+    "label": "Category",
+    "strings": {
+        "options": {
+            "staff": "Pole / Staff",
+            "recording": "Recording",
+            "recording_remote_access": "Recording with remote access",
+            "recording_external_indicator": "Recording with external indicator",
+            "recording_remote_access_indicator": "Recording with remote access and external indicator"
+        }
+    }
+}

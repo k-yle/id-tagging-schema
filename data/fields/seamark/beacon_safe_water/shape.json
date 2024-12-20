@@ -1,0 +1,7 @@
+{
+    "key": "seamark:beacon_safe_water:shape",
+    "type": "combo",
+    "label": "Shape",
+    "stringsCrossReference": "{seamark/beacon_lateral/shape}",
+    "iconsCrossReference": "{seamark/beacon_lateral/shape}"
+}

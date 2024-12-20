@@ -1,5 +1,7 @@
 {
     "key": "seamark:beacon_isolated_danger:shape",
     "type": "combo",
-    "label": "Shape"
+    "label": "Beacon Shape",
+    "stringsCrossReference": "{seamark/beacon_lateral/shape}",
+    "iconsCrossReference": "{seamark/beacon_lateral/shape}"
 }

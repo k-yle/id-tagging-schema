@@ -1,0 +1,14 @@
+{
+    "key": "seamark:water_turbulence:category",
+    "type": "combo",
+    "label": "Category",
+    "strings": {
+        "options": {
+            "breakers": "Breakers",
+            "eddies": "Eddies",
+            "overfalls": "Overfalls",
+            "tide_rips": "Tide Rips",
+            "bombora": "Bombora"
+        }
+    }
+}

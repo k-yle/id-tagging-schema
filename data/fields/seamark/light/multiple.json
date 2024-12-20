@@ -1,0 +1,6 @@
+{
+    "key": "seamark:light:multiple",
+    "type": "number",
+    "label": "Number of Lights",
+    "placeholder": "1"
+}

@@ -1,0 +1,12 @@
+{
+    "key": "seamark:bridge:clearance_height",
+    "type": "number",
+    "label": "Clearance Height (metres)",
+    "prerequisiteTag": {
+        "key": "seamark:bridge:category",
+        "values": [
+            "fixed",
+            "transporter"
+        ]
+    }
+}

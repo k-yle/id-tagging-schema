@@ -1,0 +1,30 @@
+{
+    "icon": "temaki-buoy",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "cardinal"
+    ],
+    "fields": [
+        "seamark/name",
+        "seamark/buoy_cardinal/shape",
+        "seamark/light/reference",
+        "check_date"
+    ],
+    "moreFields": [
+        "seamark/radar_reflector",
+        "seamark/radio_station/mmsi"
+    ],
+    "tags": {
+        "seamark:type": "buoy_cardinal",
+        "seamark:buoy_cardinal:colour_pattern": "horizontal",
+        "seamark:topmark:colour": "black",
+        "seamark:buoy_cardinal:category": "south",
+        "seamark:buoy_cardinal:colour": "yellow;black",
+        "seamark:topmark:shape": "2 cones down"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Example_cardinal_south.png",
+    "name": "South Cardinal Buoy"
+}

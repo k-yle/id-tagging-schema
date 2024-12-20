@@ -1,5 +1,21 @@
 {
     "key": "seamark:wreck:category",
     "type": "combo",
-    "label": "Category"
+    "label": "Category",
+    "strings": {
+        "options": {
+            "non-dangerous": "Non-dangerous wreck",
+            "dangerous": "Dangerous wreck",
+            "distributed_remains": "Distributed remains of wreck",
+            "mast_showing": "Wreck showing mast/masts",
+            "hull_showing": "Wreck showing any portion of hull or superstructure"
+        }
+    },
+    "icons": {
+        "non-dangerous": "https://osm.wiki/Special:FilePath/File:NChart_ECDIS_Wreck_Depth_NonDangerous.svg",
+        "dangerous": "https://osm.wiki/Special:FilePath/File:NChart_ECDIS_Wreck_Depth_Dangerous.svg",
+        "distributed_remains": "https://osm.wiki/Special:FilePath/File:NChart_ECDIS_Wreck_Depth_NonDangerous.svg",
+        "mast_showing": "https://osm.wiki/Special:FilePath/File:NChart_ECDIS_Wreck_Depth_Dangerous.svg",
+        "hull_showing": "https://osm.wiki/Special:FilePath/File:NChart-Symbol_INT_Wreck.svg"
+    }
 }

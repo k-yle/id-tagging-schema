@@ -1,0 +1,30 @@
+{
+    "key": "seamark:restricted_area:category",
+    "type": "combo",
+    "label": "Category",
+    "strings": {
+        "options": {
+            "safety": "Offshore safety zone",
+            "nature_reserve": "Nature reserve",
+            "bird_sanctuary": "Bird sanctuary",
+            "game_reserve": "Game reserve",
+            "seal_sanctuary": "Seal sanctuary",
+            "degaussing_range": "Degaussing range",
+            "military": "Military area",
+            "historic_wreck": "Historic wreck area",
+            "navigational_aid_safety": "Navigational aid safety zone",
+            "minefield": "Minefield",
+            "swimming": "Swimming area",
+            "waiting": "Waiting area",
+            "research": "Research area",
+            "dredging": "Dredging area",
+            "fish_sanctuary": "Fish sanctuary",
+            "ecological_reserve": "Ecological reserve",
+            "no_wake": "No wake area",
+            "swinging": "swinging area",
+            "water_skiing": "Water skiing area",
+            "essa": "Environmentally Sensitive Sea Area (ESSA)",
+            "pssa": "Particularly Sensitive Sea Area (PSSA)"
+        }
+    }
+}

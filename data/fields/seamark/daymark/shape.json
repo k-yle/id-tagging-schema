@@ -1,0 +1,7 @@
+{
+    "key": "seamark:daymark:shape",
+    "type": "combo",
+    "label": "Shape",
+    "stringsCrossReference": "{seamark/topmark/shape}",
+    "iconsCrossReference": "{seamark/topmark/shape}"
+}

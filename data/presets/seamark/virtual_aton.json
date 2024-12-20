@@ -1,0 +1,25 @@
+{
+    "icon": "maki-harbor",
+    "fields": [
+        "seamark/virtual_aton/category",
+        "seamark/virtual_aton/mmsi"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "seamark:type": "virtual_aton"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:virtual_aton:category": "*",
+        "seamark:virtual_aton:mmsi": "*"
+    },
+    "terms": [
+        "aton",
+        "virtual aton"
+    ],
+    "imageURL": "https://osm.wiki/Special:FilePath/File:VIAS-NC.png",
+    "name": "Virtual Aid to Navigation"
+}

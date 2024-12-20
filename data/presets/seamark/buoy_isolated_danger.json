@@ -1,0 +1,40 @@
+{
+    "icon": "temaki-buoy",
+    "fields": [
+        "seamark/name",
+        "seamark/buoy_isolated_danger/shape",
+        "seamark/light/reference",
+        "check_date"
+    ],
+    "moreFields": [
+        "seamark/radar_reflector",
+        "seamark/radio_station/mmsi"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "buoy",
+        "danger buoy",
+        "isolated danger"
+    ],
+    "tags": {
+        "seamark:type": "buoy_isolated_danger",
+        "seamark:buoy_isolated_danger:colour": "black;red;black",
+        "seamark:buoy_isolated_danger:colour_pattern": "horizontal",
+        "seamark:topmark:shape": "2 spheres",
+        "seamark:topmark:colour": "black"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:buoy_isolated_danger:shape": "*",
+        "seamark:buoy_isolated_danger:colour": "*",
+        "seamark:buoy_isolated_danger:colour_pattern": "*",
+        "seamark:topmark:shape": "*",
+        "seamark:topmark:colour": "*",
+        "seamark:topmark:colour_pattern": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Buoy_Isolated_Danger.png",
+    "name": "Danger Buoy"
+}

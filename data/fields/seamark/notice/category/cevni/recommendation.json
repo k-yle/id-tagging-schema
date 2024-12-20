@@ -1,0 +1,28 @@
+{
+    "key": "seamark:notice:category",
+    "type": "combo",
+    "label": "Category",
+    "prerequisiteTag": {
+        "key": "seamark:notice:function",
+        "value": "recommendation"
+    },
+    "autoSuggestions": false,
+    "strings": {
+        "options": {
+            "channel_two_way": "Channel Two Way",
+            "channel_one_way": "Channel One Way",
+            "opening_to_right": "Opening To Right",
+            "opening_to_left": "Opening To Left",
+            "proceed_to_left": "Proceed To Left",
+            "proceed_to_right": "Proceed To Right"
+        }
+    },
+    "icons": {
+        "channel_two_way": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_D1a.png",
+        "channel_one_way": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_D1b.png",
+        "opening_to_right": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_D2a.png",
+        "opening_to_left": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_D2b.png",
+        "proceed_to_left": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_D3a.png",
+        "proceed_to_right": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_D3b.png"
+    }
+}

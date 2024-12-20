@@ -1,0 +1,5 @@
+{
+    "key": "seamark:light:range",
+    "type": "number",
+    "label": "Light Range (nautical miles)"
+}

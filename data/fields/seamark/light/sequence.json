@@ -1,0 +1,6 @@
+{
+    "key": "seamark:light:sequence",
+    "type": "text",
+    "label": "Light Sequence",
+    "placeholder": "3+(1)+3.5+(1)"
+}

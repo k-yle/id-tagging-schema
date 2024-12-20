@@ -1,0 +1,46 @@
+{
+    "key": "seamark:notice:category",
+    "type": "combo",
+    "label": "Category",
+    "prerequisiteTag": {
+        "key": "seamark:notice:function",
+        "value": "regulation"
+    },
+    "autoSuggestions": false,
+    "strings": {
+        "options": {
+            "move_to_left": "Move To Left",
+            "move_to_right": "Move To Right",
+            "move_to_port": "Move To Port",
+            "move_to_starboard": "Move To Starboard",
+            "keep_to_port": "Keep To Port",
+            "keep_to_starboard": "Keep To Starboard",
+            "cross_to_port": "Cross To Port",
+            "cross_to_starboard": "Cross To Starboard",
+            "stop": "Stop",
+            "speed_limit": "Speed Limit",
+            "sound_horn": "Sound Horn",
+            "keep_lookout": "Keep Lookout",
+            "give_way_junction": "Give Way Junction",
+            "give_way_crossing": "Give Way Crossing",
+            "make_radio_contact": "Make Radio Contact"
+        }
+    },
+    "icons": {
+        "move_to_left": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_B1a.png",
+        "move_to_right": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_B1b.png",
+        "move_to_port": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_B2a.png",
+        "move_to_starboard": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_B2b.png",
+        "keep_to_port": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_B3a.png",
+        "keep_to_starboard": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_B3b.png",
+        "cross_to_port": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_B4a.png",
+        "cross_to_starboard": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_B4b.png",
+        "stop": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_B5.png",
+        "speed_limit": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_B6.png",
+        "sound_horn": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_B7.png",
+        "keep_lookout": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_B8.png",
+        "give_way_junction": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_B9a.png",
+        "give_way_crossing": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_B9b.png",
+        "make_radio_contact": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_B11.png"
+    }
+}

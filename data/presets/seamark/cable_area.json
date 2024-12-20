@@ -1,0 +1,14 @@
+{
+    "icon": "maki-harbor",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "seamark/cable_area/restriction"
+    ],
+    "tags": {
+        "seamark:type": "cable_area"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:CableArea.png",
+    "name": "Submarine Cable Area"
+}

@@ -16,6 +16,10 @@
       "replace": { "landuse": "aquaculture", "seamark:type": "marine_farm" }
   },
   {
+    "old": {"seamark:radio_station:mmsi": "*"},
+    "replace": {"seamark:radio_station:mmsi": "$1", "seamark:radio_station:category":"ais"}
+  },
+  {
     "old": { "highway": "turning_circle", "parking:both:restriction": "*" },
     "replace": { "highway": "turning_circle", "parking:both:restriction": "$1", "parking:both:restriction:reason": "turnaround" }
   },

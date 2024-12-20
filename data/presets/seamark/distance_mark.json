@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-milestone",
+    "fields": [
+        "seamark/distance_mark/category",
+        "seamark/distance_mark/distance",
+        "seamark/distance_mark/units"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "seamark:type": "distance_mark"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:distance_mark:category": "*",
+        "seamark:distance_mark:distance": "*",
+        "seamark:distance_mark:units": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:DistanceU.png",
+    "name": "Maritime Distance Mark"
+}

@@ -1,0 +1,12 @@
+{
+    "icon": "maki-harbor",
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "seamark:type": "separation_roundabout"
+    },
+    "searchable": true,
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Openseamap_rendering_separation_roundabout.png",
+    "name": "TSS Separation Roundabout"
+}
