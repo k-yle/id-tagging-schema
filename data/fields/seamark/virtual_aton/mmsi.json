@@ -1,0 +1,7 @@
+{
+    "key": "seamark:virtual_aton:mmsi",
+    "type": "identifier",
+    "urlFormat": "https://www.marinetraffic.com/ais/details/ships/{value}",
+    "pattern": "^[0-9]{1,}$",
+    "label": "MMSI"
+}

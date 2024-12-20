@@ -1,0 +1,7 @@
+{
+    "key": "seamark:mooring:shape",
+    "type": "combo",
+    "label": "Shape",
+    "stringsCrossReference": "{seamark/buoy_special_purpose/shape}",
+    "iconsCrossReference": "{seamark/buoy_special_purpose/shape}"
+}

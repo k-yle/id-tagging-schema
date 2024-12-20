@@ -1,0 +1,12 @@
+{
+    "key": "seamark:distance_mark:category",
+    "type": "combo",
+    "label": "Category",
+    "strings": {
+        "options": {
+            "pole": "Pole",
+            "board": "Board",
+            "not_installed": "Virtual"
+        }
+    }
+}

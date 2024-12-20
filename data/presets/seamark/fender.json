@@ -1,0 +1,11 @@
+{
+    "icon": "temaki-tire",
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "seamark:type": "shoreline_construction",
+        "seamark:shoreline_construction:category": "fender"
+    },
+    "name": "Fender"
+}

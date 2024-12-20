@@ -1,5 +1,7 @@
 {
     "key": "seamark:buoy_lateral:shape",
     "type": "combo",
-    "label": "Shape"
+    "label": "Buoy Shape",
+    "stringsCrossReference": "{seamark/buoy_special_purpose/shape}",
+    "iconsCrossReference": "{seamark/buoy_special_purpose/shape}"
 }

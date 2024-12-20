@@ -1,0 +1,16 @@
+{
+    "key": "seamark:cable_submarine:category",
+    "type": "combo",
+    "label": "Category",
+    "strings": {
+        "options": {
+            "power": "Power",
+            "transmission": "Transmission",
+            "telephone": "Telephone",
+            "telegraph": "Telegraph",
+            "mooring": "Mooring",
+            "optical": "Optical",
+            "ferry": "Ferry"
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "key": "seamark:notice:category",
+    "type": "combo",
+    "label": "Category",
+    "prerequisiteTag": {
+        "key": "seamark:notice:function",
+        "value": "prohibition"
+    },
+    "autoSuggestions": false,
+    "strings": {
+        "options": {
+            "no_entry": "No Entry",
+            "closed_area": "Closed Area",
+            "no_overtaking": "No Overtaking",
+            "no_convoy_overtaking": "No Convoy Overtaking",
+            "no_passing": "No Passing",
+            "no_convoy_passing": "No Convoy Passing",
+            "no_berthing": "No Berthing",
+            "no_berthing_lateral_limit": "No Berthing Lateral Limit",
+            "no_anchoring": "No Anchoring",
+            "no_mooring": "No Mooring",
+            "no_turning": "No Turning",
+            "no_wash": "No Wash",
+            "no_passage_left": "No Passage Left",
+            "no_passage_right": "No Passage Right",
+            "no_motor_craft": "No Motor Craft",
+            "no_sport_craft": "No Sport Craft",
+            "no_waterskiing": "No Waterskiing",
+            "no_sailing_craft": "No Sailing Craft",
+            "no_unpowered_craft": "No Unpowered Craft",
+            "no_sailboards": "No Sailboards",
+            "no_high_speeds": "No High Speeds",
+            "no_launching_beaching": "No Launching Beaching",
+            "no_waterbikes": "No Waterbikes"
+        }
+    },
+    "icons": {
+        "no_entry": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A1.png",
+        "closed_area": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A1a.png",
+        "no_overtaking": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A2.png",
+        "no_convoy_overtaking": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A3.png",
+        "no_passing": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A4.png",
+        "no_convoy_passing": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A4.png",
+        "no_berthing": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A5.png",
+        "no_berthing_lateral_limit": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A5.png",
+        "no_anchoring": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A6.png",
+        "no_mooring": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A7.png",
+        "no_turning": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A8.png",
+        "no_wash": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A9.png",
+        "no_passage_left": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A10a.png",
+        "no_passage_right": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A10b.png",
+        "no_motor_craft": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A12.png",
+        "no_sport_craft": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A13.png",
+        "no_waterskiing": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A14.png",
+        "no_sailing_craft": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A15.png",
+        "no_unpowered_craft": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A16.png",
+        "no_sailboards": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A17.png",
+        "no_high_speeds": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A18.png",
+        "no_launching_beaching": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A19.png",
+        "no_waterbikes": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_A20.png"
+    }
+}

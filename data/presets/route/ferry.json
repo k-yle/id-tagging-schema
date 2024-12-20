@@ -31,6 +31,8 @@
         "roundtrip",
         "via",
         "vhf",
+        "vessel",
+        "vessel/mmsi",
         "wheelchair"
     ],
     "tags": {

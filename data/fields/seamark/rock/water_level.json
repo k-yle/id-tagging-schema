@@ -1,0 +1,6 @@
+{
+    "key": "seamark:rock:water_level",
+    "type": "combo",
+    "label": "Water Level",
+    "stringsCrossReference": "{seamark/obstruction/water_level}"
+}

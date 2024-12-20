@@ -1,0 +1,11 @@
+{
+    "icon": "maki-harbor",
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "seamark:type": "pipeline_area"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Openseamap_rendering_pipeline_area.png",
+    "name": "Submarine Pipeline Area"
+}

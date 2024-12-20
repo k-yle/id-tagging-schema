@@ -1,0 +1,11 @@
+{
+    "key": "seamark:bridge:clearance_height_open",
+    "type": "number",
+    "label": "Clearance Height when open (metres)",
+    "prerequisiteTag": {
+        "key": "seamark:bridge:category",
+        "values": [
+            "lifting"
+        ]
+    }
+}

@@ -2,5 +2,14 @@
     "key": "seamark:beacon_lateral:shape",
     "type": "combo",
     "label": "Shape",
-    "stringsCrossReference": "{seamark/beacon_isolated_danger/shape}"
+    "stringsCrossReference": "{seamark/beacon_isolated_danger/shape}",
+    "icons": {
+        "pole": "https://osm.wiki/Special:FilePath/File:Beacon_Stake.png",
+        "withy": "https://osm.wiki/Special:FilePath/File:Beacon_Withy.png",
+        "tower": "https://osm.wiki/Special:FilePath/File:Beacon_Tower.png",
+        "lattice": "https://osm.wiki/Special:FilePath/File:Beacon_Pile.png",
+        "pile": "https://osm.wiki/Special:FilePath/File:Beacon_Pile.png",
+        "cairn": "https://osm.wiki/Special:FilePath/File:Beacon_Cairn.png",
+        "buoyant": "https://osm.wiki/Special:FilePath/File:Beacon_Pile.png"
+    }
 }

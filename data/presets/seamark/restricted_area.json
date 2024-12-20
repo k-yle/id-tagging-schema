@@ -1,0 +1,21 @@
+{
+    "icon": "maki-harbor",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "seamark/restricted_area/category",
+        "seamark/restricted_area/restriction",
+        "check_date"
+    ],
+    "tags": {
+        "seamark:type": "restricted_area"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:restricted_area:category": "*",
+        "seamark:restricted_area:restriction": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:DumpingGround.png",
+    "name": "Restricted Maritime Area"
+}
