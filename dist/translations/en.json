@@ -5587,7 +5587,6 @@
                     "terms": "bump,hump,slow,speed"
                 },
                 "shop": {
-                    "name": "Shop",
                     "terms": "retailer,store"
                 },
                 "relation": {
@@ -9808,6 +9807,7 @@
                     "name": "Karting Racetrack",
                     "terms": "carting,go carts,go karts,go-karts,gokarts,kart racing,karting track,motorsports,shifter karts,superkarts"
                 },
+                "highway/path/traffic_island_shared": {},
                 "highway/path/informal": {
                     "name": "Informal Path",
                     "terms": "bootleg trail,cow path,desire line,desire path,desireline,desirepath,elephant path,game trail,goat track,herd path,pig trail,shortcut,social trail,use trail"
@@ -9816,9 +9816,11 @@
                     "name": "Boardwalk",
                     "terms": "pier,plank walkway,wooden raised foot path"
                 },
+                "highway/path/bicycle_foot": {},
                 "highway/path/crossing": {
                     "name": "Cycle & Foot Crossing"
                 },
+                "highway/path/crossing/bicycle_foot": {},
                 "highway/path/crossing/unmarked": {
                     "name": "Unmarked Cycle & Foot Crossing"
                 },
@@ -9869,6 +9871,16 @@
                     "name": "Zebra Crossing"
                 },
                 "highway/footway/crossing/marked": {},
+                "highway/cycleway/traffic_island_shared": {
+                    "name": "Cycle & Foot Refuge Island",
+                    "aliases": "Crosswalk Island\nTraffic Island\nPedestrian Island",
+                    "terms": "crossing island"
+                },
+                "highway/cycleway/traffic_island": {
+                    "name": "Cycle Refuge Island",
+                    "aliases": "Crosswalk Island\nTraffic Island\nPedestrian Island",
+                    "terms": "crossing island"
+                },
                 "highway/cycleway/moped_link-NL": {
                     "name": "Moped Link"
                 },

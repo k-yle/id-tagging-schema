@@ -27,7 +27,7 @@
         },
         {
             "key": "shop",
-            "description": "🄿 Shop, 🄵 Type",
+            "description": "🄿 Shop (Unspecified Type), 🄵 Type",
             "object_types": [
                 "node",
                 "area"
@@ -9902,6 +9902,15 @@
             "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-motorcycle.svg"
         },
         {
+            "key": "bicycle",
+            "value": "designated",
+            "description": "🄿 Cycle & Foot Refuge Island, 🄿 Shared Path, 🄿 Shared Path Crossing, 🄵🅅 Allowed Access: `designated`",
+            "object_types": [
+                "way"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/pedestrian_and_cyclist.svg"
+        },
+        {
             "key": "informal",
             "value": "yes",
             "description": "🄿 Informal Path, 🄿 Informal Foot Path (unsearchable)",
@@ -10007,6 +10016,15 @@
                 "way"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/pedestrian_crosswalk.svg"
+        },
+        {
+            "key": "cycleway",
+            "value": "traffic_island",
+            "description": "🄿 Cycle Refuge Island",
+            "object_types": [
+                "way"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-biking.svg"
         },
         {
             "key": "moped",
@@ -21521,11 +21539,6 @@
         },
         {
             "key": "bicycle",
-            "value": "designated",
-            "description": "🄵🅅 Allowed Access: `designated`"
-        },
-        {
-            "key": "bicycle",
             "value": "destination",
             "description": "🄵🅅 Allowed Access: `destination`"
         },
@@ -28477,6 +28490,126 @@
             "key": "parking",
             "value": "street",
             "description": "🄳 (deprecated tag) ➜ parking=lane"
+        },
+        {
+            "key": "parking:lane:both",
+            "value": "no",
+            "description": "🄳 (deprecated tag) ➜ parking:both=no"
+        },
+        {
+            "key": "parking:lane:both",
+            "value": "no_parking",
+            "description": "🄳 (deprecated tag) ➜ parking:both=no + parking:both:restriction=no_parking"
+        },
+        {
+            "key": "parking:lane:both",
+            "value": "no_stopping",
+            "description": "🄳 (deprecated tag) ➜ parking:both=no + parking:both:restriction=no_stopping"
+        },
+        {
+            "key": "parking:lane:both",
+            "value": "fire_lane",
+            "description": "🄳 (deprecated tag) ➜ parking:both=no + parking:both:restriction=no_stopping + parking:both:restriction:reason=fire_lane"
+        },
+        {
+            "key": "parking:lane:both",
+            "value": "separate",
+            "description": "🄳 (deprecated tag) ➜ parking:both=separate"
+        },
+        {
+            "key": "parking:lane:both",
+            "value": "diagonal",
+            "description": "🄳 (deprecated tag) ➜ parking:both=yes + parking:both:orientation=diagonal"
+        },
+        {
+            "key": "parking:lane:both",
+            "value": "parallel",
+            "description": "🄳 (deprecated tag) ➜ parking:both=yes + parking:both:orientation=parallel"
+        },
+        {
+            "key": "parking:lane:both",
+            "value": "perpendicular",
+            "description": "🄳 (deprecated tag) ➜ parking:both=yes + parking:both:orientation=perpendicular"
+        },
+        {
+            "key": "parking:lane:both:parallel",
+            "value": "on_street",
+            "description": "🄳 (deprecated tag) ➜ parking:both=lane"
+        },
+        {
+            "key": "parking:lane:left",
+            "value": "no",
+            "description": "🄳 (deprecated tag) ➜ parking:left=no"
+        },
+        {
+            "key": "parking:lane:left",
+            "value": "no_parking",
+            "description": "🄳 (deprecated tag) ➜ parking:left=no + parking:left:restriction=no_parking"
+        },
+        {
+            "key": "parking:lane:left",
+            "value": "no_stopping",
+            "description": "🄳 (deprecated tag) ➜ parking:left=no + parking:left:restriction=no_stopping"
+        },
+        {
+            "key": "parking:lane:left",
+            "value": "separate",
+            "description": "🄳 (deprecated tag) ➜ parking:left=separate"
+        },
+        {
+            "key": "parking:lane:left",
+            "value": "diagonal",
+            "description": "🄳 (deprecated tag) ➜ parking:left=yes + parking:left:orientation=diagonal"
+        },
+        {
+            "key": "parking:lane:left",
+            "value": "parallel",
+            "description": "🄳 (deprecated tag) ➜ parking:left=yes + parking:left:orientation=parallel"
+        },
+        {
+            "key": "parking:lane:left",
+            "value": "perpendicular",
+            "description": "🄳 (deprecated tag) ➜ parking:left=yes + parking:left:orientation=perpendicular"
+        },
+        {
+            "key": "parking:lane:right",
+            "value": "no",
+            "description": "🄳 (deprecated tag) ➜ parking:right=no"
+        },
+        {
+            "key": "parking:lane:right",
+            "value": "no_parking",
+            "description": "🄳 (deprecated tag) ➜ parking:right=no + parking:right:restriction=no_parking"
+        },
+        {
+            "key": "parking:lane:right",
+            "value": "no_stopping",
+            "description": "🄳 (deprecated tag) ➜ parking:right=no + parking:right:restriction=no_stopping"
+        },
+        {
+            "key": "parking:lane:right",
+            "value": "separate",
+            "description": "🄳 (deprecated tag) ➜ parking:right=separate"
+        },
+        {
+            "key": "parking:lane:right",
+            "value": "diagonal",
+            "description": "🄳 (deprecated tag) ➜ parking:right=yes + parking:right:orientation=diagonal"
+        },
+        {
+            "key": "parking:lane:right",
+            "value": "parallel",
+            "description": "🄳 (deprecated tag) ➜ parking:right=yes + parking:right:orientation=parallel"
+        },
+        {
+            "key": "parking:lane:right",
+            "value": "perpendicular",
+            "description": "🄳 (deprecated tag) ➜ parking:right=yes + parking:right:orientation=perpendicular"
+        },
+        {
+            "key": "parking:lane:right:parallel",
+            "value": "on_street",
+            "description": "🄳 (deprecated tag) ➜ parking:right=lane"
         },
         {
             "key": "parking:orientation",
