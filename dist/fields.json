@@ -6316,6 +6316,13 @@
             ]
         }
     },
+    "railway/turnout_side": {
+        "key": "railway:turnout_side",
+        "type": "combo",
+        "stringsCrossReference": "{side}",
+        "autoSuggestions": false,
+        "customValues": true
+    },
     "railway/track_ref": {
         "key": "railway:track_ref",
         "type": "text"

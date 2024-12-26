@@ -7486,6 +7486,7 @@
         "icon": "temaki-junction",
         "fields": [
             "railway/switch",
+            "railway/turnout_side",
             "ref"
         ],
         "geometry": [
@@ -13190,6 +13191,25 @@
         ],
         "tags": {
             "man_made": "insect_hotel"
+        }
+    },
+    "man_made/guy_wire_anchor": {
+        "icon": "fas-cube",
+        "geometry": [
+            "point",
+            "vertex"
+        ],
+        "tags": {
+            "man_made": "guy_wire_anchor"
+        }
+    },
+    "man_made/guy_wire": {
+        "icon": "iD-power-line",
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "man_made": "guy_wire"
         }
     },
     "man_made/groyne": {

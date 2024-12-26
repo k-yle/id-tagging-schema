@@ -4076,7 +4076,7 @@
                     "options": {
                         "prohibition": "Prohibition",
                         "regulation": "Regulation",
-                        "restriction": "Restriction",
+                        "restriction": "Physical Restriction",
                         "recommendation": "Recommendation",
                         "information": "Information"
                     }
@@ -4757,6 +4757,9 @@
                 "ref/FR/siret-FR": {
                     "label": "SIRET Number",
                     "terms": "french company identification number,siret"
+                },
+                "railway/turnout_side": {
+                    "label": "Turnout Side"
                 },
                 "railway/track_ref": {
                     "label": "Track Number"
@@ -8461,6 +8464,14 @@
                 "man_made/insect_hotel": {
                     "name": "Insect Hotel",
                     "terms": "bee hotel,bug hotel,insect house"
+                },
+                "man_made/guy_wire_anchor": {
+                    "name": "Counterweight Block",
+                    "terms": "ballast,guy line,tie line,tie down,anchor,wire,stay,shroud,rigging"
+                },
+                "man_made/guy_wire": {
+                    "name": "Guy Wire",
+                    "terms": "guy line,tie line,tie down,anchor,wire,stay wire"
                 },
                 "man_made/groyne": {
                     "name": "Groin",

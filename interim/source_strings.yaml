@@ -4520,6 +4520,9 @@ en:
       railway/track_ref:
         # railway:track_ref=*
         label: Track Number
+      railway/turnout_side:
+        # railway:turnout_side=*
+        label: Turnout Side
       ramp:
         # ramp=*
         label: Embedded Ramp
@@ -5864,7 +5867,7 @@ en:
           # seamark:notice:function=regulation
           regulation: Regulation
           # seamark:notice:function=restriction
-          restriction: Restriction
+          restriction: Physical Restriction
       seamark/notice/system:
         # seamark:notice:system=*
         label: System
@@ -12600,6 +12603,16 @@ en:
         # man_made=groyne | Wing Dam, Wing Dyke, Spur Dyke | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Groin
         terms: <translate with synonyms or related terms for 'Groin', separated by commas>
+      man_made/guy_wire:
+        # man_made=guy_wire | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Guy Wire
+        # 'terms: guy line,tie line,tie down,anchor,wire,stay wire'
+        terms: <translate with synonyms or related terms for 'Guy Wire', separated by commas>
+      man_made/guy_wire_anchor:
+        # man_made=guy_wire_anchor | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Counterweight Block
+        # 'terms: ballast,guy line,tie line,tie down,anchor,wire,stay,shroud,rigging'
+        terms: <translate with synonyms or related terms for 'Counterweight Block', separated by commas>
       man_made/insect_hotel:
         # man_made=insect_hotel | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Insect Hotel

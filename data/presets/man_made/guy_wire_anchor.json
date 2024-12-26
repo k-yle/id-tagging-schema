@@ -1,0 +1,22 @@
+{
+    "icon": "fas-cube",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "ballast",
+        "guy line",
+        "tie line",
+        "tie down",
+        "anchor",
+        "wire",
+        "stay",
+        "shroud",
+        "rigging"
+    ],
+    "tags": {
+        "man_made": "guy_wire_anchor"
+    },
+    "name": "Counterweight Block"
+}

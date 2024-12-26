@@ -6777,6 +6777,24 @@
         },
         {
             "key": "man_made",
+            "value": "guy_wire_anchor",
+            "description": "🄿 Counterweight Block",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-cube.svg"
+        },
+        {
+            "key": "man_made",
+            "value": "guy_wire",
+            "description": "🄿 Guy Wire",
+            "object_types": [
+                "way"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/iD-sprite/presets/power-line.svg"
+        },
+        {
+            "key": "man_made",
             "value": "groyne",
             "description": "🄿 Groin",
             "object_types": [
@@ -23403,7 +23421,7 @@
         {
             "key": "seamark:notice:function",
             "value": "restriction",
-            "description": "🄵🅅 Function: Restriction"
+            "description": "🄵🅅 Function: Physical Restriction"
         },
         {
             "key": "seamark:notice:function",
@@ -25419,6 +25437,10 @@
         {
             "key": "ref:FR:SIRET",
             "description": "🄵 SIRET Number"
+        },
+        {
+            "key": "railway:turnout_side",
+            "description": "🄵 Turnout Side"
         },
         {
             "key": "railway:track_ref",

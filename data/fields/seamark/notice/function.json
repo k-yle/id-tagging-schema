@@ -10,7 +10,7 @@
         "options": {
             "prohibition": "Prohibition",
             "regulation": "Regulation",
-            "restriction": "Restriction",
+            "restriction": "Physical Restriction",
             "recommendation": "Recommendation",
             "information": "Information"
         }
