@@ -2,5 +2,6 @@
     "key": "seamark:buoy_special_purpose:colour",
     "type": "semiCombo",
     "label": "Buoy Color",
+    "allowDuplicates": true,
     "stringsCrossReference": "{seamark/beacon_special_purpose/colour}"
 }

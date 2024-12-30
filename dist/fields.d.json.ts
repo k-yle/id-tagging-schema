@@ -136,6 +136,10 @@ export type Field = (
    */
   caseSensitive?: boolean;
   /**
+   * If true, duplicate values are allowed (semiCombo fields only)
+   */
+  allowDuplicates?: boolean;
+  /**
    * Minimum field value (number fields only)
    */
   minValue?: number;

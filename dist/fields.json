@@ -3056,6 +3056,7 @@
     "destination": {
         "key": "destination",
         "type": "semiCombo",
+        "allowDuplicates": true,
         "snake_case": false,
         "caseSensitive": true
     },
@@ -4842,6 +4843,7 @@
     "seamark/topmark/colour": {
         "key": "seamark:topmark:colour",
         "type": "semiCombo",
+        "allowDuplicates": true,
         "stringsCrossReference": "{seamark/beacon_special_purpose/colour}",
         "prerequisiteTag": {
             "key": "seamark:topmark:shape"
@@ -5496,6 +5498,7 @@
     "seamark/mooring/colour": {
         "key": "seamark:mooring:colour",
         "type": "combo",
+        "allowDuplicates": true,
         "stringsCrossReference": "{seamark/beacon_special_purpose/colour}"
     },
     "seamark/mooring/category": {
@@ -5562,6 +5565,7 @@
     "seamark/light/colour": {
         "key": "seamark:light:colour",
         "type": "semiCombo",
+        "allowDuplicates": true,
         "stringsCrossReference": "{seamark/beacon_special_purpose/colour}"
     },
     "seamark/light/character": {
@@ -5784,6 +5788,7 @@
     "seamark/daymark/colour": {
         "key": "seamark:daymark:colour",
         "type": "semiCombo",
+        "allowDuplicates": true,
         "stringsCrossReference": "{seamark/beacon_special_purpose/colour}"
     },
     "seamark/daymark/category": {
@@ -5874,6 +5879,7 @@
     "seamark/buoy_special_purpose/colour": {
         "key": "seamark:buoy_special_purpose:colour",
         "type": "semiCombo",
+        "allowDuplicates": true,
         "stringsCrossReference": "{seamark/beacon_special_purpose/colour}"
     },
     "seamark/buoy_special_purpose/category": {
@@ -5912,6 +5918,7 @@
     "seamark/buoy_lateral/colour": {
         "key": "seamark:buoy_lateral:colour",
         "type": "semiCombo",
+        "allowDuplicates": true,
         "stringsCrossReference": "{seamark/beacon_special_purpose/colour}"
     },
     "seamark/buoy_lateral/category": {
@@ -6031,6 +6038,7 @@
     "seamark/beacon_special_purpose/colour": {
         "key": "seamark:beacon_special_purpose:colour",
         "type": "semiCombo",
+        "allowDuplicates": true,
         "stringsCrossReference": "{seamark/beacon_special_purpose/colour}"
     },
     "seamark/beacon_special_purpose/category": {
@@ -6155,6 +6163,7 @@
     "seamark/beacon_lateral/colour": {
         "key": "seamark:beacon_lateral:colour",
         "type": "semiCombo",
+        "allowDuplicates": true,
         "stringsCrossReference": "{seamark/beacon_special_purpose/colour}"
     },
     "seamark/beacon_lateral/category": {
@@ -7278,6 +7287,7 @@
         "key": "destination:symbol",
         "type": "semiCombo",
         "label": "{destination/symbol}",
+        "allowDuplicates": true,
         "prerequisiteTag": {
             "key": "oneway",
             "value": "yes"
@@ -7285,7 +7295,8 @@
     },
     "destination/symbol": {
         "key": "destination:symbol",
-        "type": "semiCombo"
+        "type": "semiCombo",
+        "allowDuplicates": true
     },
     "destination/ref_oneway": {
         "key": "destination:ref",
@@ -7295,12 +7306,14 @@
             "key": "oneway",
             "value": "yes"
         },
+        "allowDuplicates": true,
         "snake_case": false,
         "caseSensitive": true
     },
     "destination/ref": {
         "key": "destination:ref",
         "type": "semiCombo",
+        "allowDuplicates": true,
         "snake_case": false,
         "caseSensitive": true
     },

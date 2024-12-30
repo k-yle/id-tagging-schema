@@ -2,5 +2,6 @@
     "key": "seamark:beacon_special_purpose:colour",
     "type": "semiCombo",
     "label": "Marker Color",
+    "allowDuplicates": true,
     "stringsCrossReference": "{seamark/beacon_special_purpose/colour}"
 }
