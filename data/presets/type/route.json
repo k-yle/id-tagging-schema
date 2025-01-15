@@ -34,6 +34,7 @@
                     "stop_on_demand_entry_only": "Stop (Entry Only) (only stops on request)"
                 },
                 "geometry": [
+                    "point",
                     "vertex"
                 ],
                 "matchTags": [
