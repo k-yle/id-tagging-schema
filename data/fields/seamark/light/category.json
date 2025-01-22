@@ -1,6 +1,6 @@
 {
     "key": "seamark:light:category",
-    "type": "multiCombo",
+    "type": "combo",
     "label": "Light Category",
     "strings": {
         "options": {

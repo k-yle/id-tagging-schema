@@ -23,6 +23,10 @@
     "old": { "highway": "turning_circle", "parking:both:restriction": "*" },
     "replace": { "highway": "turning_circle", "parking:both:restriction": "$1", "parking:both:restriction:reason": "turnaround" }
   },
+  {
+    "old": { "man_made": "pumping_station" },
+    "replace": { "man_made": "pumping_station", "landuse": "industrial" }
+  },
 
 
 

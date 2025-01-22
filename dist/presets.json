@@ -1387,7 +1387,8 @@
                         }
                     ],
                     "geometry": [
-                        "line"
+                        "line",
+                        "area"
                     ]
                 }
             ]
@@ -1521,7 +1522,9 @@
                 },
                 {
                     "roles": {
-                        "": ""
+                        "": "",
+                        "forward": "Forwards",
+                        "backward": "Backwards"
                     },
                     "geometry": [
                         "line"
@@ -1643,6 +1646,7 @@
                         "from": "From"
                     },
                     "geometry": [
+                        "vertex",
                         "line"
                     ],
                     "matchTags": [
@@ -1656,6 +1660,7 @@
                         "to": "To"
                     },
                     "geometry": [
+                        "vertex",
                         "line"
                     ],
                     "matchTags": [
@@ -22052,6 +22057,24 @@
         ],
         "tags": {
             "emergency": "fire_extinguisher"
+        }
+    },
+    "emergency/fire_alarm_control_panel": {
+        "icon": "fas-house-fire",
+        "fields": [
+            "indoor",
+            "ref",
+            "operator"
+        ],
+        "moreFields": [
+            "level"
+        ],
+        "geometry": [
+            "point",
+            "vertex"
+        ],
+        "tags": {
+            "emergency": "fire_alarm_control_panel"
         }
     },
     "emergency/fire_alarm": {

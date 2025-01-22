@@ -6643,7 +6643,7 @@
         {
             "key": "man_made",
             "value": "pumping_station",
-            "description": "🄿 Pumping Station",
+            "description": "🄿 Pumping Station, 🄳 (deprecated tag) ➜ man_made=pumping_station + landuse=industrial",
             "object_types": [
                 "node",
                 "area"
@@ -10586,6 +10586,15 @@
                 "node"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-fire-extinguisher.svg"
+        },
+        {
+            "key": "emergency",
+            "value": "fire_alarm_control_panel",
+            "description": "🄿 Fire Alarm Control Panel",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-house-fire.svg"
         },
         {
             "key": "emergency",
@@ -24199,75 +24208,93 @@
             "description": "🄵 Light Category"
         },
         {
-            "key": "seamark:light:categorydirectional",
+            "key": "seamark:light:category",
+            "value": "directional",
             "description": "🄵🅅 Light Category: Directional"
         },
         {
-            "key": "seamark:light:categoryleading",
+            "key": "seamark:light:category",
+            "value": "leading",
             "description": "🄵🅅 Light Category: Leading Light"
         },
         {
-            "key": "seamark:light:categoryfront",
+            "key": "seamark:light:category",
+            "value": "front",
             "description": "🄵🅅 Light Category: Front"
         },
         {
-            "key": "seamark:light:categoryrear",
+            "key": "seamark:light:category",
+            "value": "rear",
             "description": "🄵🅅 Light Category: Rear"
         },
         {
-            "key": "seamark:light:categorylower",
+            "key": "seamark:light:category",
+            "value": "lower",
             "description": "🄵🅅 Light Category: Lower"
         },
         {
-            "key": "seamark:light:categoryupper",
+            "key": "seamark:light:category",
+            "value": "upper",
             "description": "🄵🅅 Light Category: Upper"
         },
         {
-            "key": "seamark:light:categoryaero",
+            "key": "seamark:light:category",
+            "value": "aero",
             "description": "🄵🅅 Light Category: Aero Light"
         },
         {
-            "key": "seamark:light:categoryair_obstruction",
+            "key": "seamark:light:category",
+            "value": "air_obstruction",
             "description": "🄵🅅 Light Category: Air Obstruction Light"
         },
         {
-            "key": "seamark:light:categoryfog_detector",
+            "key": "seamark:light:category",
+            "value": "fog_detector",
             "description": "🄵🅅 Light Category: Fog Detector Light"
         },
         {
-            "key": "seamark:light:categoryfloodlight",
+            "key": "seamark:light:category",
+            "value": "floodlight",
             "description": "🄵🅅 Light Category: Flood Light"
         },
         {
-            "key": "seamark:light:categorystrip_light",
+            "key": "seamark:light:category",
+            "value": "strip_light",
             "description": "🄵🅅 Light Category: Strip Light"
         },
         {
-            "key": "seamark:light:categorysubsidiary",
+            "key": "seamark:light:category",
+            "value": "subsidiary",
             "description": "🄵🅅 Light Category: Subsidiary Light"
         },
         {
-            "key": "seamark:light:categoryspotlight",
+            "key": "seamark:light:category",
+            "value": "spotlight",
             "description": "🄵🅅 Light Category: Spotlight"
         },
         {
-            "key": "seamark:light:categorymoire",
+            "key": "seamark:light:category",
+            "value": "moire",
             "description": "🄵🅅 Light Category: Moiré Effect"
         },
         {
-            "key": "seamark:light:categoryemergency",
+            "key": "seamark:light:category",
+            "value": "emergency",
             "description": "🄵🅅 Light Category: Emergency Light"
         },
         {
-            "key": "seamark:light:categorybearing",
+            "key": "seamark:light:category",
+            "value": "bearing",
             "description": "🄵🅅 Light Category: Bearing Light"
         },
         {
-            "key": "seamark:light:categoryhorizontal",
+            "key": "seamark:light:category",
+            "value": "horizontal",
             "description": "🄵🅅 Light Category: Horizontally Disposed"
         },
         {
-            "key": "seamark:light:categoryvertical",
+            "key": "seamark:light:category",
+            "value": "vertical",
             "description": "🄵🅅 Light Category: Vertically Disposed"
         },
         {

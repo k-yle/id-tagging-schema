@@ -58,6 +58,15 @@
     },
     {
         "old": {
+            "man_made": "pumping_station"
+        },
+        "replace": {
+            "man_made": "pumping_station",
+            "landuse": "industrial"
+        }
+    },
+    {
+        "old": {
             "aerialway": "canopy"
         },
         "replace": {

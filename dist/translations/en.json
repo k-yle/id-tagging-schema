@@ -5849,7 +5849,9 @@
                         "platform_on_demand": "Platform (only stops on request)",
                         "platform_on_demand_exit_only": "Platform (Exit Only) (only stops on request)",
                         "platform_on_demand_entry_only": "Platform (Entry Only) (only stops on request)",
-                        "": ""
+                        "": "",
+                        "forward": "Forwards",
+                        "backward": "Backwards"
                     }
                 },
                 "type/restriction": {
@@ -10154,6 +10156,10 @@
                 },
                 "emergency/fire_extinguisher": {
                     "name": "Fire Extinguisher"
+                },
+                "emergency/fire_alarm_control_panel": {
+                    "name": "Fire Alarm Control Panel",
+                    "terms": "fire alarm panel,alarm panel,control system,fire control centre,fcc,central control station,emergency command centre,fire service centre,fire control room,fire control box,zone control unit"
                 },
                 "emergency/fire_alarm": {
                     "name": "Fire Alarm Call Box"

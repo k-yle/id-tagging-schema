@@ -68,7 +68,9 @@
             },
             {
                 "roles": {
-                    "": ""
+                    "": "",
+                    "forward": "Forwards",
+                    "backward": "Backwards"
                 },
                 "geometry": [
                     "line"

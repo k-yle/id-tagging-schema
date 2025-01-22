@@ -35,6 +35,7 @@
                     "from": "From"
                 },
                 "geometry": [
+                    "vertex",
                     "line"
                 ],
                 "matchTags": [
@@ -48,6 +49,7 @@
                     "to": "To"
                 },
                 "geometry": [
+                    "vertex",
                     "line"
                 ],
                 "matchTags": [

@@ -5601,7 +5601,7 @@
     },
     "seamark/light/category": {
         "key": "seamark:light:category",
-        "type": "multiCombo",
+        "type": "combo",
         "options": [
             "directional",
             "leading",

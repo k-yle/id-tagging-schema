@@ -10613,6 +10613,11 @@ en:
         # emergency=fire_alarm_box | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Fire Alarm Call Box
         terms: <translate with synonyms or related terms for 'Fire Alarm Call Box', separated by commas>
+      emergency/fire_alarm_control_panel:
+        # emergency=fire_alarm_control_panel | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Fire Alarm Control Panel
+        # 'terms: fire alarm panel,alarm panel,control system,fire control centre,fcc,central control station,emergency command centre,fire service centre,fire control room,fire control box,zone control unit'
+        terms: <translate with synonyms or related terms for 'Fire Alarm Control Panel', separated by commas>
       emergency/fire_extinguisher:
         # emergency=fire_extinguisher | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Fire Extinguisher
@@ -15979,6 +15984,10 @@ en:
         relation_roles:
           # Relation role “” when used with type=route
           '': ''
+          # Relation role “backward” when used with type=route
+          backward: Backwards
+          # Relation role “forward” when used with type=route
+          forward: Forwards
           # Relation role “platform” when used with type=route
           platform: Platform
           # Relation role “platform_entry_only” when used with type=route
