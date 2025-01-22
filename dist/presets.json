@@ -8196,6 +8196,7 @@
                         "stop": "Stop"
                     },
                     "geometry": [
+                        "point",
                         "vertex"
                     ],
                     "matchTags": [
