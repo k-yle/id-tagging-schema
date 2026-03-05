@@ -470,7 +470,6 @@ function generatePresets(
     if (preset.relationCrossReference) {
       references.presets[id] ||= {};
       references.presets[id].relation = preset.relationCrossReference;
-      delete preset.relationCrossReference;
     }
 
     if (preset.locationSet) {
