@@ -1,0 +1,11 @@
+{
+    "key": "direction",
+    "type": "radio",
+    "label": "Direction",
+    "strings": {
+        "options": {
+            "clockwise": "Clockwise",
+            "anticlockwise": "Counterclockwise"
+        }
+    }
+}

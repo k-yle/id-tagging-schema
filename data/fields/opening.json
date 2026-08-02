@@ -1,0 +1,18 @@
+{
+    "key": "opening",
+    "type": "measurement",
+    "measurement": {
+        "dimension": "length",
+        "usage": "default",
+        "impliedUnit": "meter"
+    },
+    "label": "Opening Width",
+    "snake_case": false,
+    "prerequisiteTag": {
+        "key": "cycle_barrier",
+        "values": [
+            "double",
+            "triple"
+        ]
+    }
+}

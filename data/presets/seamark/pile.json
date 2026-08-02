@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-silo",
+    "fields": [
+        "seamark/pile/category"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "pile"
+    ],
+    "tags": {
+        "seamark:type": "pile"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:pile:category": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Post.png",
+    "name": "Pile"
+}

@@ -1,0 +1,24 @@
+{
+    "icon": "fas-hand",
+    "fields": [
+        "maxspeed"
+    ],
+    "geometry": [
+        "relation"
+    ],
+    "tags": {
+        "type": "enforcement",
+        "enforcement": "maxspeed"
+    },
+    "reference": {
+        "key": "enforcement",
+        "value": "maxspeed"
+    },
+    "terms": [
+        "maxspeed",
+        "radar",
+        "speed camera"
+    ],
+    "name": "Speed Limit Enforcement",
+    "relationCrossReference": "{type/enforcement}"
+}

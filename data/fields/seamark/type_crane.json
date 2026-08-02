@@ -1,0 +1,11 @@
+{
+    "key": "seamark:type",
+    "type": "check",
+    "label": "Marine Crane",
+    "strings": {
+        "options": {
+            "crane": "Yes",
+            "": "No"
+        }
+    }
+}

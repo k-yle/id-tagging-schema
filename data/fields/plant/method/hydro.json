@@ -1,0 +1,15 @@
+{
+    "key": "plant:method",
+    "type": "radio",
+    "label": "{plant/method}",
+    "stringsCrossReference": "{generator/method}",
+    "options": [
+        "water-storage",
+        "water-pumped-storage",
+        "run-of-the-river"
+    ],
+    "prerequisiteTag": {
+        "key": "plant:source",
+        "value": "hydro"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-splash_pad",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{playground}"
+    ],
+    "moreFields": [
+        "{playground}"
+    ],
+    "tags": {
+        "playground": "splash_pad"
+    },
+    "terms": [
+        "pad",
+        "spray",
+        "water"
+    ],
+    "name": "Play Splash Pad"
+}

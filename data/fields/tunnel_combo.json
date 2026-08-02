@@ -1,0 +1,13 @@
+{
+    "key": "tunnel",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "building_passage": "Building Passage",
+            "culvert": "Culvert",
+            "flooded": "Flooded Tunnel",
+            "avalanche_protector": "Avalanche Protector"
+        }
+    }
+}

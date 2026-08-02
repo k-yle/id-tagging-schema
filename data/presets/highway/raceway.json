@@ -1,0 +1,30 @@
+{
+    "icon": "temaki-speedway_oval",
+    "fields": [
+        "name",
+        "oneway",
+        "surface",
+        "sport/sport_racing_motor",
+        "lit",
+        "width",
+        "lanes",
+        "structure"
+    ],
+    "geometry": [
+        "line",
+        "area"
+    ],
+    "tags": {
+        "highway": "raceway",
+        "sport": "motor"
+    },
+    "terms": [
+        "formula one",
+        "kart",
+        "motocross",
+        "nascar",
+        "raceway",
+        "track"
+    ],
+    "name": "Motorsport Racetrack"
+}

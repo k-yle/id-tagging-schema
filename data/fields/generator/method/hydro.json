@@ -1,0 +1,15 @@
+{
+    "key": "generator:method",
+    "type": "radio",
+    "label": "{generator/method}",
+    "stringsCrossReference": "{generator/method}",
+    "options": [
+        "water-storage",
+        "water-pumped-storage",
+        "run-of-the-river"
+    ],
+    "prerequisiteTag": {
+        "key": "generator:source",
+        "value": "hydro"
+    }
+}

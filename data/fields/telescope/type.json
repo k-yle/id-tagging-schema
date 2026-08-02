@@ -1,0 +1,17 @@
+{
+    "key": "telescope:type",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "optical": "{presets/man_made/telescope/optical}",
+            "radio": "{presets/man_made/telescope/radio}"
+        }
+    },
+    "icons": {
+        "optical": "temaki-telescope",
+        "radio": "roentgen-telescope_radio"
+    },
+    "autoSuggestions": true,
+    "customValues": true
+}

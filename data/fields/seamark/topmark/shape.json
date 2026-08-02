@@ -1,0 +1,35 @@
+{
+    "key": "seamark:topmark:shape",
+    "type": "combo",
+    "label": "Topmark Shape",
+    "strings": {
+        "options": {
+            "cone, point up": "▲ Cone, point up",
+            "cone, point down": "▼ Cone, point down",
+            "sphere": "● Sphere",
+            "2 spheres": "2 spheres",
+            "cylinder": "■ Cylinder (can)",
+            "board": "▮ Board",
+            "x-shape": "✖ X-shape (St. Andrew's cross)",
+            "cross": "✟ Upright cross (St George's cross)",
+            "cube, point up": "Cube, point up",
+            "2 cones point together": "2 cones, point to point",
+            "2 cones base together": "2 cones, base to base",
+            "rhombus": "◆ Rhombus (diamond)",
+            "2 cones up": "2 cones (points upward)",
+            "2 cones down": "2 cones (points downward)",
+            "besom, point up": "↑ Besom, point up (broom or perch)",
+            "besom, point down": "↓ Besom, point down (broom or perch)",
+            "flag": "⚑ Flag",
+            "square": "■ Square",
+            "triangle, point up": "▲ Triangle, point up",
+            "triangle, point down": "▼ Triangle, point down"
+        }
+    },
+    "icons": {
+        "2 cones point together": "https://osm.wiki/Special:FilePath/File:Top_CW.png",
+        "2 cones base together": "https://osm.wiki/Special:FilePath/File:Top_CE.png",
+        "2 cones up": "https://osm.wiki/Special:FilePath/File:Top_CN.png",
+        "2 cones down": "https://osm.wiki/Special:FilePath/File:Top_CS.png"
+    }
+}

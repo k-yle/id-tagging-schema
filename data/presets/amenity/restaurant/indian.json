@@ -1,0 +1,44 @@
+{
+    "icon": "maki-restaurant",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "bar",
+        "biryani",
+        "breakfast",
+        "butter chicken",
+        "chaat",
+        "curry",
+        "dal makhni",
+        "dine",
+        "dining",
+        "dinner",
+        "dosa",
+        "eat",
+        "garlic naan",
+        "grill",
+        "lassi",
+        "lunch",
+        "paneer tikka",
+        "roti",
+        "samosa",
+        "thali"
+    ],
+    "fields": [
+        "{amenity/restaurant}"
+    ],
+    "moreFields": [
+        "{amenity/restaurant}"
+    ],
+    "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian"
+    },
+    "reference": {
+        "key": "cuisine",
+        "value": "indian"
+    },
+    "name": "Indian Restaurant"
+}

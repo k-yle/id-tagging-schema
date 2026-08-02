@@ -1,0 +1,42 @@
+{
+    "icon": "iD-relation",
+    "fields": [
+        "name",
+        "ref",
+        "network",
+        "operator"
+    ],
+    "geometry": [
+        "relation"
+    ],
+    "tags": {
+        "type": "public_transport",
+        "public_transport": "stop_area_group"
+    },
+    "reference": {
+        "key": "public_transport",
+        "value": "stop_area_group"
+    },
+    "name": "Transit Stop Area Group",
+    "relation": {
+        "reference": "public_transport",
+        "allowDuplicateMembers": false,
+        "role_labels": {
+            "": ""
+        },
+        "members": [
+            {
+                "role": "",
+                "matchTags": [
+                    {
+                        "type": "public_transport",
+                        "public_transport": "stop_area"
+                    }
+                ],
+                "geometry": [
+                    "relation"
+                ]
+            }
+        ]
+    }
+}

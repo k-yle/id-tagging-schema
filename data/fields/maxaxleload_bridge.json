@@ -1,0 +1,15 @@
+{
+    "key": "maxaxleload",
+    "type": "measurement",
+    "label": "Axle Weight Limit",
+    "snake_case": false,
+    "prerequisiteTag": {
+        "key": "bridge",
+        "valueNot": "no"
+    },
+    "measurement": {
+        "dimension": "mass",
+        "usage": "default",
+        "impliedUnit": "tonne"
+    }
+}

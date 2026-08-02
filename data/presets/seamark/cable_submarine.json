@@ -1,0 +1,19 @@
+{
+    "icon": "maki-harbor",
+    "geometry": [
+        "line"
+    ],
+    "fields": [
+        "seamark/cable_submarine/category",
+        "check_date"
+    ],
+    "tags": {
+        "seamark:type": "cable_submarine"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:cable_submarine:category": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Submarinecable.png",
+    "name": "Submarine Cable"
+}

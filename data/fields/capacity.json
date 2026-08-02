@@ -1,0 +1,10 @@
+{
+    "key": "capacity",
+    "type": "number",
+    "minValue": 0,
+    "label": "Capacity",
+    "placeholder": "2, 20, 200...",
+    "terms": [
+        "people"
+    ]
+}

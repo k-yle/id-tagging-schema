@@ -1,0 +1,42 @@
+{
+    "locationSetCrossReference": "{presets/highway/cycleway/bicycle_foot}",
+    "icon": "temaki-ped_cyclist_crosswalk",
+    "fields": [
+        "crossing",
+        "{@templates/crossing/markings}",
+        "{@templates/crossing/defaults}",
+        "surface"
+    ],
+    "moreFields": [
+        "{@templates/crossing/geometry_way_more}",
+        "{@templates/crossing/bicycle_more}"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway": "cycleway",
+        "cycleway": "crossing",
+        "foot": "designated"
+    },
+    "addTags": {
+        "highway": "cycleway",
+        "cycleway": "crossing",
+        "foot": "designated",
+        "bicycle": "designated"
+    },
+    "reference": {
+        "key": "cycleway",
+        "value": "crossing"
+    },
+    "terms": [
+        "bicycle and foot crosswalk",
+        "bike and pedestrian crossing",
+        "cycle & foot crossing",
+        "cycleway",
+        "cycling",
+        "cyclist"
+    ],
+    "matchScore": 0.9,
+    "name": "Shared Path Crossing"
+}

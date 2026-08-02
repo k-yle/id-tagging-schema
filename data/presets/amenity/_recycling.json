@@ -1,0 +1,20 @@
+{
+    "icon": "maki-recycling",
+    "fields": [
+        "recycling_type",
+        "recycling_accepts",
+        "collection_times"
+    ],
+    "moreFields": [
+        "address"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "amenity": "recycling"
+    },
+    "name": "Recycling",
+    "searchable": false
+}

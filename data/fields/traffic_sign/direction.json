@@ -1,0 +1,15 @@
+{
+    "key": "traffic_sign:direction",
+    "type": "radio",
+    "label": "Direction Affected",
+    "strings": {
+        "options": {
+            "forward": "Forward",
+            "backward": "Backward",
+            "both": "Both / All"
+        }
+    },
+    "geometry": [
+        "vertex"
+    ]
+}

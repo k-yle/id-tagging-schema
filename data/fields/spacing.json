@@ -1,0 +1,18 @@
+{
+    "key": "spacing",
+    "type": "measurement",
+    "measurement": {
+        "dimension": "length",
+        "usage": "default",
+        "impliedUnit": "meter"
+    },
+    "label": "Distance Between Barriers",
+    "snake_case": false,
+    "prerequisiteTag": {
+        "key": "cycle_barrier",
+        "values": [
+            "double",
+            "triple"
+        ]
+    }
+}

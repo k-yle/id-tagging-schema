@@ -1,0 +1,38 @@
+{
+    "icon": "fas-person-arrow-up-from-line",
+    "fields": [
+        "name",
+        "operator",
+        "capacity",
+        "address"
+    ],
+    "moreFields": [
+        "access_simple",
+        "opening_hours",
+        "operator",
+        "wheelchair"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "bajaj",
+        "toda",
+        "tricycle station",
+        "tuk-tuk",
+        "tuksi"
+    ],
+    "tags": {
+        "amenity": "taxi",
+        "taxi_vehicle": "auto_rickshaw"
+    },
+    "reference": {
+        "key": "taxi_vehicle",
+        "value": "auto_rickshaw"
+    },
+    "name": "Auto Rickshaw Stand",
+    "aliases": [
+        "Tricycle Terminal"
+    ]
+}

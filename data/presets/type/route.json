@@ -1,0 +1,50 @@
+{
+    "icon": "iD-route",
+    "fields": [
+        "name",
+        "route",
+        "ref_route",
+        "operator",
+        "network",
+        "network/type"
+    ],
+    "moreFields": [
+        "distance"
+    ],
+    "geometry": [
+        "relation"
+    ],
+    "tags": {
+        "type": "route"
+    },
+    "name": "Route",
+    "relation": {
+        "reference": "route",
+        "allowDuplicateMembers": true,
+        "role_labels": {
+            "": "Route Segment",
+            "forward": "Forwards",
+            "backward": "Backwards"
+        },
+        "members": [
+            {
+                "role": "",
+                "geometry": [
+                    "line"
+                ]
+            },
+            {
+                "role": "forward",
+                "geometry": [
+                    "line"
+                ]
+            },
+            {
+                "role": "backward",
+                "geometry": [
+                    "line"
+                ]
+            }
+        ]
+    }
+}

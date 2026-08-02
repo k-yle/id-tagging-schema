@@ -1,0 +1,18 @@
+{
+    "icon": "iD-waterway-ditch",
+    "fields": [
+        "structure_waterway",
+        "culvert",
+        "intermittent"
+    ],
+    "moreFields": [
+        "covered"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "waterway": "drain"
+    },
+    "name": "Drain"
+}

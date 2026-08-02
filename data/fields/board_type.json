@@ -1,0 +1,18 @@
+{
+    "key": "board_type",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "art": "Art",
+            "astronomy": "Astronomy",
+            "geology": "Geology",
+            "history": "History",
+            "nature": "Nature",
+            "notice": "Notice Board",
+            "plants": "Plants",
+            "welcome_sign": "{presets/tourism/information/board/welcome_sign}",
+            "wildlife": "Wildlife"
+        }
+    }
+}

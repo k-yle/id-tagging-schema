@@ -1,0 +1,20 @@
+{
+    "key": "entrance",
+    "type": "typeCombo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "yes": "Unspecified",
+            "main": "Main",
+            "secondary": "Secondary",
+            "service": "Service",
+            "shop": "{presets/entrance/shop}",
+            "exit": "Exit Only",
+            "entrance": "Entrance Only",
+            "emergency": "{presets/entrance/emergency}",
+            "staircase": "Staircase",
+            "home": "Private House or Apartment",
+            "garage": "Garage Door"
+        }
+    }
+}

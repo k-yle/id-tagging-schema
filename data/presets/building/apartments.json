@@ -1,0 +1,24 @@
+{
+    "icon": "maki-building",
+    "fields": [
+        "{building}",
+        "building/flats"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "building": "apartments"
+    },
+    "aliases": [
+        "Condominium"
+    ],
+    "terms": [
+        "flats"
+    ],
+    "matchScore": 0.5,
+    "name": "Apartment Building"
+}

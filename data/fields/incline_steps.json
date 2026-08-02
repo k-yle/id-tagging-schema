@@ -1,0 +1,11 @@
+{
+    "key": "incline",
+    "type": "radio",
+    "label": "{incline}",
+    "strings": {
+        "options": {
+            "up": "Up",
+            "down": "Down"
+        }
+    }
+}

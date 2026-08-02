@@ -1,0 +1,10 @@
+{
+    "key": "dog",
+    "type": "radio",
+    "label": "{dog}",
+    "options": [
+        "leashed",
+        "unleashed"
+    ],
+    "stringsCrossReference": "{dog}"
+}

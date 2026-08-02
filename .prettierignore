@@ -1,0 +1,7 @@
+package.json
+package-lock.json
+dist/
+*.yaml
+data/discarded.json
+data/deprecated.json
+*.md

@@ -1,0 +1,42 @@
+{
+    "icon": "maki-barrier",
+    "fields": [
+        "name",
+        "construction",
+        "service2",
+        "opening_date",
+        "check_date",
+        "access",
+        "oneway",
+        "structure",
+        "tunnel/name",
+        "note"
+    ],
+    "moreFields": [
+        "bridge/name",
+        "bridge/ref",
+        "destination_oneway",
+        "destination/ref_oneway",
+        "destination/symbol_oneway"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway": "construction"
+    },
+    "removeTags": {
+        "highway": "construction",
+        "access": "no",
+        "construction": "*"
+    },
+    "terms": [
+        "closed road",
+        "closure",
+        "construction",
+        "road closed",
+        "road work",
+        "roadwork"
+    ],
+    "name": "Road Under Construction"
+}

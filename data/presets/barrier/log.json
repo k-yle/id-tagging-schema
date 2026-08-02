@@ -1,0 +1,22 @@
+{
+    "icon": "roentgen-log_lying",
+    "fields": [
+        "access"
+    ],
+    "moreFields": [
+        "{barrier}"
+    ],
+    "geometry": [
+        "vertex",
+        "point",
+        "line"
+    ],
+    "tags": {
+        "barrier": "log"
+    },
+    "terms": [
+        "downed tree",
+        "log"
+    ],
+    "name": "Fallen Tree Obstruction"
+}

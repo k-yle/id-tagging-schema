@@ -1,0 +1,11 @@
+{
+    "key": "maxdraft",
+    "type": "measurement",
+    "measurement": {
+        "dimension": "length",
+        "usage": "vehicle",
+        "impliedUnit": "meter"
+    },
+    "label": "Maximum Draft",
+    "snake_case": false
+}

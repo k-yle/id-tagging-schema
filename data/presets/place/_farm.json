@@ -1,0 +1,18 @@
+{
+    "icon": "maki-triangle-stroked",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{place}"
+    ],
+    "moreFields": [
+        "{place}"
+    ],
+    "tags": {
+        "place": "farm"
+    },
+    "name": "Farm",
+    "searchable": false
+}

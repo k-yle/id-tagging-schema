@@ -1,0 +1,16 @@
+{
+    "key": "seamark:bridge:category",
+    "type": "combo",
+    "label": "Bridge Type",
+    "strings": {
+        "options": {
+            "fixed": "Fixed",
+            "opening": "Opening",
+            "lifting": "Lifting",
+            "swing": "Swing",
+            "bascule": "Bascule",
+            "drawbridge": "Drawbridge",
+            "transporter": "Transporter"
+        }
+    }
+}

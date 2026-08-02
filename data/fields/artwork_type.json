@@ -1,0 +1,20 @@
+{
+    "key": "artwork_type",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "sculpture": "{presets/tourism/artwork/sculpture}",
+            "statue": "{presets/tourism/artwork/statue}",
+            "mural": "{presets/tourism/artwork/mural}",
+            "installation": "{presets/tourism/artwork/installation}",
+            "graffiti": "{presets/tourism/artwork/graffiti}",
+            "bust": "{presets/tourism/artwork/bust}",
+            "painting": "Painting",
+            "mosaic": "Mosaic",
+            "relief": "Relief",
+            "stone": "Artistically Worked Stone",
+            "tilework": "Tile Work"
+        }
+    }
+}

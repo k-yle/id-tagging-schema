@@ -1,0 +1,32 @@
+{
+    "icon": "maki-residential-community",
+    "fields": [
+        "name",
+        "operator",
+        "address"
+    ],
+    "moreFields": [
+        "{landuse/residential}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "residential": "apartments"
+    },
+    "addTags": {
+        "landuse": "residential",
+        "residential": "apartments"
+    },
+    "reference": {
+        "key": "residential",
+        "value": "apartments"
+    },
+    "terms": [
+        "flat",
+        "residence",
+        "tenement"
+    ],
+    "name": "Apartment Complex"
+}

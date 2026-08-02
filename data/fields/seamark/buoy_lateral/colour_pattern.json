@@ -1,0 +1,10 @@
+{
+    "key": "seamark:buoy_lateral:colour_pattern",
+    "type": "combo",
+    "label": "Marker Color Pattern",
+    "stringsCrossReference": "{seamark/beacon_special_purpose/colour_pattern}",
+    "prerequisiteTag": {
+        "key": "seamark:buoy_lateral:colour",
+        "value": "/;/"
+    }
+}

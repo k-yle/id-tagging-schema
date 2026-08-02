@@ -1,0 +1,19 @@
+{
+    "key": "hazard",
+    "type": "combo",
+    "strings": {
+        "options": {
+            "contamination": "Chemical Contamination",
+            "shooting_range": "Gunfire",
+            "hole": "Hole",
+            "minefield": "Land Mines",
+            "electricity": "Electric Shock",
+            "nuclear": "Nuclear / Radioactive",
+            "avalanche": "Avalanche",
+            "archery_range": "Arrows",
+            "biohazard": "Biohazard",
+            "quicksand": "Quicksand"
+        }
+    },
+    "label": "Hazard"
+}

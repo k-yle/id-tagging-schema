@@ -1,0 +1,22 @@
+{
+    "icon": "pinhead-life_ring",
+    "fields": [
+        "ref",
+        "operator"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "kisbie ring",
+        "kisby ring",
+        "life buoy",
+        "lifering",
+        "perry buoy"
+    ],
+    "tags": {
+        "emergency": "life_ring"
+    },
+    "name": "Life Ring"
+}

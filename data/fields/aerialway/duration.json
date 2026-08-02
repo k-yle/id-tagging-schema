@@ -1,0 +1,15 @@
+{
+    "key": "aerialway:duration",
+    "type": "measurement",
+    "measurement": {
+        "dimension": "duration",
+        "usage": "default",
+        "units": [
+            "minute"
+        ],
+        "impliedUnit": "minute"
+    },
+    "minValue": 0,
+    "label": "{duration}",
+    "placeholder": "1, 2, 3..."
+}

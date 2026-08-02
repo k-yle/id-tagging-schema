@@ -1,0 +1,13 @@
+{
+    "key": "mobile",
+    "keys": [
+        "mobile",
+        "contact:mobile"
+    ],
+    "type": "tel",
+    "label": "Mobile Phone",
+    "placeholder": "+000 0000 0000 0000",
+    "terms": [
+        "phone number"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "icon": "temaki-power_tower",
+    "fields": [
+        "ref",
+        "operator",
+        "structure_power",
+        "design_power_tower",
+        "height",
+        "material",
+        "line_attachment"
+    ],
+    "moreFields": [
+        "line_management",
+        "manufacturer"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "electric",
+        "power",
+        "power tower",
+        "pylon",
+        "transmission tower"
+    ],
+    "tags": {
+        "power": "tower"
+    },
+    "matchScore": 1.05,
+    "name": "High-Voltage Tower"
+}

@@ -1,0 +1,14 @@
+{
+    "key": "maxheight",
+    "type": "measurement",
+    "measurement": {
+        "dimension": "length",
+        "usage": "vehicle",
+        "impliedUnit": "meter"
+    },
+    "label": "Height Limit",
+    "terms": [
+        "clearance"
+    ],
+    "snake_case": false
+}

@@ -1,0 +1,7 @@
+{
+    "key": "construction_start_expected",
+    "type": "date",
+    "universal": true,
+    "label": "Expected start date of construction",
+    "placeholder": "YYYY-MM-DD"
+}

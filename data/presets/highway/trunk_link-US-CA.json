@@ -1,0 +1,19 @@
+{
+    "name": "{highway/trunk_link}",
+    "icon": "iD-highway-trunk-link",
+    "fields": [
+        "{highway/motorway_link-US-CA}"
+    ],
+    "moreFields": [
+        "{highway/motorway_link-US-CA}",
+        "cycleway",
+        "sidewalk"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway": "trunk_link"
+    },
+    "locationSetCrossReference": "{presets/highway/motorway_link-US-CA}"
+}

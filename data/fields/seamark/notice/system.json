@@ -1,0 +1,12 @@
+{
+    "key": "seamark:notice:system",
+    "type": "combo",
+    "label": "System",
+    "strings": {
+        "options": {
+            "cevni": "CEVNI (Europe)",
+            "bniwr": "BNIWR (Brazil)",
+            "ppwbc": "PPWBC (Brazil/Paraguay)"
+        }
+    }
+}

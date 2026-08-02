@@ -1,0 +1,26 @@
+{
+    "icon": "temaki-pickleball",
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "fields": [
+        "{leisure/pitch}"
+    ],
+    "moreFields": [
+        "{leisure/pitch}"
+    ],
+    "tags": {
+        "leisure": "pitch",
+        "sport": "pickleball"
+    },
+    "reference": {
+        "key": "sport",
+        "value": "pickleball"
+    },
+    "terms": [
+        "paddleball",
+        "tennis"
+    ],
+    "name": "Pickleball Court"
+}

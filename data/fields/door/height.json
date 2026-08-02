@@ -1,0 +1,11 @@
+{
+    "key": "door:height",
+    "minValue": 0,
+    "type": "measurement",
+    "measurement": {
+        "dimension": "length",
+        "usage": "default",
+        "impliedUnit": "meter"
+    },
+    "label": "Door Height"
+}

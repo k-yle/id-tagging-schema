@@ -1,0 +1,10 @@
+{
+    "key": "fax",
+    "keys": [
+        "fax",
+        "contact:fax"
+    ],
+    "type": "tel",
+    "label": "Fax",
+    "placeholder": "+000 0000 0000 0000"
+}

@@ -1,0 +1,31 @@
+{
+    "key": "material",
+    "type": "combo",
+    "label": "Material",
+    "strings": {
+        "options": {
+            "wood": "Wood",
+            "concrete": "Concrete",
+            "metal": "Metal",
+            "steel": "Steel",
+            "stone": "Stone",
+            "plastic": "Plastic",
+            "brick": "Brick",
+            "reinforced_concrete": "Reinforced Concrete",
+            "granite": "Granite",
+            "bronze": "Bronze",
+            "aluminium": "Aluminum",
+            "brass": "Brass",
+            "rock": "Rock",
+            "sandstone": "Sandstone",
+            "soil": "Soil, Earth",
+            "glass": "Glass",
+            "marble": "Marble",
+            "iron": "Iron",
+            "dry_stone": "Dry Stone",
+            "limestone": "Limestone",
+            "adobe": "Adobe",
+            "sand": "Sand"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "icon": "maki-communications-tower",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "cardinal"
+    ],
+    "fields": [
+        "seamark/name",
+        "seamark/beacon_cardinal/shape",
+        "seamark/light/reference",
+        "check_date"
+    ],
+    "moreFields": [
+        "seamark/radar_reflector",
+        "seamark/radio_station/mmsi"
+    ],
+    "tags": {
+        "seamark:type": "beacon_cardinal",
+        "seamark:beacon_cardinal:colour_pattern": "horizontal",
+        "seamark:topmark:colour": "black",
+        "seamark:beacon_cardinal:category": "north",
+        "seamark:beacon_cardinal:colour": "black;yellow",
+        "seamark:topmark:shape": "2 cones up"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Example_Beacon_north.png",
+    "name": "North Cardinal Mark"
+}

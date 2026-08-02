@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-trampoline",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{playground}"
+    ],
+    "moreFields": [
+        "{playground}"
+    ],
+    "tags": {
+        "playground": "trampoline"
+    },
+    "name": "Trampoline"
+}

@@ -1,0 +1,17 @@
+{
+    "key": "circumference",
+    "type": "measurement",
+    "measurement": {
+        "dimension": "length",
+        "usage": "default",
+        "impliedUnit": "meter"
+    },
+    "label": "Circumference (at Breast Height)",
+    "autoSuggestions": true,
+    "snake_case": false,
+    "placeholder": "1 m, 20 cm, 30\"…",
+    "terms": [
+        "dbh",
+        "diameter at breast height"
+    ]
+}

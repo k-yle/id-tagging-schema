@@ -1,0 +1,11 @@
+{
+    "icon": "temaki-wall",
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "seamark:type": "shoreline_construction",
+        "seamark:shoreline_construction:category": "training_wall"
+    },
+    "name": "Training Wall"
+}

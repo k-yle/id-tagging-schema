@@ -1,0 +1,66 @@
+{
+    "icon": "iD-waterway-stream",
+    "fields": [
+        "name",
+        "waterway",
+        "destination_waterway",
+        "ref"
+    ],
+    "moreFields": [
+        "gnis/feature_id-US"
+    ],
+    "geometry": [
+        "relation"
+    ],
+    "tags": {
+        "type": "waterway"
+    },
+    "name": "Waterway",
+    "relation": {
+        "reference": "waterway",
+        "allowDuplicateMembers": false,
+        "role_labels": {
+            "": "",
+            "main_stream": "Main Stream",
+            "spring": "Spring"
+        },
+        "members": [
+            {
+                "role": "",
+                "matchTags": [
+                    {
+                        "waterway": "*"
+                    }
+                ],
+                "geometry": [
+                    "line"
+                ]
+            },
+            {
+                "role": "main_stream",
+                "matchTags": [
+                    {
+                        "waterway": "*"
+                    }
+                ],
+                "geometry": [
+                    "line"
+                ]
+            },
+            {
+                "role": "spring",
+                "matchTags": [
+                    {
+                        "natural": "spring"
+                    },
+                    {
+                        "natural": "hot_spring"
+                    }
+                ],
+                "geometry": [
+                    "point"
+                ]
+            }
+        ]
+    }
+}

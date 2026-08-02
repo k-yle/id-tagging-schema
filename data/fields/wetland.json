@@ -1,0 +1,19 @@
+{
+    "key": "wetland",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "marsh": "{presets/natural/wetland/marsh}",
+            "reedbed": "Reed Bed",
+            "saltmarsh": "{presets/natural/wetland/saltmarsh}",
+            "tidalflat": "{presets/natural/wetland/tidalflat}",
+            "wet_meadow": "{presets/natural/wetland/wet_meadow}",
+            "swamp": "{presets/natural/wetland/swamp}",
+            "mangrove": "{presets/natural/wetland/mangrove}",
+            "bog": "{presets/natural/wetland/bog}",
+            "fen": "{presets/natural/wetland/fen}",
+            "string_bog": "{presets/natural/wetland/string_bog}"
+        }
+    }
+}

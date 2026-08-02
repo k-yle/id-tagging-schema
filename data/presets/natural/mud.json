@@ -1,0 +1,19 @@
+{
+    "icon": "fas-water",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{natural}"
+    ],
+    "moreFields": [
+        "{natural}"
+    ],
+    "tags": {
+        "natural": "mud"
+    },
+    "terms": [
+        "wetland"
+    ],
+    "name": "Mud"
+}

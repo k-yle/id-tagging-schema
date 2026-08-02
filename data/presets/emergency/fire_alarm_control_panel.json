@@ -1,0 +1,32 @@
+{
+    "icon": "fas-house-fire",
+    "fields": [
+        "indoor",
+        "ref",
+        "operator"
+    ],
+    "moreFields": [
+        "level"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "emergency": "fire_alarm_control_panel"
+    },
+    "name": "Fire Alarm Control Panel",
+    "terms": [
+        "alarm panel",
+        "central control station",
+        "control system",
+        "emergency command centre",
+        "fcc",
+        "fire alarm panel",
+        "fire control box",
+        "fire control centre",
+        "fire control room",
+        "fire service centre",
+        "zone control unit"
+    ]
+}

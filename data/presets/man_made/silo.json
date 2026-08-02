@@ -1,0 +1,25 @@
+{
+    "icon": "temaki-silo",
+    "fields": [
+        "content",
+        "crop",
+        "building_area_yes"
+    ],
+    "moreFields": [
+        "gnis/feature_id-US"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "corn",
+        "grain",
+        "grain elevator",
+        "wheat"
+    ],
+    "tags": {
+        "man_made": "silo"
+    },
+    "name": "Silo"
+}

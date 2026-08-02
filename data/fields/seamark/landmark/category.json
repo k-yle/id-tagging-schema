@@ -1,0 +1,53 @@
+{
+    "key": "seamark:landmark:category",
+    "type": "combo",
+    "label": "Category",
+    "strings": {
+        "options": {
+            "boulder": "Boulder",
+            "cairn": "Cairn",
+            "cemetery": "Cemetery",
+            "chimney": "Chimney",
+            "column": "Column",
+            "cross": "Cross",
+            "dish_aerial": "Dish_aerial",
+            "dome": "Dome",
+            "flagstaff": "Flagstaff",
+            "flare_stack": "Flare_stack",
+            "mast": "Mast",
+            "memorial": "Memorial",
+            "monument": "Monument",
+            "obelisk": "Obelisk",
+            "radar_scanner": "Radar Scanner",
+            "spire": "Spire",
+            "statue": "Statue",
+            "tower": "Tower",
+            "windmill": "Windmill",
+            "windmotor": "Windmotor",
+            "windsock": "Windsock"
+        }
+    },
+    "icons": {
+        "boulder": "",
+        "cairn": "https://osm.wiki/Special:FilePath/File:Cairn.png",
+        "cemetery": "",
+        "chimney": "https://osm.wiki/Special:FilePath/File:ChimneySM.png",
+        "column": "https://osm.wiki/Special:FilePath/File:MonumentSM.png",
+        "cross": "https://osm.wiki/Special:FilePath/File:CrossSM.png",
+        "dish_aerial": "https://osm.wiki/Special:FilePath/File:DishAerial.png",
+        "dome": "",
+        "flagstaff": "https://osm.wiki/Special:FilePath/File:Flagstaff.png",
+        "flare_stack": "https://osm.wiki/Special:FilePath/File:FlareStack.png",
+        "mast": "https://osm.wiki/Special:FilePath/File:Mast.png",
+        "memorial": "",
+        "monument": "https://osm.wiki/Special:FilePath/File:MonumentSM.png",
+        "obelisk": "https://osm.wiki/Special:FilePath/File:MonumentSM.png",
+        "radar_scanner": "https://osm.wiki/Special:FilePath/File:TowerSM.png",
+        "spire": "https://osm.wiki/Special:FilePath/File:SpireSM.png",
+        "statue": "https://osm.wiki/Special:FilePath/File:MonumentSM.png",
+        "tower": "https://osm.wiki/Special:FilePath/File:TowerSM.png",
+        "windmill": "https://osm.wiki/Special:FilePath/File:WindmillSM.png",
+        "windmotor": "https://osm.wiki/Special:FilePath/File:Windmotor.png",
+        "windsock": "https://osm.wiki/Special:FilePath/File:Windsock.png"
+    }
+}

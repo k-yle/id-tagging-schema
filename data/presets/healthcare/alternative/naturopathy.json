@@ -1,0 +1,25 @@
+{
+    "icon": "fas-spa",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{healthcare/alternative}"
+    ],
+    "moreFields": [
+        "{healthcare/alternative}"
+    ],
+    "tags": {
+        "healthcare": "alternative",
+        "healthcare:speciality": "naturopathy"
+    },
+    "reference": {
+        "key": "healthcare:speciality",
+        "value": "naturopathy"
+    },
+    "name": "Naturopath",
+    "aliases": [
+        "Naturopathy Practitioner"
+    ]
+}

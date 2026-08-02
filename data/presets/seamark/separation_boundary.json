@@ -1,0 +1,12 @@
+{
+    "icon": "maki-harbor",
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "seamark:type": "separation_boundary"
+    },
+    "searchable": true,
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Openseamap_rendering_separation_boundary.png",
+    "name": "TSS Boundary"
+}

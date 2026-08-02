@@ -1,0 +1,15 @@
+{
+    "icon": "temaki-wall",
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "seamark:type": "shoreline_construction",
+        "seamark:shoreline_construction:category": "slipway"
+    },
+    "terms": [
+        "boatramp area",
+        "slipway area"
+    ],
+    "name": "Boat Ramp Area"
+}

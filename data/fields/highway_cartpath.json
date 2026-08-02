@@ -1,0 +1,12 @@
+{
+    "key": "highway",
+    "type": "combo",
+    "label": "Type of Path",
+    "strings": {
+        "options": {
+            "path": "Cartpath",
+            "service": "{presets/highway/service}"
+        }
+    },
+    "autoSuggestions": false
+}

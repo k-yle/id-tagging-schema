@@ -1,0 +1,35 @@
+{
+    "key": "healthcare",
+    "type": "typeCombo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "pharmacy": "Pharmacy",
+            "doctor": "Doctor",
+            "clinic": "Clinic",
+            "hospital": "Hospital",
+            "dentist": "Dentist",
+            "physiotherapist": "{presets/healthcare/physiotherapist}",
+            "laboratory": "{presets/healthcare/laboratory}",
+            "psychotherapist": "{presets/healthcare/psychotherapist}",
+            "optometrist": "{presets/healthcare/optometrist}",
+            "rehabilitation": "{presets/healthcare/rehabilitation}",
+            "podiatrist": "{presets/healthcare/podiatrist}",
+            "counselling": "{presets/healthcare/counselling}",
+            "nurse": "Nurse",
+            "speech_therapist": "{presets/healthcare/speech_therapist}",
+            "blood_donation": "Blood Donation Center",
+            "hospice": "{presets/healthcare/hospice}",
+            "occupational_therapist": "{presets/healthcare/occupational_therapist}",
+            "dialysis": "{presets/amenity/clinic/dialysis}",
+            "midwife": "{presets/healthcare/midwife}",
+            "sample_collection": "{presets/healthcare/sample_collection}",
+            "audiologist": "{presets/healthcare/audiologist}",
+            "birthing_centre": "{presets/healthcare/birthing_center}",
+            "community_health_worker": "Community Health Worker",
+            "vaccination_centre": "Vaccination Center",
+            "blood_bank": "Blood Bank",
+            "alternative": "{presets/healthcare/alternative}"
+        }
+    }
+}

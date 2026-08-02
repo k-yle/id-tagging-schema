@@ -1,0 +1,17 @@
+{
+    "key": "seamark:pilot_boarding:category",
+    "type": "combo",
+    "label": "Category",
+    "strings": {
+        "options": {
+            "from_shore": "From a vessel (on-request)",
+            "cruising_vessel": "From a continuously cruising vessel",
+            "helicopter": "From a helicopter"
+        }
+    },
+    "icons": {
+        "from_shore": "temaki-boat",
+        "cruising_vessel": "temaki-boat",
+        "helicopter": "maki-heliport"
+    }
+}

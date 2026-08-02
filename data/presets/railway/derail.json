@@ -1,0 +1,17 @@
+{
+    "icon": "roentgen-rails_with_derailer",
+    "geometry": [
+        "vertex"
+    ],
+    "fields": [
+        "direction_vertex",
+        "ref"
+    ],
+    "tags": {
+        "railway": "derail"
+    },
+    "terms": [
+        "derailer"
+    ],
+    "name": "Railway Derailer"
+}

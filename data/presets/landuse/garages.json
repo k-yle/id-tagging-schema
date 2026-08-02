@@ -1,0 +1,21 @@
+{
+    "icon": "fas-warehouse",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "name"
+    ],
+    "moreFields": [
+        "{@templates/contact}",
+        "address"
+    ],
+    "tags": {
+        "landuse": "garages"
+    },
+    "terms": [
+        "garage landuse",
+        "parking"
+    ],
+    "name": "Garage Land Use"
+}

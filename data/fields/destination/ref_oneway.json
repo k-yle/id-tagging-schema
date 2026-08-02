@@ -1,0 +1,12 @@
+{
+    "key": "destination:ref",
+    "type": "semiCombo",
+    "label": "{destination/ref}",
+    "prerequisiteTag": {
+        "key": "oneway",
+        "value": "yes"
+    },
+    "allowDuplicates": true,
+    "snake_case": false,
+    "caseSensitive": true
+}

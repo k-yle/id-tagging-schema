@@ -1,0 +1,35 @@
+{
+    "key": "vending",
+    "type": "semiCombo",
+    "label": "Types of Goods",
+    "strings": {
+        "options": {
+            "parking_tickets": "Parking Tickets",
+            "excrement_bags": "Excrement Bags",
+            "drinks": "Drinks",
+            "public_transport_tickets": "Public Transport Tickets",
+            "cigarettes": "Cigarettes",
+            "fuel": "Fuel",
+            "food": "Food",
+            "coffee": "Coffee",
+            "sweets": "Sweets",
+            "water": "Drinking Water",
+            "newspapers": "Newspapers",
+            "bottle_return": "Bottle Return",
+            "condoms": "Condoms",
+            "bread": "Bread",
+            "pizza": "Pizza",
+            "bicycle_tube": "Bicycle Tubes",
+            "milk": "Milk",
+            "elongated_coin": "Souvenir Coins",
+            "ice_cream": "Ice Cream",
+            "ice_cubes": "Ice Cubes",
+            "eggs": "Eggs",
+            "stamps": "Postage Stamps",
+            "flowers": "Flowers",
+            "electronics": "Electronics",
+            "feminine_hygiene": "Feminine Hygiene Products",
+            "e-cigarettes": "E-Cigarettes"
+        }
+    }
+}

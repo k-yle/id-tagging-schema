@@ -1,0 +1,23 @@
+{
+    "icon": "roentgen-advertising_totem",
+    "fields": [
+        "{advertising}"
+    ],
+    "moreFields": [
+        "{advertising}",
+        "direction"
+    ],
+    "geometry": [
+        "point",
+        "line"
+    ],
+    "tags": {
+        "advertising": "totem"
+    },
+    "terms": [
+        "ad",
+        "advertising",
+        "spam"
+    ],
+    "name": "Advertising Totem"
+}

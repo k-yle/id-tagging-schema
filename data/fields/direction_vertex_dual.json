@@ -1,0 +1,13 @@
+{
+    "key": "direction",
+    "type": "radio",
+    "label": "{direction_vertex}",
+    "stringsCrossReference": "{direction_vertex}",
+    "options": [
+        "forward",
+        "backward"
+    ],
+    "geometry": [
+        "vertex"
+    ]
+}

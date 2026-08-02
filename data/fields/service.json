@@ -1,0 +1,15 @@
+{
+    "key": "service",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "driveway": "{presets/highway/service/driveway}",
+            "parking_aisle": "{presets/highway/service/parking_aisle}",
+            "alley": "{presets/highway/service/alley}",
+            "drive-through": "{presets/highway/service/drive-through}",
+            "emergency_access": "{presets/highway/service/emergency_access}"
+        }
+    },
+    "autoSuggestions": false
+}

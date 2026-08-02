@@ -1,0 +1,12 @@
+{
+    "key": "second_hand",
+    "type": "radio",
+    "label": "Sells Used",
+    "strings": {
+        "options": {
+            "yes": "Yes",
+            "no": "No",
+            "only": "Only"
+        }
+    }
+}

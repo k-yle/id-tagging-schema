@@ -1,0 +1,32 @@
+{
+    "locationSetCrossReference": "{presets/highway/cycleway/bicycle_foot}",
+    "icon": "temaki-pedestrian_and_cyclist",
+    "geometry": [
+        "line"
+    ],
+    "fields": [
+        "{highway/cycleway}"
+    ],
+    "moreFields": [
+        "{highway/cycleway}"
+    ],
+    "tags": {
+        "highway": "cycleway",
+        "cycleway": "traffic_island",
+        "foot": "designated",
+        "bicycle": "designated"
+    },
+    "reference": {
+        "key": "cycleway",
+        "value": "traffic_island"
+    },
+    "terms": [
+        "crossing island"
+    ],
+    "aliases": [
+        "Crosswalk Island",
+        "Traffic Island",
+        "Pedestrian Island"
+    ],
+    "name": "Cycle & Foot Refuge Island"
+}

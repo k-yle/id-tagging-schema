@@ -1,0 +1,27 @@
+{
+    "key": "clothes",
+    "type": "semiCombo",
+    "label": "Clothes",
+    "strings": {
+        "options": {
+            "women": "Women's Clothing",
+            "underwear": "Underwear",
+            "men": "Men's Clothing",
+            "children": "Children's Clothing",
+            "wedding": "Wedding Clothing",
+            "sports": "Sportswear",
+            "workwear": "Workwear",
+            "suits": "Suits",
+            "hats": "Hats",
+            "denim": "Jeans Clothing",
+            "babies": "Baby Clothing",
+            "traditional": "Traditional Garments / Folk Costumes",
+            "swimwear": "Swimwear",
+            "fur": "Fur Clothing",
+            "oversize": "Plus Size Clothing",
+            "motorcycle": "Motorcycle Clothing",
+            "maternity": "Maternity Clothing",
+            "socks": "Socks"
+        }
+    }
+}

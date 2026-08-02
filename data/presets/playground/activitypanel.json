@@ -1,0 +1,18 @@
+{
+    "icon": "temaki-activity_panel",
+    "geometry": [
+        "point",
+        "line",
+        "area"
+    ],
+    "fields": [
+        "{playground}"
+    ],
+    "moreFields": [
+        "{playground}"
+    ],
+    "tags": {
+        "playground": "activitypanel"
+    },
+    "name": "Play Activity Panel"
+}
