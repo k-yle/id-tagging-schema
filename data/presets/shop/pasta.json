@@ -1,0 +1,29 @@
+{
+    "icon": "fas-plate-wheat",
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "shop": "pasta"
+    },
+    "terms": [
+        "fresh pasta",
+        "ravioli",
+        "spaghetti"
+    ],
+    "reference": {
+        "key": "shop",
+        "value": "pasta"
+    },
+    "name": "Pasta Store",
+    "aliases": [
+        "Pasta Shop"
+    ]
+}

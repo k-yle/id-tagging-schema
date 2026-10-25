@@ -1,0 +1,28 @@
+{
+    "key": "seamark:notice:category",
+    "type": "combo",
+    "label": "Category",
+    "prerequisiteTag": {
+        "key": "seamark:notice:function",
+        "value": "restriction"
+    },
+    "autoSuggestions": false,
+    "strings": {
+        "options": {
+            "limited_depth": "Limited Depth",
+            "limited_headroom": "Limited Headroom",
+            "limited_width": "Limited Width",
+            "navigation_restrictions": "Navigation Restrictions",
+            "channel_distance_left": "Channel Distance Left",
+            "channel_distance_right": "Channel Distance Right"
+        }
+    },
+    "icons": {
+        "limited_depth": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_C1.png",
+        "limited_headroom": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_C2.png",
+        "limited_width": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_C3.png",
+        "navigation_restrictions": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_C4.png",
+        "channel_distance_left": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_C5a.png",
+        "channel_distance_right": "https://raw.githubusercontent.com/OpenNauticalChart/josm/20647f8/icons/png/Notice_C5b.png"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Trunk Link",
+    "icon": "iD-highway-trunk-link",
+    "fields": [
+        "{highway/motorway_link}"
+    ],
+    "moreFields": [
+        "{highway/motorway_link}",
+        "cycleway",
+        "sidewalk",
+        "trolley_wire"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway": "trunk_link"
+    },
+    "terms": [
+        "off ramp",
+        "on ramp",
+        "ramp",
+        "road",
+        "street"
+    ],
+    "locationSetCrossReference": "{presets/highway/motorway_link}"
+}

@@ -1,0 +1,30 @@
+{
+    "icon": "pinhead-foot",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "ankle",
+        "feet",
+        "foot",
+        "leg",
+        "legs",
+        "nails",
+        "podiatry"
+    ],
+    "fields": [
+        "{healthcare}"
+    ],
+    "moreFields": [
+        "{healthcare}"
+    ],
+    "tags": {
+        "healthcare": "podiatrist"
+    },
+    "name": "Podiatrist",
+    "aliases": [
+        "Chiropodist",
+        "Podiatric Surgeon"
+    ]
+}

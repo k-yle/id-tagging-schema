@@ -1,0 +1,24 @@
+{
+    "icon": "iD-highway-unclassified",
+    "fields": [
+        "{highway/residential}"
+    ],
+    "moreFields": [
+        "{highway/residential}"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway": "unclassified"
+    },
+    "aliases": [
+        "Minor Street",
+        "Unclassified Street"
+    ],
+    "terms": [
+        "road",
+        "street"
+    ],
+    "name": "Minor / Unclassified Road"
+}

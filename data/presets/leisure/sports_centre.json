@@ -1,0 +1,35 @@
+{
+    "icon": "maki-pitch",
+    "fields": [
+        "name",
+        "operator",
+        "operator/type",
+        "sport",
+        "building_area",
+        "address",
+        "fee",
+        "opening_hours",
+        "payment_multi_fee",
+        "charge_fee"
+    ],
+    "moreFields": [
+        "{@templates/poi}",
+        "access_simple"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "leisure": "sports_centre"
+    },
+    "terms": [
+        "athletic center",
+        "athletic centre",
+        "recreation center",
+        "recreation centre",
+        "sports centre",
+        "sports complex"
+    ],
+    "name": "Sports Center / Complex"
+}

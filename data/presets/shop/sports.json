@@ -1,0 +1,27 @@
+{
+    "icon": "fas-futbol",
+    "fields": [
+        "name",
+        "operator",
+        "sport",
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}",
+        "service/bicycle"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "shop": "sports"
+    },
+    "terms": [
+        "athletics",
+        "equestrian",
+        "fitness",
+        "hobby"
+    ],
+    "name": "Sporting Goods Store"
+}

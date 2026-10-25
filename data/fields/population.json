@@ -1,0 +1,9 @@
+{
+    "key": "population",
+    "type": "integer",
+    "minValue": 0,
+    "label": "Population",
+    "terms": [
+        "census"
+    ]
+}

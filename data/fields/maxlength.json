@@ -1,0 +1,11 @@
+{
+    "key": "maxlength",
+    "type": "measurement",
+    "measurement": {
+        "dimension": "length",
+        "usage": "vehicle",
+        "impliedUnit": "meter"
+    },
+    "label": "Length Limit",
+    "snake_case": false
+}

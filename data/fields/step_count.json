@@ -1,0 +1,6 @@
+{
+    "key": "step_count",
+    "type": "integer",
+    "minValue": 0,
+    "label": "Number of Steps"
+}

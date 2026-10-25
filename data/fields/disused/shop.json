@@ -1,0 +1,7 @@
+{
+    "key": "disused:shop",
+    "type": "typeCombo",
+    "label": "Type",
+    "iconsCrossReference": "{shop}",
+    "stringsCrossReference": "{shop}"
+}

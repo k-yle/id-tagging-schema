@@ -1,0 +1,24 @@
+{
+    "icon": "temaki-real_estate_agency",
+    "fields": [
+        "{office}"
+    ],
+    "moreFields": [
+        "branch_brand",
+        "brand",
+        "{office}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "office": "estate_agent"
+    },
+    "terms": [
+        "estate agent",
+        "real estate",
+        "real estate agent"
+    ],
+    "name": "Real Estate Office"
+}

@@ -1,0 +1,14 @@
+{
+    "key": "gauge",
+    "type": "measurement",
+    "label": "Gauge",
+    "measurement": {
+        "dimension": "length",
+        "usage": "default",
+        "units": [
+            "millimeter"
+        ],
+        "impliedUnit": "millimeter"
+    },
+    "autoSuggestions": true
+}

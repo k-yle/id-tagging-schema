@@ -1,0 +1,13 @@
+{
+    "key": "aerialway:access",
+    "type": "radio",
+    "label": "Access",
+    "strings": {
+        "options": {
+            "entry": "Entry",
+            "exit": "Exit",
+            "both": "Both",
+            "no": "Neither"
+        }
+    }
+}

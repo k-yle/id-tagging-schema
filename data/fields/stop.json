@@ -1,0 +1,16 @@
+{
+    "key": "stop",
+    "type": "radio",
+    "label": "Stop Type",
+    "strings": {
+        "options": {
+            "all": "All Ways",
+            "minor": "Minor Road"
+        }
+    },
+    "locationSet": {
+        "exclude": [
+            "BG"
+        ]
+    }
+}

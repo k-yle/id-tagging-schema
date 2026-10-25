@@ -1,0 +1,17 @@
+{
+    "key": "bridge",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "viaduct": "Viaduct",
+            "boardwalk": "{presets/highway/path/boardwalk}",
+            "aqueduct": "Aqueduct",
+            "low_water_crossing": "Low Water Crossing",
+            "movable": "Movable Bridge",
+            "cantilever": "Cantilever Bridge",
+            "covered": "Covered Bridge",
+            "trestle": "Trestle Bridge"
+        }
+    }
+}

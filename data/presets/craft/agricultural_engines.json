@@ -1,0 +1,23 @@
+{
+    "icon": "fas-tractor",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "agricultural_engines"
+    },
+    "terms": [
+        "combines",
+        "farm equipment",
+        "harvesters",
+        "tractors"
+    ],
+    "name": "Agricultural Engines Mechanic"
+}

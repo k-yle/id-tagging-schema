@@ -1,0 +1,24 @@
+{
+    "icon": "maki-harbor",
+    "fields": [
+        "seamark/name",
+        "seamark/anchor_berth/category",
+        "vessel",
+        "vessel/mmsi"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "seamark:type": "anchor_berth"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:name": "*",
+        "seamark:anchor_berth:category": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:AnchorBerth.png",
+    "name": "Anchor Berth"
+}

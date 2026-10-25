@@ -1,0 +1,11 @@
+{
+    "key": "maxdraft",
+    "type": "measurement",
+    "measurement": {
+        "dimension": "length",
+        "usage": "default",
+        "impliedUnit": "meter"
+    },
+    "label": "Maximum Draft",
+    "snake_case": false
+}

@@ -1,0 +1,18 @@
+{
+    "icon": "fas-users",
+    "fields": [
+        "{office/coworking}"
+    ],
+    "moreFields": [
+        "{office/coworking}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "amenity": "coworking_space"
+    },
+    "name": "{office/coworking}",
+    "searchable": false
+}

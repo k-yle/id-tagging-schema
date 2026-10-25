@@ -1,0 +1,15 @@
+{
+    "key": "height",
+    "minValue": 0,
+    "type": "measurement",
+    "measurement": {
+        "dimension": "length",
+        "usage": "default",
+        "impliedUnit": "meter"
+    },
+    "label": "Building Height",
+    "prerequisiteTag": {
+        "key": "building",
+        "valueNot": "no"
+    }
+}

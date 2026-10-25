@@ -1,0 +1,28 @@
+{
+    "icon": "temaki-carport",
+    "fields": [
+        "capacity",
+        "height"
+    ],
+    "moreFields": [
+        "building/levels",
+        "address",
+        "{building}"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "building": "carport"
+    },
+    "matchScore": 0.5,
+    "terms": [
+        "car",
+        "car roof",
+        "covered parking space",
+        "garage",
+        "porch",
+        "roof"
+    ],
+    "name": "Carport"
+}

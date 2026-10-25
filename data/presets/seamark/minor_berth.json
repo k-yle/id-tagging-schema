@@ -1,0 +1,27 @@
+{
+    "icon": "temaki-boat",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "anchor",
+        "anchorage",
+        "berth",
+        "boat",
+        "minor berth",
+        "parking space",
+        "ship",
+        "vessel"
+    ],
+    "fields": [
+        "ref",
+        "vessel",
+        "vessel/mmsi",
+        "operator"
+    ],
+    "tags": {
+        "seamark:type": "minor_berth"
+    },
+    "name": "Marina Berth"
+}

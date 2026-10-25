@@ -1,0 +1,60 @@
+{
+    "icon": "iD-highway-trunk",
+    "fields": [
+        "name",
+        "ref_road_number",
+        "oneway",
+        "maxspeed",
+        "lanes",
+        "expressway-US",
+        "surface",
+        "structure",
+        "tunnel/name",
+        "access"
+    ],
+    "moreFields": [
+        "bridge/ref",
+        "bridge/name",
+        "charge_toll",
+        "covered_no",
+        "cycleway",
+        "destination_oneway",
+        "destination/ref_oneway",
+        "destination/symbol_oneway",
+        "sidewalk",
+        "hazard_highway",
+        "incline",
+        "junction_line",
+        "lit",
+        "maxaxleload_bridge",
+        "maxheight",
+        "maxlength",
+        "maxspeed/advisory",
+        "maxspeed/hgv",
+        "maxweight_bridge",
+        "maxweightrating",
+        "maxwidth",
+        "minspeed",
+        "not/name",
+        "parking/side/parking",
+        "parking/side/orientation",
+        "smoothness",
+        "toll",
+        "trolley_wire",
+        "width"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway": "trunk"
+    },
+    "terms": [
+        "expressway",
+        "highway",
+        "road",
+        "street"
+    ],
+    "name": "Trunk Road",
+    "matchScore": 1.01
+}

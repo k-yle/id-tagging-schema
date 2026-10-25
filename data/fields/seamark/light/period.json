@@ -1,0 +1,9 @@
+{
+    "key": "seamark:light:period",
+    "type": "number",
+    "label": "Light Period (seconds)",
+    "prerequisiteTag": {
+        "key": "seamark:light:character",
+        "valueNot": "F"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "key": "cables",
+    "type": "integer",
+    "minValue": 1,
+    "label": "Cables",
+    "placeholder": "1, 2, 3..."
+}

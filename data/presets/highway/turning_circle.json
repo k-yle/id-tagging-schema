@@ -1,0 +1,18 @@
+{
+    "icon": "maki-circle",
+    "geometry": [
+        "vertex"
+    ],
+    "fields": [
+        "turning_circle",
+        "diameter",
+        "parking/both/restriction"
+    ],
+    "tags": {
+        "highway": "turning_circle"
+    },
+    "terms": [
+        "cul-de-sac"
+    ],
+    "name": "Turning Circle"
+}

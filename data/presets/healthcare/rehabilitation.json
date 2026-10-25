@@ -1,0 +1,22 @@
+{
+    "icon": "pinhead-person_squatting_and_person_reaching_up",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "rehab",
+        "therapist",
+        "therapy"
+    ],
+    "fields": [
+        "{healthcare}"
+    ],
+    "moreFields": [
+        "{healthcare}"
+    ],
+    "tags": {
+        "healthcare": "rehabilitation"
+    },
+    "name": "Rehabilitation Facility"
+}

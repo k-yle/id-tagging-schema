@@ -1,0 +1,23 @@
+{
+    "icon": "roentgen-building_door",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "service"
+    },
+    "terms": [
+        "equipment",
+        "infrastructure",
+        "transformer",
+        "utility"
+    ],
+    "matchScore": 0.5,
+    "name": "Service Building"
+}

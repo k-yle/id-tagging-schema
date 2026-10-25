@@ -1,0 +1,21 @@
+{
+    "icon": "maki-garden-centre",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "greenhouse"
+    },
+    "terms": [
+        "glass house",
+        "glasshouse"
+    ],
+    "matchScore": 0.5,
+    "name": "Greenhouse"
+}

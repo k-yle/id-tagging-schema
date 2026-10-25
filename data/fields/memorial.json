@@ -1,0 +1,21 @@
+{
+    "key": "memorial",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "plaque": "{presets/historic/memorial/plaque}",
+            "war_memorial": "War Memorial",
+            "stolperstein": "Stolperstein",
+            "statue": "Statue",
+            "stele": "Stele",
+            "stone": "Stone",
+            "bust": "Bust",
+            "sculpture": "Sculpture",
+            "obelisk": "Obelisk",
+            "cross": "Memorial Cross",
+            "blue_plaque": "{presets/historic/memorial/blue_plaque-GB-IE}",
+            "ghost_bike": "Ghost Bike"
+        }
+    }
+}

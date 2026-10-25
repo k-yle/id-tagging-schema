@@ -1,0 +1,6 @@
+{
+    "key": "duration",
+    "type": "text",
+    "label": "Duration",
+    "placeholder": "hh:mm"
+}

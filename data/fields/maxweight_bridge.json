@@ -1,0 +1,16 @@
+{
+    "key": "maxweight",
+    "type": "measurement",
+    "label": "{maxweight}",
+    "snake_case": false,
+    "prerequisiteTag": {
+        "key": "bridge",
+        "valueNot": "no"
+    },
+    "locationSetCrossReference": "{fields/maxweight}",
+    "measurement": {
+        "dimension": "mass",
+        "usage": "default",
+        "impliedUnit": "tonne"
+    }
+}

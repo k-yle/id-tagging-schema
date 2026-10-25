@@ -1,0 +1,25 @@
+{
+    "icon": "pinhead-person_wearing_martial_arts_belt_front_kicking",
+    "fields": [
+        "name",
+        "sport",
+        "address",
+        "building_area_yes",
+        "opening_hours"
+    ],
+    "moreFields": [
+        "{@templates/poi}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "dojang",
+        "martial arts"
+    ],
+    "tags": {
+        "amenity": "dojo"
+    },
+    "name": "Dojo / Martial Arts Academy"
+}

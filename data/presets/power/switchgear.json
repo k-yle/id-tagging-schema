@@ -1,0 +1,15 @@
+{
+    "icon": "temaki-power_switch",
+    "fields": [
+        "voltage",
+        "location",
+        "{power}"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "power": "switchgear"
+    },
+    "name": "Switchgear"
+}

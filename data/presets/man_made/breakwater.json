@@ -1,0 +1,18 @@
+{
+    "icon": "roentgen-breakwater",
+    "fields": [
+        "material",
+        "seamark/type"
+    ],
+    "moreFields": [
+        "{man_made}"
+    ],
+    "geometry": [
+        "line",
+        "area"
+    ],
+    "tags": {
+        "man_made": "breakwater"
+    },
+    "name": "Breakwater"
+}

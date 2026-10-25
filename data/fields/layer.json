@@ -1,0 +1,6 @@
+{
+    "key": "layer",
+    "type": "integer",
+    "label": "Layer",
+    "placeholder": "0"
+}

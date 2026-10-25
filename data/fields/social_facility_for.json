@@ -1,0 +1,29 @@
+{
+    "key": "social_facility:for",
+    "type": "combo",
+    "label": "People Served",
+    "strings": {
+        "options": {
+            "senior": "Elderly",
+            "disabled": "People with disabilities",
+            "child": "Children",
+            "mental_health": "People with mental health problems",
+            "homeless": "Homeless",
+            "juvenile": "Juveniles",
+            "underprivileged": "Underprivileged people",
+            "drug_addicted": "Drug addicted",
+            "orphan": "Orphans",
+            "migrant": "Migrants",
+            "refugee": "Refugees",
+            "displaced": "People displaced by disasters or conflicts",
+            "woman": "Women",
+            "diseased": "People suffering from a disease",
+            "unemployed": "People without a job",
+            "dementia": "People suffering from dementia",
+            "abused": "Abuse victims",
+            "veteran": "Veterans",
+            "terminally_ill": "People with a terminal illness",
+            "victim": "Victims of crime"
+        }
+    }
+}

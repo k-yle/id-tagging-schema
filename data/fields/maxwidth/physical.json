@@ -1,0 +1,19 @@
+{
+    "key": "maxwidth:physical",
+    "type": "measurement",
+    "measurement": {
+        "dimension": "length",
+        "usage": "vehicle",
+        "impliedUnit": "meter"
+    },
+    "label": "Width Limit",
+    "snake_case": false,
+    "prerequisiteTag": {
+        "key": "cycle_barrier",
+        "values": [
+            "single",
+            "diagonal",
+            "tilted"
+        ]
+    }
+}

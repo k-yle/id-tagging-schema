@@ -1,0 +1,18 @@
+{
+    "key": "ramp",
+    "type": "radio",
+    "strings": {
+        "options": {
+            "yes": "Yes",
+            "no": "No",
+            "separate": "Separately Mapped"
+        }
+    },
+    "label": "Embedded Ramp",
+    "terms": [
+        "bicycle stairway",
+        "push ramp",
+        "runnel",
+        "wheeling ramp"
+    ]
+}

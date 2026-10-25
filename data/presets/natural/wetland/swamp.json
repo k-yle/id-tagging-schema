@@ -1,0 +1,25 @@
+{
+    "icon": "temaki-swamp",
+    "fields": [
+        "{natural}"
+    ],
+    "moreFields": [
+        "{natural/wetland}",
+        "tidal"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "natural": "wetland",
+        "wetland": "swamp"
+    },
+    "reference": {
+        "key": "wetland",
+        "value": "swamp"
+    },
+    "terms": [
+        "waterlogged"
+    ],
+    "name": "Swamp"
+}

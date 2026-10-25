@@ -1,0 +1,6 @@
+{
+    "key": "count",
+    "type": "integer",
+    "minValue": 1,
+    "label": "Number of Features"
+}

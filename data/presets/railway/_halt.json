@@ -1,0 +1,18 @@
+{
+    "icon": "temaki-rail_flag",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "fields": [
+        "{public_transport/station}"
+    ],
+    "moreFields": [
+        "{public_transport/station}"
+    ],
+    "tags": {
+        "railway": "halt"
+    },
+    "name": "{public_transport/station_train_halt}",
+    "searchable": false
+}

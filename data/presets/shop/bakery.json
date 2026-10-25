@@ -1,0 +1,28 @@
+{
+    "icon": "maki-bakery",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "shop": "bakery"
+    },
+    "terms": [
+        "bakeshop",
+        "bread",
+        "cakes",
+        "rolls"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}",
+        "diet_multi",
+        "fhrs/id-GB",
+        "indoor_seating",
+        "outdoor_seating",
+        "self_service"
+    ],
+    "name": "Bakery"
+}

@@ -1,0 +1,17 @@
+{
+    "key": "plant:output:electricity",
+    "type": "measurement",
+    "measurement": {
+        "dimension": "power",
+        "usage": "default"
+    },
+    "label": "Electric Power Output",
+    "placeholder": "500 MW, 1000 MW, 2000 MW...",
+    "autoSuggestions": true,
+    "snake_case": false,
+    "caseSensitive": true,
+    "prerequisiteTag": {
+        "key": "plant:output:electricity",
+        "valueNot": "no"
+    }
+}

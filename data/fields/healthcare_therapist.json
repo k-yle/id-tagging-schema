@@ -1,0 +1,14 @@
+{
+    "key": "healthcare",
+    "type": "combo",
+    "options": [
+        "physiotherapist",
+        "psychotherapist",
+        "occupational_therapist",
+        "speech_therapist"
+    ],
+    "stringsCrossReference": "{healthcare}",
+    "iconsCrossReference": "{healthcare}",
+    "autoSuggestions": false,
+    "label": "{healthcare}"
+}

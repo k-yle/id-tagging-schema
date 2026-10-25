@@ -1,0 +1,18 @@
+{
+    "icon": "fas-children",
+    "fields": [
+        "{education/kindergarten}"
+    ],
+    "moreFields": [
+        "{education/kindergarten}"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "amenity": "kindergarten"
+    },
+    "name": "{education/kindergarten}",
+    "searchable": false
+}

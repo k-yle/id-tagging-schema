@@ -1,0 +1,8 @@
+{
+    "key": "contact:facebook",
+    "type": "identifier",
+    "pattern": "^.+$",
+    "urlFormat": "https://facebook.com/{value}",
+    "label": "Facebook Username or URL",
+    "placeholder": "https://www.facebook.com/LocalBusiness"
+}

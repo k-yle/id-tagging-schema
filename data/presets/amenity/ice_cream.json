@@ -1,0 +1,44 @@
+{
+    "icon": "fas-ice-cream",
+    "fields": [
+        "name",
+        "outdoor_seating",
+        "operator",
+        "address",
+        "building_area_yes",
+        "opening_hours",
+        "payment_multi",
+        "website"
+    ],
+    "moreFields": [
+        "{shop}",
+        "delivery",
+        "diet_multi",
+        "drive_through",
+        "indoor_seating",
+        "opening_hours/drive_through",
+        "self_service",
+        "organic",
+        "stroller",
+        "takeaway",
+        "fhrs/id-GB",
+        "website/menu"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "froyo",
+        "frozen",
+        "gelato",
+        "sherbet",
+        "sorbet",
+        "sundae",
+        "yogurt"
+    ],
+    "tags": {
+        "amenity": "ice_cream"
+    },
+    "name": "Ice Cream Shop"
+}

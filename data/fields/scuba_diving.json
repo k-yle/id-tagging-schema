@@ -1,0 +1,28 @@
+{
+    "key": "scuba_diving:",
+    "type": "multiCombo",
+    "label": "Services",
+    "options": [
+        "air_filling",
+        "courses",
+        "filling",
+        "nitrox_filling",
+        "oxygen_filling",
+        "rental",
+        "repair",
+        "trimix_filling"
+    ],
+    "strings": {
+        "options": {
+            "air_filling": "Air Filling",
+            "courses": "Courses",
+            "filling": "Filling",
+            "nitrox_filling": "Nitrox Filling",
+            "oxygen_filling": "Oxygen Filling",
+            "rental": "Rental",
+            "repair": "Repair",
+            "trimix_filling": "Trimix Filling"
+        }
+    },
+    "autoSuggestions": false
+}

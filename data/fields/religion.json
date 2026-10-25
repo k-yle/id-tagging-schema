@@ -1,0 +1,31 @@
+{
+    "key": "religion",
+    "type": "combo",
+    "label": "Religion",
+    "strings": {
+        "options": {
+            "christian": "Christian",
+            "muslim": "Muslim",
+            "buddhist": "Buddhist",
+            "hindu": "Hindu",
+            "shinto": "Shinto",
+            "none": "Nonreligious",
+            "jewish": "Jewish",
+            "taoist": "Taoist",
+            "sikh": "Sikh",
+            "chinese_folk": "Chinese Folk Religion",
+            "multifaith": "Multifaith",
+            "confucian": "Confucian",
+            "vietnamese_folk": "Vietnamese Folk Religion",
+            "spiritualist": "Spiritualist",
+            "jain": "Jain",
+            "unitarian_universalist": "Unitarian Universalist",
+            "tenrikyo": "Tenrikyo",
+            "voodoo": "Voodoo",
+            "pagan": "Pagan",
+            "bahai": "Bahá’í",
+            "caodaism": "Caodaist",
+            "benzhu": "Benzhu"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-ferry",
+    "fields": [
+        "name",
+        "network",
+        "operator",
+        "address",
+        "building_area"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "amenity": "ferry_terminal"
+    },
+    "matchScore": 0.95,
+    "name": "{public_transport/station_ferry}",
+    "searchable": false
+}

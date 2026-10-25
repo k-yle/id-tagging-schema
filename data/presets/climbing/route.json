@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-climbing",
+    "geometry": [
+        "line",
+        "point"
+    ],
+    "fields": [
+        "{climbing/route_bottom}"
+    ],
+    "moreFields": [
+        "{climbing/route_bottom}"
+    ],
+    "tags": {
+        "climbing": "route"
+    },
+    "addTags": {
+        "climbing": "route",
+        "sport": "climbing"
+    },
+    "name": "{type/route/climbing}"
+}

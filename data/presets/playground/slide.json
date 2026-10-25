@@ -1,0 +1,18 @@
+{
+    "icon": "temaki-slide2",
+    "geometry": [
+        "point",
+        "line",
+        "area"
+    ],
+    "fields": [
+        "{playground}"
+    ],
+    "moreFields": [
+        "{playground}"
+    ],
+    "tags": {
+        "playground": "slide"
+    },
+    "name": "Slide"
+}

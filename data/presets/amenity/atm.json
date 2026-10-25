@@ -1,0 +1,42 @@
+{
+    "icon": "temaki-atm2",
+    "fields": [
+        "operator",
+        "network",
+        "cash_in",
+        "currency_multi",
+        "drive_through_common_for_atm"
+    ],
+    "moreFields": [
+        "branch_brand",
+        "ref",
+        "brand",
+        "covered",
+        "drive_through_uncommon_for_atm",
+        "height",
+        "indoor",
+        "level",
+        "lit",
+        "manufacturer",
+        "opening_hours",
+        "wheelchair"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "cash",
+        "machine",
+        "money",
+        "withdrawal"
+    ],
+    "tags": {
+        "amenity": "atm"
+    },
+    "name": "ATM",
+    "aliases": [
+        "Cash Machine",
+        "Automated Teller Machine"
+    ]
+}

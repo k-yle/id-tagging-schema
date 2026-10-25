@@ -1,0 +1,12 @@
+{
+    "key": "width",
+    "type": "measurement",
+    "measurement": {
+        "dimension": "length",
+        "usage": "default",
+        "impliedUnit": "meter"
+    },
+    "autoSuggestions": true,
+    "minValue": 0,
+    "label": "Width"
+}

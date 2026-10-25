@@ -1,0 +1,11 @@
+{
+    "key": "frequency",
+    "type": "measurement",
+    "label": "Operating Frequency",
+    "measurement": {
+        "dimension": "frequency",
+        "usage": "default",
+        "impliedUnit": "hertz"
+    },
+    "autoSuggestions": true
+}

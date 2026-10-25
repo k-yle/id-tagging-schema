@@ -1,0 +1,14 @@
+{
+    "key": "min_height",
+    "minValue": 0,
+    "type": "measurement",
+    "measurement": {
+        "dimension": "length",
+        "usage": "default",
+        "impliedUnit": "meter"
+    },
+    "label": "Height of Bottom",
+    "prerequisiteTag": {
+        "key": "height"
+    }
+}

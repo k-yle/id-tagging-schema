@@ -1,0 +1,17 @@
+{
+    "key": "volcano:status",
+    "type": "radio",
+    "label": "Volcano Status",
+    "strings": {
+        "options": {
+            "active": "Active",
+            "dormant": "Dormant",
+            "extinct": "Extinct"
+        }
+    },
+    "icons": {
+        "active": "roentgen-stratovolcano___lava",
+        "dormant": "roentgen-stratovolcano___smoke",
+        "extinct": "roentgen-stratovolcano"
+    }
+}

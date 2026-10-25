@@ -1,0 +1,12 @@
+{
+    "key": "survey_point:purpose",
+    "type": "radio",
+    "label": "Purpose",
+    "strings": {
+        "options": {
+            "horizontal": "Horizontal Alignment",
+            "vertical": "Vertical Alignment",
+            "both": "Both"
+        }
+    }
+}

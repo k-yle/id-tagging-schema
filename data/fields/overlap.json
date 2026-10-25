@@ -1,0 +1,18 @@
+{
+    "key": "overlap",
+    "type": "measurement",
+    "measurement": {
+        "dimension": "length",
+        "usage": "default",
+        "impliedUnit": "meter"
+    },
+    "label": "Overlap Width",
+    "snake_case": false,
+    "prerequisiteTag": {
+        "key": "cycle_barrier",
+        "values": [
+            "double",
+            "triple"
+        ]
+    }
+}

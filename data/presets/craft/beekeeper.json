@@ -1,0 +1,17 @@
+{
+    "icon": "roentgen-bee",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "beekeeper"
+    },
+    "name": "Beekeeper"
+}

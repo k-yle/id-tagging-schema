@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-bus",
+    "fields": [
+        "name",
+        "building_area",
+        "operator",
+        "{@templates/internet_access}"
+    ],
+    "moreFields": [
+        "{@templates/internet_access}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "amenity": "bus_station"
+    },
+    "name": "{public_transport/station_bus}",
+    "searchable": false
+}

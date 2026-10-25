@@ -1,0 +1,6 @@
+{
+    "key": "seamark:fairway:restriction",
+    "type": "semiCombo",
+    "label": "Restriction",
+    "stringsCrossReference": "{seamark/restricted_area/restriction}"
+}

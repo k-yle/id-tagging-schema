@@ -1,0 +1,7 @@
+{
+    "key": "lanes",
+    "type": "integer",
+    "minValue": 1,
+    "label": "Lanes",
+    "placeholder": "1, 2, 3..."
+}

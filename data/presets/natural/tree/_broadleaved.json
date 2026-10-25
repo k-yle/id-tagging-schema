@@ -1,0 +1,30 @@
+{
+    "icon": "maki-park",
+    "fields": [
+        "leaf_type_singular",
+        "leaf_cycle_singular",
+        "{natural/tree}"
+    ],
+    "moreFields": [
+        "{natural/tree}"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "natural": "tree",
+        "leaf_type": "broadleaved"
+    },
+    "reference": {
+        "key": "leaf_type",
+        "value": "broadleaved"
+    },
+    "terms": [
+        "broadleaf",
+        "broadleaved",
+        "hardwood"
+    ],
+    "name": "Broadleaved Tree",
+    "searchable": false
+}

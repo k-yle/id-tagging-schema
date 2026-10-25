@@ -1,0 +1,6 @@
+{
+    "key": "admin_level",
+    "type": "integer",
+    "minValue": 1,
+    "label": "Admin Level"
+}

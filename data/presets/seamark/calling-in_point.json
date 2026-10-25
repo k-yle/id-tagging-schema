@@ -1,0 +1,25 @@
+{
+    "icon": "fas-phone-alt",
+    "fields": [
+        "seamark/calling-in_point/channel",
+        "seamark/calling-in_point/traffic_flow",
+        "seamark/calling-in_point/orientation",
+        "seamark/calling-in_point/callsign"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "seamark:type": "calling-in_point"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:calling-in_point:channel": "*",
+        "seamark:calling-in_point:traffic_flow": "*",
+        "seamark:calling-in_point:orientation": "*",
+        "seamark:calling-in_point:callsign": "*"
+    },
+    "imageURL": "https://osm.wiki/Special:FilePath/File:Rendering-RDOCAL.png",
+    "name": "Marine Radio Calling-in Point"
+}

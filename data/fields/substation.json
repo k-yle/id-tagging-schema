@@ -1,0 +1,19 @@
+{
+    "key": "substation",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "minor_distribution": "Local Distribution",
+            "distribution": "Regional Distribution",
+            "industrial": "Industrial",
+            "transmission": "High-Voltage Transmission",
+            "traction": "Traction System Supply",
+            "generation": "Generation",
+            "converter": "High-Voltage AC/DC Converter",
+            "compensation": "Reactive Power Compensation",
+            "transition": "Overground/Underground Transition"
+        }
+    },
+    "autoSuggestions": false
+}

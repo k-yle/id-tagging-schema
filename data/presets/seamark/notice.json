@@ -1,0 +1,29 @@
+{
+    "icon": "fas-directions",
+    "fields": [
+        "direction",
+        "seamark/notice/system",
+        "seamark/notice/function",
+        "seamark/notice/category/cevni/information",
+        "seamark/notice/category/cevni/prohibition",
+        "seamark/notice/category/cevni/recommendation",
+        "seamark/notice/category/cevni/regulation",
+        "seamark/notice/category/cevni/restriction",
+        "seamark/notice/category/cevni/maxspeed",
+        "check_date"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "seamark:type": "notice"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:notice:system": "*",
+        "seamark:notice:function": "*",
+        "seamark:notice:category": "*"
+    },
+    "name": "Maritime Notice Board"
+}

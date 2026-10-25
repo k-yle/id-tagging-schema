@@ -1,0 +1,14 @@
+{
+    "fields": [
+        "boundary"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "boundary": "*"
+    },
+    "searchable": false,
+    "name": "{type/boundary}",
+    "matchScore": 0.45
+}

@@ -1,0 +1,35 @@
+{
+    "key": "crop",
+    "type": "semiCombo",
+    "label": "Crops",
+    "strings": {
+        "options": {
+            "rice": "Rice",
+            "grass": "Grass",
+            "sugarcane": "Sugarcane",
+            "tea": "Tea",
+            "hop": "Hops",
+            "wheat": "Wheat",
+            "vegetable": "Vegetables",
+            "soy": "Soybeans",
+            "lavender": "Lavender",
+            "barley": "Barley",
+            "cranberries": "Cranberries",
+            "rape": "Rapeseed",
+            "coffee": "Coffee",
+            "fast_growing_wood": "Short-Rotation Coppice",
+            "maize": "Corn",
+            "cotton": "Cotton",
+            "strawberry": "Strawberries",
+            "beet": "Beets",
+            "sunflower": "Sunflowers",
+            "tobacco": "Tobacco",
+            "flowers": "Flowers",
+            "sugar_beet": "Sugar Beets",
+            "asparagus": "Asparagus",
+            "potato": "Potatoes",
+            "cassava": "Cassava",
+            "grape": "Grapes"
+        }
+    }
+}

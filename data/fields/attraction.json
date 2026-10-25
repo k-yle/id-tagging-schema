@@ -1,0 +1,28 @@
+{
+    "key": "attraction",
+    "type": "typeCombo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "animal": "{presets/attraction/animal}",
+            "water_slide": "{presets/attraction/water_slide}",
+            "amusement_ride": "{presets/attraction/amusement_ride}",
+            "roller_coaster": "{presets/attraction/roller_coaster}",
+            "carousel": "{presets/attraction/carousel}",
+            "maze": "{presets/attraction/maze}",
+            "summer_toboggan": "{presets/attraction/summer_toboggan}",
+            "big_wheel": "{presets/attraction/big_wheel}",
+            "train": "{presets/attraction/train}",
+            "bumper_car": "{presets/attraction/bumper_car}",
+            "bungee_jumping": "{presets/attraction/bungee_jumping}",
+            "dark_ride": "{presets/attraction/dark_ride}",
+            "drop_tower": "{presets/attraction/drop_tower}",
+            "kiddie_ride": "{presets/attraction/kiddie_ride}",
+            "log_flume": "{presets/attraction/log_flume}",
+            "pirate_ship": "{presets/attraction/pirate_ship}",
+            "river_rafting": "{presets/attraction/river_rafting}",
+            "swing_carousel": "{presets/attraction/swing_carousel}",
+            "alpine_coaster": "Alpine Coaster"
+        }
+    }
+}

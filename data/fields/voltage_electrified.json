@@ -1,0 +1,18 @@
+{
+    "key": "voltage",
+    "type": "measurement",
+    "label": "{voltage}",
+    "prerequisiteTag": {
+        "key": "electrified",
+        "valueNot": "no"
+    },
+    "measurement": {
+        "dimension": "electric",
+        "usage": "default",
+        "units": [
+            "volt"
+        ],
+        "impliedUnit": "volt"
+    },
+    "autoSuggestions": true
+}

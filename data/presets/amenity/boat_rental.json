@@ -1,0 +1,44 @@
+{
+    "icon": "temaki-boat_rental",
+    "fields": [
+        "name",
+        "operator",
+        "operator/type",
+        "opening_hours",
+        "fee",
+        "payment_multi_fee",
+        "charge_fee",
+        "boat_rental_types"
+    ],
+    "moreFields": [
+        "{@templates/poi}",
+        "access_simple",
+        "address"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "amenity": "boat_rental"
+    },
+    "terms": [
+        "boat hire",
+        "boat livery",
+        "canoe",
+        "dinghy",
+        "houseboat",
+        "jetski",
+        "kayak",
+        "motorboat",
+        "pedalboat",
+        "rowboat",
+        "sailboat",
+        "stand up paddleboard",
+        "stand-up paddleboard",
+        "standup paddleboard",
+        "sup",
+        "yacht"
+    ],
+    "name": "Boat Rental"
+}

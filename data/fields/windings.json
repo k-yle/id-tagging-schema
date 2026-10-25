@@ -1,0 +1,7 @@
+{
+    "key": "windings",
+    "type": "integer",
+    "minValue": 1,
+    "label": "Windings",
+    "placeholder": "1, 2, 3..."
+}

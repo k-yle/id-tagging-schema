@@ -1,0 +1,14 @@
+{
+    "key": "telecom",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "connection_point": "Connection Point",
+            "data_center": "{presets/telecom/data_center}",
+            "distribution_point": "Distribution Point",
+            "exchange": "Exchange",
+            "service_device": "Service Device"
+        }
+    }
+}

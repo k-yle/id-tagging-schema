@@ -1,0 +1,28 @@
+{
+    "icon": "fas-compact-disc",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "casette",
+        "casette store",
+        "cd store",
+        "cds",
+        "compact discs",
+        "hobby",
+        "record store",
+        "tape cassettes",
+        "vinyl records"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "music"
+    },
+    "name": "Music Store"
+}

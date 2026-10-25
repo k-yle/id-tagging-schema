@@ -1,0 +1,20 @@
+{
+    "icon": "fas-hands-holding-child",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{office}"
+    ],
+    "moreFields": [
+        "{office}"
+    ],
+    "tags": {
+        "office": "adoption_agency"
+    },
+    "terms": [
+        "children"
+    ],
+    "name": "Adoption Agency"
+}

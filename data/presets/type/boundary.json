@@ -1,0 +1,39 @@
+{
+    "icon": "iD-boundary",
+    "fields": [
+        "name",
+        "boundary"
+    ],
+    "geometry": [
+        "relation"
+    ],
+    "tags": {
+        "type": "boundary"
+    },
+    "name": "Boundary",
+    "relation": {
+        "reference": "boundary",
+        "allowDuplicateMembers": false,
+        "role_labels": {
+            "inner": "{area.role_labels.inner}",
+            "outer": "{area.role_labels.outer}"
+        },
+        "members": [
+            {
+                "role": "inner",
+                "geometry": [
+                    "line",
+                    "area"
+                ]
+            },
+            {
+                "role": "outer",
+                "geometry": [
+                    "line",
+                    "area"
+                ],
+                "min": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "key": "aerialway:summer:access",
+    "type": "radio",
+    "label": "Access (summer)",
+    "options": [
+        "entry",
+        "exit",
+        "both",
+        "no"
+    ],
+    "stringsCrossReference": "{aerialway/access}"
+}

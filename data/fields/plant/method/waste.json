@@ -1,0 +1,14 @@
+{
+    "key": "plant:method",
+    "type": "radio",
+    "label": "{plant/method}",
+    "stringsCrossReference": "{generator/method}",
+    "options": [
+        "combustion",
+        "gasification"
+    ],
+    "prerequisiteTag": {
+        "key": "plant:source",
+        "value": "waste"
+    }
+}

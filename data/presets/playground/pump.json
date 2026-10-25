@@ -1,0 +1,16 @@
+{
+    "icon": "temaki-well_pump_manual",
+    "geometry": [
+        "point"
+    ],
+    "fields": [
+        "{playground}"
+    ],
+    "moreFields": [
+        "{playground}"
+    ],
+    "tags": {
+        "playground": "pump"
+    },
+    "name": "Play Water Pump"
+}

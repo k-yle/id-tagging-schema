@@ -1,0 +1,18 @@
+{
+    "icon": "maki-school",
+    "fields": [
+        "{education/school}"
+    ],
+    "moreFields": [
+        "{education/school}"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "amenity": "school"
+    },
+    "name": "{education/school}",
+    "searchable": false
+}

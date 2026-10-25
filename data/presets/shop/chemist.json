@@ -1,0 +1,32 @@
+{
+    "icon": "pinhead-tube_and_toothbrush",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "shop": "chemist"
+    },
+    "terms": [
+        "apothecary",
+        "beauty",
+        "chemist",
+        "dispensary",
+        "drug store",
+        "drugstore",
+        "gift",
+        "hair",
+        "medicine",
+        "pharmacy",
+        "prescription",
+        "tooth"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}",
+        "fhrs/id-GB"
+    ],
+    "name": "Drugstore"
+}

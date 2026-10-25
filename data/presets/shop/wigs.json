@@ -1,0 +1,21 @@
+{
+    "icon": "roentgen-wig_on_stand",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "hair extensions",
+        "hair extentions"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "wigs"
+    },
+    "name": "Wig Shop"
+}

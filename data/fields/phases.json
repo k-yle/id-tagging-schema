@@ -1,0 +1,7 @@
+{
+    "key": "phases",
+    "type": "integer",
+    "minValue": 1,
+    "label": "Phases",
+    "placeholder": "1, 2, 3..."
+}

@@ -1,0 +1,24 @@
+{
+    "icon": "maki-water",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{natural/water}"
+    ],
+    "moreFields": [
+        "{natural/water}"
+    ],
+    "tags": {
+        "natural": "water",
+        "water": "reservoir"
+    },
+    "reference": {
+        "key": "water",
+        "value": "reservoir"
+    },
+    "terms": [
+        "dam"
+    ],
+    "name": "Reservoir"
+}

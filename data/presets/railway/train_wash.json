@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-train_wash",
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "fields": [
+        "operator",
+        "building_area_yes"
+    ],
+    "tags": {
+        "railway": "wash"
+    },
+    "terms": [
+        "clean",
+        "wash"
+    ],
+    "name": "Train Wash",
+    "matchScore": 0.9
+}

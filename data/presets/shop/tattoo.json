@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-tattoo_machine",
+    "fields": [
+        "{shop}",
+        "piercing"
+    ],
+    "moreFields": [
+        "{shop}",
+        "min_age"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "shop": "tattoo"
+    },
+    "terms": [
+        "ink",
+        "piercing"
+    ],
+    "name": "Tattoo Parlor"
+}

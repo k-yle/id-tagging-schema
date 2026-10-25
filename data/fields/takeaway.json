@@ -1,0 +1,17 @@
+{
+    "key": "takeaway",
+    "type": "radio",
+    "label": "Takeout",
+    "strings": {
+        "options": {
+            "yes": "Yes",
+            "no": "No",
+            "only": "Takeout Only"
+        }
+    },
+    "terms": [
+        "take out",
+        "takeaway",
+        "takeout"
+    ]
+}

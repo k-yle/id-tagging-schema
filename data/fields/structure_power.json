@@ -1,0 +1,12 @@
+{
+    "type": "radio",
+    "key": "structure",
+    "label": "Structure",
+    "strings": {
+        "options": {
+            "lattice": "Lattice",
+            "solid": "Solid",
+            "tubular": "Tubular"
+        }
+    }
+}

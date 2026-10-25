@@ -1,0 +1,21 @@
+{
+    "key": "resource",
+    "type": "semiCombo",
+    "label": "Resources",
+    "strings": {
+        "options": {
+            "aggregate": "Aggregate",
+            "clay": "Clay",
+            "coal": "Coal",
+            "gold": "Gold",
+            "lead": "Lead",
+            "silver": "Silver",
+            "copper": "Copper",
+            "gravel": "Gravel",
+            "iron_ore": "Iron Ore",
+            "limestone": "Limestone",
+            "peat": "Peat",
+            "sand": "Sand"
+        }
+    }
+}

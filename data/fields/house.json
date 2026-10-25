@@ -1,0 +1,34 @@
+{
+    "key": "house",
+    "type": "combo",
+    "label": "House Type",
+    "strings": {
+        "options": {
+            "terraced": {
+                "title": "Single Townhouse",
+                "description": "Individual house in a row of townhouses"
+            },
+            "detached": {
+                "title": "Detached House",
+                "description": "A house that is not connected to any other houses"
+            },
+            "semi-detached": {
+                "title": "Semi-Detached House",
+                "description": "A house that is attached to another house on one side"
+            },
+            "bungalow": {
+                "title": "Bungalow",
+                "description": "A small house with a single story"
+            },
+            "maisonette": {
+                "title": "Maisonette",
+                "description": "A residential dwelling, split over two floors with private external entrances rather than a communal entrance"
+            },
+            "link-detached": {
+                "title": "Link-Detached House",
+                "description": "A house that is connected to another house by a garage or other non-living area"
+            }
+        }
+    },
+    "autoSuggestions": false
+}

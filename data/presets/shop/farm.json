@@ -1,0 +1,33 @@
+{
+    "icon": "fas-apple-alt",
+    "fields": [
+        "{shop}",
+        "organic"
+    ],
+    "moreFields": [
+        "{shop}",
+        "fhrs/id-GB",
+        "self_service"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "baked goods",
+        "fresh food",
+        "fruits",
+        "greengrocer",
+        "orchard",
+        "organics",
+        "vegetables"
+    ],
+    "aliases": [
+        "Farm Shop",
+        "Farm Stand"
+    ],
+    "tags": {
+        "shop": "farm"
+    },
+    "name": "Produce Stand"
+}

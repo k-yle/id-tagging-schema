@@ -1,0 +1,17 @@
+{
+    "key": "crossing",
+    "type": "combo",
+    "label": "Type",
+    "options": [
+        "uncontrolled",
+        "traffic_signals",
+        "unmarked"
+    ],
+    "strings": {
+        "options": {
+            "traffic_signals": "{presets/highway/crossing/traffic_signals}",
+            "uncontrolled": "Only Road Markings",
+            "unmarked": "No Road Markings or Traffic Signals"
+        }
+    }
+}

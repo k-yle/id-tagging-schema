@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-silo",
+    "fields": [
+        "content_bulk",
+        "building_area_yes"
+    ],
+    "moreFields": [
+        "crop",
+        "gnis/feature_id-US"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "bulk",
+        "silo"
+    ],
+    "tags": {
+        "man_made": "silo"
+    },
+    "name": "Silo"
+}

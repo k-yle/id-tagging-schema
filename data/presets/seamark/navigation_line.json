@@ -1,0 +1,32 @@
+{
+    "icon": "maki-lighthouse",
+    "fields": [
+        "seamark/navigation_line/category",
+        "seamark/navigation_line/orientation",
+        "check_date"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "terms": [
+        "boat",
+        "lead",
+        "leading line",
+        "leads",
+        "line",
+        "marine",
+        "measured mile",
+        "navigation line",
+        "route",
+        "transit line"
+    ],
+    "tags": {
+        "seamark:type": "navigation_line"
+    },
+    "removeTags": {
+        "seamark:type": "*",
+        "seamark:navigation_line:category": "*",
+        "seamark:navigation_line:orientation": "*"
+    },
+    "name": "Maritime Navigation Line"
+}

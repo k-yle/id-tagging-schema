@@ -1,0 +1,21 @@
+{
+    "icon": "pinhead-classical_statue",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "sculpter",
+        "sculptor"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "sculptor"
+    },
+    "name": "Sculptor"
+}

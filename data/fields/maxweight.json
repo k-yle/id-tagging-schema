@@ -1,0 +1,16 @@
+{
+    "key": "maxweight",
+    "type": "measurement",
+    "label": "Weight Limit",
+    "snake_case": false,
+    "locationSet": {
+        "exclude": [
+            "fr"
+        ]
+    },
+    "measurement": {
+        "dimension": "mass",
+        "usage": "default",
+        "impliedUnit": "tonne"
+    }
+}

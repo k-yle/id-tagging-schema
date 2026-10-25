@@ -1,0 +1,11 @@
+{
+    "key": "side",
+    "type": "radio",
+    "label": "Side",
+    "strings": {
+        "options": {
+            "left": "Left of Cyclist",
+            "right": "Right of Cyclist"
+        }
+    }
+}

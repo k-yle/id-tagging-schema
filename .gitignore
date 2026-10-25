@@ -1,0 +1,11 @@
+.DS_Store
+.esm-cache
+.idea/
+/node_modules/
+/.tx/tmp/
+npm-debug.log
+.coverage
+
+transifex.auth
+interim
+schemas/auto-generated
